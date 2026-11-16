@@ -261,7 +261,7 @@ export function doctor(root, options = {}) {
       warn(`validation caller runtime ref ${runtimeRef} is not a released tag; pin a vX.Y.Z tag.`)
     }
   }
-  const runtimeRepository = config.runtime_repository ?? '0xPlayerOne/code-foundry'
+  const runtimeRepository = config.runtime_repository ?? 'AndrewM-F/code-foundry'
   for (const stem of ['ci', 'test', 'security', 'codeql']) {
     const legacy = join(target, `.github/workflows/${stem}.yml`)
     if (

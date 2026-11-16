@@ -29,7 +29,7 @@ export function queueRuntimeRef(current, sourceVersion, override) {
 
 /** @param {Record<string, string>} config @param {string} ref */
 export function renderMergeQueueCaller(config, ref) {
-  const repository = config.runtime_repository || '0xPlayerOne/code-foundry'
+  const repository = config.runtime_repository || 'AndrewM-F/code-foundry'
   ensure(
     /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository) &&
       !repository.split('/').some((part) => ['.', '..'].includes(part)),

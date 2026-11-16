@@ -28,7 +28,7 @@ jobs:
     uses: ./.github/workflows/validation.yml
     with:
       mode: audit
-      runtime-repository: 0xPlayerOne/code-foundry
+      runtime-repository: AndrewM-F/code-foundry
       runtime-ref: main
       ci-runner: ubuntu-latest
       test-runner: ubuntu-latest

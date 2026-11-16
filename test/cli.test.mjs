@@ -1053,7 +1053,7 @@ describe('code-foundry CLI', () => {
     assert.match(
       caller,
       new RegExp(
-        `uses: 0xPlayerOne/code-foundry/\\.github/workflows/release-integrity\\.yml@${sourceRuntimeRef.replaceAll('.', '\\.')}`
+        `uses: AndrewM-F/code-foundry/\\.github/workflows/release-integrity\\.yml@${sourceRuntimeRef.replaceAll('.', '\\.')}`
       )
     )
     assert.match(caller, new RegExp(`runtime-ref: ${sourceRuntimeRef.replaceAll('.', '\\.')}`))
@@ -1156,11 +1156,11 @@ describe('code-foundry CLI', () => {
         '  pull_request:',
         'jobs:',
         '  validation:',
-        '    uses: 0xPlayerOne/code-foundry/.github/workflows/validation.yml@v1.0.0',
+        '    uses: AndrewM-F/code-foundry/.github/workflows/validation.yml@v1.0.0',
         '    with:',
         '      rust-shards: \'["src"]\'',
         '  default-branch-codeql:',
-        '    uses: 0xPlayerOne/code-foundry/.github/workflows/codeql.yml@v1.0.0',
+        '    uses: AndrewM-F/code-foundry/.github/workflows/codeql.yml@v1.0.0',
         '    with:',
         '      rust-shards: \'["all"]\'',
         '',
@@ -1192,19 +1192,19 @@ describe('code-foundry CLI', () => {
         '  pull_request:',
         'jobs:',
         '  validation:',
-        '    uses: 0xPlayerOne/code-foundry/.github/workflows/validation.yml@v1.0.0',
+        '    uses: AndrewM-F/code-foundry/.github/workflows/validation.yml@v1.0.0',
         '    with:',
         '      rust-shards: \'["src"]\'',
         "      rust-threads: '1'",
         '      rust-max-parallel: 1',
         '  default-branch-codeql:',
-        '    uses: 0xPlayerOne/code-foundry/.github/workflows/codeql.yml@v1.0.0',
+        '    uses: AndrewM-F/code-foundry/.github/workflows/codeql.yml@v1.0.0',
         '    with:',
         '      rust-shards: \'["src"]\'',
         "      rust-threads: '1'",
         '      rust-max-parallel: 1',
         '  audit:',
-        '    uses: 0xPlayerOne/code-foundry/.github/workflows/validation.yml@main',
+        '    uses: AndrewM-F/code-foundry/.github/workflows/validation.yml@main',
         '    with:',
         '      rust-shards: \'["src"]\'',
         '',
@@ -1251,11 +1251,11 @@ describe('code-foundry CLI', () => {
       const caller = readFileSync(join(root, '.github/workflows', file), 'utf8')
       assert.match(
         caller,
-        /uses: 0xPlayerOne\/code-foundry\/\.github\/workflows\/validation-no-codeql\.yml@v/
+        /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/validation-no-codeql\.yml@v/
       )
       assert.doesNotMatch(
         caller,
-        /uses: 0xPlayerOne\/code-foundry\/\.github\/workflows\/validation\.yml@v/
+        /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/validation\.yml@v/
       )
       assert.doesNotMatch(caller, /^  default-branch-codeql:/m)
       assert.doesNotMatch(caller, /^  push:/m)
@@ -1547,7 +1547,7 @@ describe('code-foundry CLI', () => {
     assert.doesNotMatch(defaultBranch, /head_commit\.message|startsWith\(/)
     assert.ok(
       defaultBranch.includes(
-        `uses: 0xPlayerOne/code-foundry/.github/workflows/codeql.yml@${sourceRuntimeRef}`
+        `uses: AndrewM-F/code-foundry/.github/workflows/codeql.yml@${sourceRuntimeRef}`
       )
     )
     assert.match(workflow, /pull_request:/)
@@ -1587,7 +1587,7 @@ describe('code-foundry CLI', () => {
     const nextDefaultBranch = nextWorkflow.slice(nextWorkflow.indexOf('\n  default-branch-codeql:'))
     assert.ok(
       nextDefaultBranch.includes(
-        `uses: 0xPlayerOne/code-foundry/.github/workflows/codeql.yml@v${nextReleaseVersion}`
+        `uses: AndrewM-F/code-foundry/.github/workflows/codeql.yml@v${nextReleaseVersion}`
       )
     )
     assert.ok(nextWorkflow.includes(`runtime-ref: v${nextReleaseVersion}`))
@@ -2408,7 +2408,7 @@ on:
 jobs:
   release-pr:
     name: Release PR
-    uses: 0xPlayerOne/code-foundry/.github/workflows/release-pr.yml@v1.5.1
+    uses: AndrewM-F/code-foundry/.github/workflows/release-pr.yml@v1.5.1
 `
     )
     // No existing config: sync with init writes the fully resolved default.
@@ -2875,7 +2875,7 @@ jobs:
     // The scan call must live at job level (two-space indent, no steps key).
     assert.match(
       workflow,
-      /^    uses: 0xPlayerOne\/opencode-security\/\.github\/workflows\/opencode-security\.yml@137698ef3545204af8fad00fc8bd64d663c8122e/m
+      /^    uses: AndrewM-F\/opencode-security\/\.github\/workflows\/opencode-security\.yml@137698ef3545204af8fad00fc8bd64d663c8122e/m
     )
     assert.doesNotMatch(workflow, /^      - name: Scan$/m)
     assert.match(workflow, /vars\.CI_BILLING_PAUSED != 'true'/)
@@ -2905,7 +2905,7 @@ jobs:
     )
     writeFileSync(
       join(root, '.github/workflows/release-pr.yml'),
-      'name: Code Foundry\non:\n  push:\n    branches: [staging]\npermissions:\n  contents: write\njobs:\n  release-pr:\n    name: Release PR\n    uses: 0xPlayerOne/code-foundry/.github/workflows/release-pr.yml@v1.2.3\n    with:\n      runtime-repository: 0xPlayerOne/code-foundry\n      runtime-ref: v1.2.3\n    secrets:\n      CODE_FOUNDRY_TOKEN: ${{ secrets.CODE_FOUNDRY_TOKEN }}\n'
+      'name: Code Foundry\non:\n  push:\n    branches: [staging]\npermissions:\n  contents: write\njobs:\n  release-pr:\n    name: Release PR\n    uses: AndrewM-F/code-foundry/.github/workflows/release-pr.yml@v1.2.3\n    with:\n      runtime-repository: AndrewM-F/code-foundry\n      runtime-ref: v1.2.3\n    secrets:\n      CODE_FOUNDRY_TOKEN: ${{ secrets.CODE_FOUNDRY_TOKEN }}\n'
     )
     syncRepository({ target: root, source: process.cwd() })
     assert.ok(
@@ -2916,7 +2916,7 @@ jobs:
     // stay recognizable so a topology switch can still prune them.
     writeFileSync(
       join(root, '.github/workflows/release-pr.yml'),
-      'name: Code Foundry Promotion\non:\n  push:\n    branches: [staging]\npermissions:\n  contents: write\njobs:\n  release-pr:\n    name: Release PR\n    uses: 0xPlayerOne/code-foundry/.github/workflows/release-pr.yml@v1.2.3\n    with:\n      runtime-repository: 0xPlayerOne/code-foundry\n      runtime-ref: v1.2.3\n    secrets:\n      CODE_FOUNDRY_TOKEN: ${{ secrets.CODE_FOUNDRY_TOKEN }}\n'
+      'name: Code Foundry Promotion\non:\n  push:\n    branches: [staging]\npermissions:\n  contents: write\njobs:\n  release-pr:\n    name: Release PR\n    uses: AndrewM-F/code-foundry/.github/workflows/release-pr.yml@v1.2.3\n    with:\n      runtime-repository: AndrewM-F/code-foundry\n      runtime-ref: v1.2.3\n    secrets:\n      CODE_FOUNDRY_TOKEN: ${{ secrets.CODE_FOUNDRY_TOKEN }}\n'
     )
     syncRepository({ target: root, source: process.cwd() })
     assert.ok(
@@ -5115,7 +5115,7 @@ jobs:
     )
     assert.match(
       caller,
-      /release-qualification-receipts: \$\{\{ github\.repository == '0xPlayerOne\/code-foundry' \}\}/
+      /release-qualification-receipts: \$\{\{ github\.repository == 'AndrewM-F\/code-foundry' \}\}/
     )
 
     assert.doesNotMatch(audit, /pull_request:/)
@@ -5123,7 +5123,7 @@ jobs:
     assert.match(audit, /workflow_dispatch:/)
     assert.match(
       audit,
-      /uses: 0xPlayerOne\/code-foundry\/\.github\/workflows\/validation\.yml@main/
+      /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/validation\.yml@main/
     )
     assert.match(audit, /^\s+runtime-ref: main$/m)
     assert.doesNotMatch(audit, /inputs\.runtime-ref|github\.sha|github\.event\.inputs/)
@@ -5151,7 +5151,7 @@ jobs:
     assert.doesNotMatch(pullRequest, /schedule:|workflow_dispatch:/)
     assert.match(
       pullRequest,
-      /release-qualification-receipts: \$\{\{ github\.repository == '0xPlayerOne\/code-foundry' \}\}/
+      /release-qualification-receipts: \$\{\{ github\.repository == 'AndrewM-F\/code-foundry' \}\}/
     )
     assert.match(audit, /schedule:/)
     assert.match(audit, /workflow_dispatch:/)
@@ -5159,7 +5159,7 @@ jobs:
     assert.match(
       audit,
       new RegExp(
-        `uses: 0xPlayerOne/code-foundry/\\.github/workflows/validation\\.yml@${sourceRuntimeRef.replaceAll('.', '\\.')}`
+        `uses: AndrewM-F/code-foundry/\\.github/workflows/validation\\.yml@${sourceRuntimeRef.replaceAll('.', '\\.')}`
       )
     )
     assert.match(
@@ -5204,7 +5204,7 @@ jobs:
       assert.match(
         caller,
         new RegExp(
-          `uses: 0xPlayerOne/code-foundry/\\.github/workflows/validation\\.yml@${runtimeRef}`
+          `uses: AndrewM-F/code-foundry/\\.github/workflows/validation\\.yml@${runtimeRef}`
         )
       )
 
@@ -5582,7 +5582,7 @@ jobs:
       'astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9',
       'taiki-e/install-action@cb33e69fad06166ca28a42b2575e4dadabf62ee8',
       'actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294',
-      '0xPlayerOne/opencode-security/.github/workflows/opencode-security.yml@137698ef3545204af8fad00fc8bd64d663c8122e',
+      'AndrewM-F/opencode-security/.github/workflows/opencode-security.yml@137698ef3545204af8fad00fc8bd64d663c8122e',
     ])
 
     const externalPins = workflows.match(/^\s*uses:\s+(?!\.\/)(\S+@\S+)(?:\s+#\s+\S+)?\s*$/gm) ?? []
@@ -5604,7 +5604,7 @@ jobs:
     assert.doesNotMatch(workflows, /uses: actions\/dependency-review-action@v[0-9]+/)
     assert.doesNotMatch(
       workflows,
-      /uses: 0xPlayerOne\/opencode-security\/\.github\/workflows\/opencode-security\.yml@main/
+      /uses: AndrewM-F\/opencode-security\/\.github\/workflows\/opencode-security\.yml@main/
     )
   })
 
@@ -6028,9 +6028,9 @@ function legacyCaller(stem) {
     'jobs:',
     `  ${stem}:`,
     `    name: ${stem}`,
-    `    uses: 0xPlayerOne/code-foundry/.github/workflows/${stem}.yml@v0.31.12`,
+    `    uses: AndrewM-F/code-foundry/.github/workflows/${stem}.yml@v0.31.12`,
     '    with:',
-    '      runtime-repository: 0xPlayerOne/code-foundry',
+    '      runtime-repository: AndrewM-F/code-foundry',
     '      runtime-ref: v0.31.12',
     '      runner: ubuntu-latest',
     '    secrets: inherit',

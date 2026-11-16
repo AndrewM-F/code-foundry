@@ -146,10 +146,10 @@ test('recovery preflight writes outputs only after tag, immutable asset, ancestr
   try {
     const runCalls = []
     const result = verifyRecoveryTarget(
-      { repository: '0xPlayerOne/code-foundry', tag, currentSha, outputPath },
+      { repository: 'AndrewM-F/code-foundry', tag, currentSha, outputPath },
       {
         resolveTagCommit: (repository, resolvedTag) => {
-          assert.equal(repository, '0xPlayerOne/code-foundry')
+          assert.equal(repository, 'AndrewM-F/code-foundry')
           assert.equal(resolvedTag, tag)
           return sourceSha
         },
@@ -179,7 +179,7 @@ test('recovery preflight writes outputs only after tag, immutable asset, ancestr
     assert.throws(
       () =>
         verifyRecoveryTarget(
-          { repository: '0xPlayerOne/code-foundry', tag, currentSha, outputPath },
+          { repository: 'AndrewM-F/code-foundry', tag, currentSha, outputPath },
           {
             resolveTagCommit: () => sourceSha,
             runGh: () => ({ status: 0, stdout: JSON.stringify(release()) }),

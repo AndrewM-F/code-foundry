@@ -215,7 +215,7 @@ function synchronize(options) {
 
   const languages = configured(config.languages, detectLanguages(target).join(','))
   const features = configured(config.features, 'all')
-  const runtimeRepository = configured(config.runtime_repository, '0xPlayerOne/code-foundry')
+  const runtimeRepository = configured(config.runtime_repository, 'AndrewM-F/code-foundry')
   const sourceRuntimeRef = `v${readPackageVersion(source)}`
   // An explicit runtime ref (fleet upgrade) is authoritative: the rendered
   // callers and the config pin must agree with it, otherwise an upgrade would
@@ -607,7 +607,7 @@ export function syncRepository(options) {
     const preflight = renderMergeQueueCaller(
       {
         ...existing,
-        runtime_repository: configured(existing.runtime_repository, '0xPlayerOne/code-foundry'),
+        runtime_repository: configured(existing.runtime_repository, 'AndrewM-F/code-foundry'),
       },
       ref
     )
@@ -620,7 +620,7 @@ export function syncRepository(options) {
           ...result.config,
           runtime_repository: configured(
             result.config.runtime_repository,
-            '0xPlayerOne/code-foundry'
+            'AndrewM-F/code-foundry'
           ),
         },
         ref
@@ -1211,7 +1211,7 @@ function renderWorkflow(content, config, repository, ref, rustCodeql, file, self
   }
   rendered = rendered.replace(/^(\s+runtime-repository:)\s+.*$/gm, `$1 ${repository}`)
   rendered = rendered.replace(
-    new RegExp(`^(\\s+repository:)\\s+0xPlayerOne\\/code-foundry\\s*$`, 'gm'),
+    new RegExp(`^(\\s+repository:)\\s+AndrewM-F\\/code-foundry\\s*$`, 'gm'),
     `$1 ${repository}`
   )
   /** @type {Record<string, string|undefined>} */
@@ -2273,7 +2273,7 @@ function createDefaultConfig(root, source, configuredWorkflow) {
     codeql_rust_shards: '["all"]',
     codeql_rust_threads: '1',
     codeql_rust_max_parallel: '1',
-    runtime_repository: '0xPlayerOne/code-foundry',
+    runtime_repository: 'AndrewM-F/code-foundry',
     runtime_ref: `v${readPackageVersion(source)}`,
     ...runners,
     toolchain: 'auto',
