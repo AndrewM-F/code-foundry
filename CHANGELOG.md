@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.54.3](https://github.com/AndrewM-F/code-foundry/compare/v1.54.2...v1.54.3) (2026-11-16)
+
+
+### Bug Fixes
+
+* release-fallback-component-tags ([#844](https://github.com/AndrewM-F/code-foundry/issues/844)) ([1ce95ae](https://github.com/AndrewM-F/code-foundry/commit/1ce95ae23d9f63ccfa76175e65a42239d792f899))
+* verify release pipeline after lifting the immutability gate ([8644694](https://github.com/AndrewM-F/code-foundry/commit/8644694f11100207197de78feab68964f668d6c7))
+* verify release pipeline with immutability restored ([8f75c38](https://github.com/AndrewM-F/code-foundry/commit/8f75c38481d6e1fbac9b526ec05b5d2c2bf188e6))
+
+
+### Maintenance
+
+* reconcile release-please manifest with published 1.54.2 ([cc8bac1](https://github.com/AndrewM-F/code-foundry/commit/cc8bac188b225bf91cdbc63f9c545df3c11ebc99))
+
 ## [1.54.1](https://github.com/AndrewM-F/code-foundry/compare/v1.54.0...v1.54.1) (2026-11-09)
 
 
