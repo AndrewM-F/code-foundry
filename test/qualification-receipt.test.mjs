@@ -17,7 +17,7 @@ function fixture(overrides = {}) {
   const receipt = {
     schema_version: QUALIFICATION_RECEIPT_SCHEMA_VERSION,
     kind: QUALIFICATION_RECEIPT_KIND,
-    repository: '0xPlayerOne/consumer',
+    repository: 'AndrewM-F/consumer',
     workflow: {
       id: 42,
       path: '.github/workflows/validation.yml',
@@ -34,16 +34,16 @@ function fixture(overrides = {}) {
     },
     pull_request: {
       number: 77,
-      base_repository: '0xPlayerOne/consumer',
+      base_repository: 'AndrewM-F/consumer',
       base_ref: 'main',
       base_sha: sha('4'),
-      head_repository: '0xPlayerOne/consumer',
+      head_repository: 'AndrewM-F/consumer',
       head_ref: 'fix/source-change',
       head_sha: sha('3'),
     },
     mode: 'audit',
     tested: { sha: sha('5'), tree_sha: sha('6') },
-    runtime: { repository: '0xPlayerOne/code-foundry', sha: sha('7'), tree_sha: sha('8') },
+    runtime: { repository: 'AndrewM-F/code-foundry', sha: sha('7'), tree_sha: sha('8') },
     jobs: {
       ci: 'success',
       test: 'success',
@@ -63,8 +63,8 @@ function fixture(overrides = {}) {
     head_branch: 'fix/source-change',
     workflow_id: 42,
     path: '.github/workflows/validation.yml',
-    repository: { full_name: '0xPlayerOne/consumer' },
-    head_repository: { full_name: '0xPlayerOne/consumer' },
+    repository: { full_name: 'AndrewM-F/consumer' },
+    head_repository: { full_name: 'AndrewM-F/consumer' },
     created_at: '2026-10-27T10:00:00.000Z',
     updated_at: '2026-10-27T11:00:00.000Z',
     pull_requests: [{ number: 77 }],
@@ -74,9 +74,9 @@ function fixture(overrides = {}) {
     state: 'closed',
     merged: true,
     merged_at: '2026-10-27T12:00:00.000Z',
-    base: { repo: { full_name: '0xPlayerOne/consumer' }, ref: 'main', sha: sha('8') },
+    base: { repo: { full_name: 'AndrewM-F/consumer' }, ref: 'main', sha: sha('8') },
     head: {
-      repo: { full_name: '0xPlayerOne/consumer' },
+      repo: { full_name: 'AndrewM-F/consumer' },
       ref: 'fix/source-change',
       sha: sha('3'),
     },
@@ -92,13 +92,13 @@ function fixture(overrides = {}) {
     digest_verified: true,
   }
   const target = {
-    repository: '0xPlayerOne/consumer',
+    repository: 'AndrewM-F/consumer',
     base_ref: 'main',
     base_tree_sha: sha('6'),
     workflow_id: 42,
     workflow_path: '.github/workflows/validation.yml',
     workflow_blob_sha: sha('2'),
-    runtime_repository: '0xPlayerOne/code-foundry',
+    runtime_repository: 'AndrewM-F/code-foundry',
     runtime_tree_sha: sha('8'),
     codeql_enabled: true,
   }
@@ -186,7 +186,7 @@ test('rejects an unmerged, wrong, or ambiguous pull request association', () => 
     { merged: false },
     { number: 76 },
     { base: { repo: { full_name: 'other/repository' }, ref: 'main' } },
-    { head: { repo: { full_name: '0xPlayerOne/consumer' }, ref: 'other-branch', sha: sha('3') } },
+    { head: { repo: { full_name: 'AndrewM-F/consumer' }, ref: 'other-branch', sha: sha('3') } },
   ]) {
     assert.equal(verifyQualificationReceipt(fixture({ pullRequest })).verified, false)
   }

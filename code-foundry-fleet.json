@@ -3,8 +3,8 @@
   "cohorts": ["canary", "personal", "pinkbinder", "niftyleague", "adea"],
   "repositories": [
     {
-      "repository": "0xPlayerOne/pi-autosuggestions",
-      "path": ".fleet-wt/0xPlayerOne/pi-autosuggestions",
+      "repository": "AndrewM-F/pi-autosuggestions",
+      "path": ".fleet-wt/AndrewM-F/pi-autosuggestions",
       "cohort": "canary",
       "profile": "typescript application, npm",
       "validation": [["actionlint"]]
@@ -17,36 +17,36 @@
       "validation": [["actionlint"]]
     },
     {
-      "repository": "0xPlayerOne/pi-cloudflare",
-      "path": ".fleet-wt/0xPlayerOne/pi-cloudflare",
+      "repository": "AndrewM-F/pi-cloudflare",
+      "path": ".fleet-wt/AndrewM-F/pi-cloudflare",
       "cohort": "personal",
       "profile": "typescript application with performance lane, npm",
       "validation": [["actionlint"]]
     },
     {
-      "repository": "0xPlayerOne/pi-browser-use",
-      "path": ".fleet-wt/0xPlayerOne/pi-browser-use",
+      "repository": "AndrewM-F/pi-browser-use",
+      "path": ".fleet-wt/AndrewM-F/pi-browser-use",
       "cohort": "personal",
       "profile": "typescript application with eval lane, npm",
       "validation": [["actionlint"]]
     },
     {
-      "repository": "0xPlayerOne/hermes-infra",
-      "path": ".fleet-wt/0xPlayerOne/hermes-infra",
+      "repository": "AndrewM-F/hermes-infra",
+      "path": ".fleet-wt/AndrewM-F/hermes-infra",
       "cohort": "personal",
       "profile": "rust + python application with performance lane",
       "validation": [["actionlint"]]
     },
     {
-      "repository": "0xPlayerOne/model-gateway",
-      "path": ".fleet-wt/0xPlayerOne/model-gateway",
+      "repository": "AndrewM-F/model-gateway",
+      "path": ".fleet-wt/AndrewM-F/model-gateway",
       "cohort": "personal",
       "profile": "rust application with performance lane",
       "validation": [["actionlint"]]
     },
     {
-      "repository": "0xPlayerOne/v0-portfolio",
-      "path": ".fleet-wt/0xPlayerOne/v0-portfolio",
+      "repository": "AndrewM-F/v0-portfolio",
+      "path": ".fleet-wt/AndrewM-F/v0-portfolio",
       "cohort": "personal",
       "profile": "typescript application, bun",
       "validation": [["actionlint"]]

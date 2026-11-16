@@ -1,1330 +1,1330 @@
 # Changelog
 
-## [1.54.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.54.0...v1.54.1) (2026-11-09)
+## [1.54.1](https://github.com/AndrewM-F/code-foundry/compare/v1.54.0...v1.54.1) (2026-11-09)
 
 
 ### Documentation
 
-* **agents:** use GitButler and stop creating worktrees ([#842](https://github.com/0xPlayerOne/code-foundry/issues/842)) ([04d8091](https://github.com/0xPlayerOne/code-foundry/commit/04d809170403afa29a45d2cbc9679bf53e32f1d2))
+* **agents:** use GitButler and stop creating worktrees ([#842](https://github.com/AndrewM-F/code-foundry/issues/842)) ([04d8091](https://github.com/AndrewM-F/code-foundry/commit/04d809170403afa29a45d2cbc9679bf53e32f1d2))
 
-## [1.54.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.12...v1.54.0) (2026-11-07)
+## [1.54.0](https://github.com/AndrewM-F/code-foundry/compare/v1.53.12...v1.54.0) (2026-11-07)
 
 
 ### Features
 
-* **runtime:** enforce an opt-in Build time ceiling ([#840](https://github.com/0xPlayerOne/code-foundry/issues/840)) ([a379a46](https://github.com/0xPlayerOne/code-foundry/commit/a379a46bc8e6749fff282ac9e45c77b714e72aa4))
+* **runtime:** enforce an opt-in Build time ceiling ([#840](https://github.com/AndrewM-F/code-foundry/issues/840)) ([a379a46](https://github.com/AndrewM-F/code-foundry/commit/a379a46bc8e6749fff282ac9e45c77b714e72aa4))
 
-## [1.53.12](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.11...v1.53.12) (2026-11-07)
-
-
-### Bug Fixes
-
-* complete runtime package declarations ([#838](https://github.com/0xPlayerOne/code-foundry/issues/838)) ([479a058](https://github.com/0xPlayerOne/code-foundry/commit/479a0587d5365977092844d2097d1286443c5ffd))
-
-## [1.53.11](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.10...v1.53.11) (2026-10-31)
+## [1.53.12](https://github.com/AndrewM-F/code-foundry/compare/v1.53.11...v1.53.12) (2026-11-07)
 
 
 ### Bug Fixes
 
-* **draft-guard:** grant draft-mutation permission and respect same-second ready transitions ([913096f](https://github.com/0xPlayerOne/code-foundry/commit/913096f3b67144d7784325a3aa61dedcc0f17ee6))
+* complete runtime package declarations ([#838](https://github.com/AndrewM-F/code-foundry/issues/838)) ([479a058](https://github.com/AndrewM-F/code-foundry/commit/479a0587d5365977092844d2097d1286443c5ffd))
+
+## [1.53.11](https://github.com/AndrewM-F/code-foundry/compare/v1.53.10...v1.53.11) (2026-10-31)
+
+
+### Bug Fixes
+
+* **draft-guard:** grant draft-mutation permission and respect same-second ready transitions ([913096f](https://github.com/AndrewM-F/code-foundry/commit/913096f3b67144d7784325a3aa61dedcc0f17ee6))
 
 
 ### Tests
 
-* tolerate runner contention in readiness fixtures ([#836](https://github.com/0xPlayerOne/code-foundry/issues/836)) ([26f2ec7](https://github.com/0xPlayerOne/code-foundry/commit/26f2ec77259cf883f15851351d37a955311f1b24))
+* tolerate runner contention in readiness fixtures ([#836](https://github.com/AndrewM-F/code-foundry/issues/836)) ([26f2ec7](https://github.com/AndrewM-F/code-foundry/commit/26f2ec77259cf883f15851351d37a955311f1b24))
 
-## [1.53.10](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.9...v1.53.10) (2026-10-31)
+## [1.53.10](https://github.com/AndrewM-F/code-foundry/compare/v1.53.9...v1.53.10) (2026-10-31)
 
 
 ### Bug Fixes
 
-* **release:** stop version pull requests from closing referenced issues ([#833](https://github.com/0xPlayerOne/code-foundry/issues/833)) ([d912e46](https://github.com/0xPlayerOne/code-foundry/commit/d912e463275495fef91153d7b627e12f3a3ff2f4))
+* **release:** stop version pull requests from closing referenced issues ([#833](https://github.com/AndrewM-F/code-foundry/issues/833)) ([d912e46](https://github.com/AndrewM-F/code-foundry/commit/d912e463275495fef91153d7b627e12f3a3ff2f4))
 
-## [1.53.9](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.8...v1.53.9) (2026-10-31)
+## [1.53.9](https://github.com/AndrewM-F/code-foundry/compare/v1.53.8...v1.53.9) (2026-10-31)
 
 
 ### Performance
 
-* **codeql:** drop unchanged analyzers from the planned matrix ([#831](https://github.com/0xPlayerOne/code-foundry/issues/831)) ([35b891e](https://github.com/0xPlayerOne/code-foundry/commit/35b891e721ea2e5d2bd09ec44509b541120a3a64))
+* **codeql:** drop unchanged analyzers from the planned matrix ([#831](https://github.com/AndrewM-F/code-foundry/issues/831)) ([35b891e](https://github.com/AndrewM-F/code-foundry/commit/35b891e721ea2e5d2bd09ec44509b541120a3a64))
 
-## [1.53.8](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.7...v1.53.8) (2026-10-31)
+## [1.53.8](https://github.com/AndrewM-F/code-foundry/compare/v1.53.7...v1.53.8) (2026-10-31)
 
 
 ### Bug Fixes
 
-* **release:** wait for the synchronize validation run before re-readying ([#829](https://github.com/0xPlayerOne/code-foundry/issues/829)) ([d0abbe2](https://github.com/0xPlayerOne/code-foundry/commit/d0abbe27349635bcc5bb63aafac3ff2e989f960f))
+* **release:** wait for the synchronize validation run before re-readying ([#829](https://github.com/AndrewM-F/code-foundry/issues/829)) ([d0abbe2](https://github.com/AndrewM-F/code-foundry/commit/d0abbe27349635bcc5bb63aafac3ff2e989f960f))
 
-## [1.53.7](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.6...v1.53.7) (2026-10-31)
+## [1.53.7](https://github.com/AndrewM-F/code-foundry/compare/v1.53.6...v1.53.7) (2026-10-31)
 
 
 ### Performance
 
-* **validation:** fold Security Profile and CodeQL Detect into the plan job ([#827](https://github.com/0xPlayerOne/code-foundry/issues/827)) ([75ca83c](https://github.com/0xPlayerOne/code-foundry/commit/75ca83c042f01e23a1f3c62b26f92e1bc6641a80))
+* **validation:** fold Security Profile and CodeQL Detect into the plan job ([#827](https://github.com/AndrewM-F/code-foundry/issues/827)) ([75ca83c](https://github.com/AndrewM-F/code-foundry/commit/75ca83c042f01e23a1f3c62b26f92e1bc6641a80))
 
-## [1.53.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.5...v1.53.6) (2026-10-31)
-
-
-### Performance
-
-* **validation:** skip lane jobs that have nothing to run ([#825](https://github.com/0xPlayerOne/code-foundry/issues/825)) ([4d04f62](https://github.com/0xPlayerOne/code-foundry/commit/4d04f627bfac572bc056b5a5f448b66c17500c00))
-
-## [1.53.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.4...v1.53.5) (2026-10-31)
-
-
-### Bug Fixes
-
-* **codeql:** pass the event name so pull request change detection runs ([#823](https://github.com/0xPlayerOne/code-foundry/issues/823)) ([0d0044e](https://github.com/0xPlayerOne/code-foundry/commit/0d0044eca5dc5ec3457ea82892429d146ea1754d))
-
-## [1.53.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.3...v1.53.4) (2026-10-30)
+## [1.53.6](https://github.com/AndrewM-F/code-foundry/compare/v1.53.5...v1.53.6) (2026-10-31)
 
 
 ### Performance
 
-* **ci:** run mixed unit runners concurrently ([#821](https://github.com/0xPlayerOne/code-foundry/issues/821)) ([dac0d93](https://github.com/0xPlayerOne/code-foundry/commit/dac0d9313cc2fc6309e0f55aa45274e3dbbff767))
+* **validation:** skip lane jobs that have nothing to run ([#825](https://github.com/AndrewM-F/code-foundry/issues/825)) ([4d04f62](https://github.com/AndrewM-F/code-foundry/commit/4d04f627bfac572bc056b5a5f448b66c17500c00))
 
-## [1.53.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.2...v1.53.3) (2026-10-30)
-
-
-### Bug Fixes
-
-* save repository caches through an explicit save action ([#819](https://github.com/0xPlayerOne/code-foundry/issues/819)) ([a21f1d0](https://github.com/0xPlayerOne/code-foundry/commit/a21f1d0c153e14252bc784f301379029026121da))
-
-## [1.53.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.1...v1.53.2) (2026-10-30)
+## [1.53.5](https://github.com/AndrewM-F/code-foundry/compare/v1.53.4...v1.53.5) (2026-10-31)
 
 
 ### Bug Fixes
 
-* support reviewed Playwright 1.64.1 UI receipts ([#817](https://github.com/0xPlayerOne/code-foundry/issues/817)) ([814bf68](https://github.com/0xPlayerOne/code-foundry/commit/814bf68818dcf2a80253e133895cbe3e539b5b7f))
+* **codeql:** pass the event name so pull request change detection runs ([#823](https://github.com/AndrewM-F/code-foundry/issues/823)) ([0d0044e](https://github.com/AndrewM-F/code-foundry/commit/0d0044eca5dc5ec3457ea82892429d146ea1754d))
+
+## [1.53.4](https://github.com/AndrewM-F/code-foundry/compare/v1.53.3...v1.53.4) (2026-10-30)
+
+
+### Performance
+
+* **ci:** run mixed unit runners concurrently ([#821](https://github.com/AndrewM-F/code-foundry/issues/821)) ([dac0d93](https://github.com/AndrewM-F/code-foundry/commit/dac0d9313cc2fc6309e0f55aa45274e3dbbff767))
+
+## [1.53.3](https://github.com/AndrewM-F/code-foundry/compare/v1.53.2...v1.53.3) (2026-10-30)
+
+
+### Bug Fixes
+
+* save repository caches through an explicit save action ([#819](https://github.com/AndrewM-F/code-foundry/issues/819)) ([a21f1d0](https://github.com/AndrewM-F/code-foundry/commit/a21f1d0c153e14252bc784f301379029026121da))
+
+## [1.53.2](https://github.com/AndrewM-F/code-foundry/compare/v1.53.1...v1.53.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* support reviewed Playwright 1.64.1 UI receipts ([#817](https://github.com/AndrewM-F/code-foundry/issues/817)) ([814bf68](https://github.com/AndrewM-F/code-foundry/commit/814bf68818dcf2a80253e133895cbe3e539b5b7f))
 
 
 ### Maintenance
 
-* add verified npm publication recovery ([#815](https://github.com/0xPlayerOne/code-foundry/issues/815)) ([5876361](https://github.com/0xPlayerOne/code-foundry/commit/58763616b3dc38d127680914eeef6151b3375b37))
+* add verified npm publication recovery ([#815](https://github.com/AndrewM-F/code-foundry/issues/815)) ([5876361](https://github.com/AndrewM-F/code-foundry/commit/58763616b3dc38d127680914eeef6151b3375b37))
 
-## [1.53.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.53.0...v1.53.1) (2026-10-30)
+## [1.53.1](https://github.com/AndrewM-F/code-foundry/compare/v1.53.0...v1.53.1) (2026-10-30)
 
 
 ### Bug Fixes
 
-* allow isolated preview auth Hyperdrive build binding ([#813](https://github.com/0xPlayerOne/code-foundry/issues/813)) ([cc267fc](https://github.com/0xPlayerOne/code-foundry/commit/cc267fcb84c2828fb5c7090e0b494991ea90f249))
+* allow isolated preview auth Hyperdrive build binding ([#813](https://github.com/AndrewM-F/code-foundry/issues/813)) ([cc267fc](https://github.com/AndrewM-F/code-foundry/commit/cc267fcb84c2828fb5c7090e0b494991ea90f249))
 
-## [1.53.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.52.4...v1.53.0) (2026-10-30)
+## [1.53.0](https://github.com/AndrewM-F/code-foundry/compare/v1.52.4...v1.53.0) (2026-10-30)
 
 
 ### Features
 
-* document Adea UI workspace receipt reuse ([#811](https://github.com/0xPlayerOne/code-foundry/issues/811)) ([6d0322c](https://github.com/0xPlayerOne/code-foundry/commit/6d0322c619f82753ca1818523a7cb7fb6583934e))
+* document Adea UI workspace receipt reuse ([#811](https://github.com/AndrewM-F/code-foundry/issues/811)) ([6d0322c](https://github.com/AndrewM-F/code-foundry/commit/6d0322c619f82753ca1818523a7cb7fb6583934e))
 
-## [1.52.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.52.3...v1.52.4) (2026-10-30)
-
-
-### Bug Fixes
-
-* recognize fixed test-and-pack receipt lifecycle ([#808](https://github.com/0xPlayerOne/code-foundry/issues/808)) ([8c8010c](https://github.com/0xPlayerOne/code-foundry/commit/8c8010cb926895d5a81289c696f82b855e30ad9f))
-
-## [1.52.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.52.2...v1.52.3) (2026-10-30)
+## [1.52.4](https://github.com/AndrewM-F/code-foundry/compare/v1.52.3...v1.52.4) (2026-10-30)
 
 
 ### Bug Fixes
 
-* opt Code Foundry into source qualification receipts ([#805](https://github.com/0xPlayerOne/code-foundry/issues/805)) ([c7f7011](https://github.com/0xPlayerOne/code-foundry/commit/c7f70117b7d9d687d1116766114ba39028a4dc40))
+* recognize fixed test-and-pack receipt lifecycle ([#808](https://github.com/AndrewM-F/code-foundry/issues/808)) ([8c8010c](https://github.com/AndrewM-F/code-foundry/commit/8c8010cb926895d5a81289c696f82b855e30ad9f))
 
-## [1.52.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.52.1...v1.52.2) (2026-10-30)
-
-
-### Bug Fixes
-
-* retry transient release fallback reads safely ([#800](https://github.com/0xPlayerOne/code-foundry/issues/800)) ([c91e23b](https://github.com/0xPlayerOne/code-foundry/commit/c91e23bfaea9f107c8af9fa9bdf391308fa5ebf2))
-
-## [1.52.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.52.0...v1.52.1) (2026-10-30)
+## [1.52.3](https://github.com/AndrewM-F/code-foundry/compare/v1.52.2...v1.52.3) (2026-10-30)
 
 
 ### Bug Fixes
 
-* restore source qualification receipt reuse ([#801](https://github.com/0xPlayerOne/code-foundry/issues/801)) ([989bdbf](https://github.com/0xPlayerOne/code-foundry/commit/989bdbfe5af6d2003ca97dde456d8c86fb92078c))
+* opt Code Foundry into source qualification receipts ([#805](https://github.com/AndrewM-F/code-foundry/issues/805)) ([c7f7011](https://github.com/AndrewM-F/code-foundry/commit/c7f70117b7d9d687d1116766114ba39028a4dc40))
 
-## [1.52.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.51.1...v1.52.0) (2026-10-30)
+## [1.52.2](https://github.com/AndrewM-F/code-foundry/compare/v1.52.1...v1.52.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* retry transient release fallback reads safely ([#800](https://github.com/AndrewM-F/code-foundry/issues/800)) ([c91e23b](https://github.com/AndrewM-F/code-foundry/commit/c91e23bfaea9f107c8af9fa9bdf391308fa5ebf2))
+
+## [1.52.1](https://github.com/AndrewM-F/code-foundry/compare/v1.52.0...v1.52.1) (2026-10-30)
+
+
+### Bug Fixes
+
+* restore source qualification receipt reuse ([#801](https://github.com/AndrewM-F/code-foundry/issues/801)) ([989bdbf](https://github.com/AndrewM-F/code-foundry/commit/989bdbfe5af6d2003ca97dde456d8c86fb92078c))
+
+## [1.52.0](https://github.com/AndrewM-F/code-foundry/compare/v1.51.1...v1.52.0) (2026-10-30)
 
 
 ### Features
 
-* scope Cloudflare build variables to build ([#802](https://github.com/0xPlayerOne/code-foundry/issues/802)) ([1f9a89f](https://github.com/0xPlayerOne/code-foundry/commit/1f9a89fa19a868732805a065fe90cc7609928a1e))
+* scope Cloudflare build variables to build ([#802](https://github.com/AndrewM-F/code-foundry/issues/802)) ([1f9a89f](https://github.com/AndrewM-F/code-foundry/commit/1f9a89fa19a868732805a065fe90cc7609928a1e))
 
 
 ### Bug Fixes
 
-* scope draft cancellation to its pull request ([#799](https://github.com/0xPlayerOne/code-foundry/issues/799)) ([ba42e81](https://github.com/0xPlayerOne/code-foundry/commit/ba42e811729e6ab8a82e2941abfdaab4f8544eed))
+* scope draft cancellation to its pull request ([#799](https://github.com/AndrewM-F/code-foundry/issues/799)) ([ba42e81](https://github.com/AndrewM-F/code-foundry/commit/ba42e811729e6ab8a82e2941abfdaab4f8544eed))
 
-## [1.51.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.51.0...v1.51.1) (2026-10-29)
+## [1.51.1](https://github.com/AndrewM-F/code-foundry/compare/v1.51.0...v1.51.1) (2026-10-29)
 
 
 ### Bug Fixes
 
-* **ci:** run CodeQL on every main push ([#797](https://github.com/0xPlayerOne/code-foundry/issues/797)) ([d6d299d](https://github.com/0xPlayerOne/code-foundry/commit/d6d299dd5b073d6a5e13ffc2aa016d856208d2e4))
+* **ci:** run CodeQL on every main push ([#797](https://github.com/AndrewM-F/code-foundry/issues/797)) ([d6d299d](https://github.com/AndrewM-F/code-foundry/commit/d6d299dd5b073d6a5e13ffc2aa016d856208d2e4))
 
-## [1.51.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.50.1...v1.51.0) (2026-10-29)
+## [1.51.0](https://github.com/AndrewM-F/code-foundry/compare/v1.50.1...v1.51.0) (2026-10-29)
 
 
 ### Features
 
-* **release:** preserve caller publication overrides ([#795](https://github.com/0xPlayerOne/code-foundry/issues/795)) ([e49d2ba](https://github.com/0xPlayerOne/code-foundry/commit/e49d2bac4f8995808bfc6a726b0c2ff1e93c2a5f))
+* **release:** preserve caller publication overrides ([#795](https://github.com/AndrewM-F/code-foundry/issues/795)) ([e49d2ba](https://github.com/AndrewM-F/code-foundry/commit/e49d2bac4f8995808bfc6a726b0c2ff1e93c2a5f))
 
-## [1.50.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.50.0...v1.50.1) (2026-10-29)
+## [1.50.1](https://github.com/AndrewM-F/code-foundry/compare/v1.50.0...v1.50.1) (2026-10-29)
 
 
 ### Bug Fixes
 
-* **sync:** replace complete consumer runtime ref ([#793](https://github.com/0xPlayerOne/code-foundry/issues/793)) ([6a0b5ef](https://github.com/0xPlayerOne/code-foundry/commit/6a0b5ef4f9a02c781745fa64f2f9748ea679f2d5))
+* **sync:** replace complete consumer runtime ref ([#793](https://github.com/AndrewM-F/code-foundry/issues/793)) ([6a0b5ef](https://github.com/AndrewM-F/code-foundry/commit/6a0b5ef4f9a02c781745fa64f2f9748ea679f2d5))
 
-## [1.50.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.49.3...v1.50.0) (2026-10-29)
+## [1.50.0](https://github.com/AndrewM-F/code-foundry/compare/v1.49.3...v1.50.0) (2026-10-29)
 
 
 ### Features
 
-* **release:** support npm OIDC publishing ([#791](https://github.com/0xPlayerOne/code-foundry/issues/791)) ([74b5155](https://github.com/0xPlayerOne/code-foundry/commit/74b5155157b9f163d70b00b138673c981e19c925))
+* **release:** support npm OIDC publishing ([#791](https://github.com/AndrewM-F/code-foundry/issues/791)) ([74b5155](https://github.com/AndrewM-F/code-foundry/commit/74b5155157b9f163d70b00b138673c981e19c925))
 
-## [1.49.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.49.2...v1.49.3) (2026-10-29)
+## [1.49.3](https://github.com/AndrewM-F/code-foundry/compare/v1.49.2...v1.49.3) (2026-10-29)
 
 
 ### CI
 
-* **validation:** require release checks until evidence exists ([#789](https://github.com/0xPlayerOne/code-foundry/issues/789)) ([a5f8be6](https://github.com/0xPlayerOne/code-foundry/commit/a5f8be64b7b28d2248aa71b80e321aa0fe82f30a))
+* **validation:** require release checks until evidence exists ([#789](https://github.com/AndrewM-F/code-foundry/issues/789)) ([a5f8be6](https://github.com/AndrewM-F/code-foundry/commit/a5f8be64b7b28d2248aa71b80e321aa0fe82f30a))
 
-## [1.49.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.49.1...v1.49.2) (2026-10-29)
-
-
-### Bug Fixes
-
-* safely categorize npm publication failures ([#787](https://github.com/0xPlayerOne/code-foundry/issues/787)) ([a4268af](https://github.com/0xPlayerOne/code-foundry/commit/a4268af5ce7cd0a32407420424419c0cad01dce8))
-
-## [1.49.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.49.0...v1.49.1) (2026-10-28)
+## [1.49.2](https://github.com/AndrewM-F/code-foundry/compare/v1.49.1...v1.49.2) (2026-10-29)
 
 
 ### Bug Fixes
 
-* handle empty security audit matrices ([#785](https://github.com/0xPlayerOne/code-foundry/issues/785)) ([02f0565](https://github.com/0xPlayerOne/code-foundry/commit/02f05652e68267a2aa2df5d5af8f13df9ba1e3aa))
+* safely categorize npm publication failures ([#787](https://github.com/AndrewM-F/code-foundry/issues/787)) ([a4268af](https://github.com/AndrewM-F/code-foundry/commit/a4268af5ce7cd0a32407420424419c0cad01dce8))
 
-## [1.49.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.9...v1.49.0) (2026-10-27)
+## [1.49.1](https://github.com/AndrewM-F/code-foundry/compare/v1.49.0...v1.49.1) (2026-10-28)
+
+
+### Bug Fixes
+
+* handle empty security audit matrices ([#785](https://github.com/AndrewM-F/code-foundry/issues/785)) ([02f0565](https://github.com/AndrewM-F/code-foundry/commit/02f05652e68267a2aa2df5d5af8f13df9ba1e3aa))
+
+## [1.49.0](https://github.com/AndrewM-F/code-foundry/compare/v1.48.9...v1.49.0) (2026-10-27)
 
 
 ### Features
 
-* support isolated integration test shards ([#783](https://github.com/0xPlayerOne/code-foundry/issues/783)) ([ad1123f](https://github.com/0xPlayerOne/code-foundry/commit/ad1123ff3bb9654bfbdaef4219490cca3e7e3d20))
+* support isolated integration test shards ([#783](https://github.com/AndrewM-F/code-foundry/issues/783)) ([ad1123f](https://github.com/AndrewM-F/code-foundry/commit/ad1123ff3bb9654bfbdaef4219490cca3e7e3d20))
 
-## [1.48.9](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.8...v1.48.9) (2026-10-26)
-
-
-### Bug Fixes
-
-* **release:** preserve fallback stdin and paginate existing releases ([#781](https://github.com/0xPlayerOne/code-foundry/issues/781)) ([ede4d2c](https://github.com/0xPlayerOne/code-foundry/commit/ede4d2c7e3bc7d1174580c9a0bc83bdaa160c2da))
-
-## [1.48.8](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.7...v1.48.8) (2026-10-24)
+## [1.48.9](https://github.com/AndrewM-F/code-foundry/compare/v1.48.8...v1.48.9) (2026-10-26)
 
 
 ### Bug Fixes
 
-* **release:** hydrate audit blobs and refresh changing PR state ([#779](https://github.com/0xPlayerOne/code-foundry/issues/779)) ([8734ed7](https://github.com/0xPlayerOne/code-foundry/commit/8734ed77d159818cd5ff613f40a5dab796789d8a))
+* **release:** preserve fallback stdin and paginate existing releases ([#781](https://github.com/AndrewM-F/code-foundry/issues/781)) ([ede4d2c](https://github.com/AndrewM-F/code-foundry/commit/ede4d2c7e3bc7d1174580c9a0bc83bdaa160c2da))
 
-## [1.48.7](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.6...v1.48.7) (2026-10-23)
-
-
-### Bug Fixes
-
-* **release:** sync bun.lock workspace versions on generated release PRs ([#777](https://github.com/0xPlayerOne/code-foundry/issues/777)) ([b24bfae](https://github.com/0xPlayerOne/code-foundry/commit/b24bfae309ac7003fcc4cd57f79ddc418c27b039))
-
-## [1.48.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.5...v1.48.6) (2026-10-23)
+## [1.48.8](https://github.com/AndrewM-F/code-foundry/compare/v1.48.7...v1.48.8) (2026-10-24)
 
 
 ### Bug Fixes
 
-* **release:** audit generated release content for stale snapshots ([#775](https://github.com/0xPlayerOne/code-foundry/issues/775)) ([f842c27](https://github.com/0xPlayerOne/code-foundry/commit/f842c271e6b270b63a6d9b839795a849237c7a7d))
+* **release:** hydrate audit blobs and refresh changing PR state ([#779](https://github.com/AndrewM-F/code-foundry/issues/779)) ([8734ed7](https://github.com/AndrewM-F/code-foundry/commit/8734ed77d159818cd5ff613f40a5dab796789d8a))
 
-## [1.48.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.4...v1.48.5) (2026-10-22)
+## [1.48.7](https://github.com/AndrewM-F/code-foundry/compare/v1.48.6...v1.48.7) (2026-10-23)
 
 
 ### Bug Fixes
 
-* **ci:** serialize billing receipt and report uploads ([#773](https://github.com/0xPlayerOne/code-foundry/issues/773)) ([6497225](https://github.com/0xPlayerOne/code-foundry/commit/6497225bf2d672380b6b5231378b424dffb8afbb))
+* **release:** sync bun.lock workspace versions on generated release PRs ([#777](https://github.com/AndrewM-F/code-foundry/issues/777)) ([b24bfae](https://github.com/AndrewM-F/code-foundry/commit/b24bfae309ac7003fcc4cd57f79ddc418c27b039))
 
-## [1.48.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.3...v1.48.4) (2026-10-22)
+## [1.48.6](https://github.com/AndrewM-F/code-foundry/compare/v1.48.5...v1.48.6) (2026-10-23)
+
+
+### Bug Fixes
+
+* **release:** audit generated release content for stale snapshots ([#775](https://github.com/AndrewM-F/code-foundry/issues/775)) ([f842c27](https://github.com/AndrewM-F/code-foundry/commit/f842c271e6b270b63a6d9b839795a849237c7a7d))
+
+## [1.48.5](https://github.com/AndrewM-F/code-foundry/compare/v1.48.4...v1.48.5) (2026-10-22)
+
+
+### Bug Fixes
+
+* **ci:** serialize billing receipt and report uploads ([#773](https://github.com/AndrewM-F/code-foundry/issues/773)) ([6497225](https://github.com/AndrewM-F/code-foundry/commit/6497225bf2d672380b6b5231378b424dffb8afbb))
+
+## [1.48.4](https://github.com/AndrewM-F/code-foundry/compare/v1.48.3...v1.48.4) (2026-10-22)
 
 
 ### Maintenance
 
-* bun-1.4.4-cloud ([#771](https://github.com/0xPlayerOne/code-foundry/issues/771)) ([c99f0ed](https://github.com/0xPlayerOne/code-foundry/commit/c99f0ed8b66129f3b599326bc67d900719b921f4))
+* bun-1.4.4-cloud ([#771](https://github.com/AndrewM-F/code-foundry/issues/771)) ([c99f0ed](https://github.com/AndrewM-F/code-foundry/commit/c99f0ed8b66129f3b599326bc67d900719b921f4))
 
-## [1.48.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.2...v1.48.3) (2026-10-17)
+## [1.48.3](https://github.com/AndrewM-F/code-foundry/compare/v1.48.2...v1.48.3) (2026-10-17)
 
 
 ### Tests
 
-* read the chained hook fixture with fs.readFileSync ([#769](https://github.com/0xPlayerOne/code-foundry/issues/769)) ([5d5925a](https://github.com/0xPlayerOne/code-foundry/commit/5d5925ac38975f5b1cc9b0785aa492db029e420c))
+* read the chained hook fixture with fs.readFileSync ([#769](https://github.com/AndrewM-F/code-foundry/issues/769)) ([5d5925a](https://github.com/AndrewM-F/code-foundry/commit/5d5925ac38975f5b1cc9b0785aa492db029e420c))
 
-## [1.48.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.1...v1.48.2) (2026-10-17)
+## [1.48.2](https://github.com/AndrewM-F/code-foundry/compare/v1.48.1...v1.48.2) (2026-10-17)
 
 
 ### Maintenance
 
-* **bun:** align Bun runtime pins to 1.4.3 ([#767](https://github.com/0xPlayerOne/code-foundry/issues/767)) ([402343f](https://github.com/0xPlayerOne/code-foundry/commit/402343fed2b41be3b2a55ddbc56d2256cc511b1a))
+* **bun:** align Bun runtime pins to 1.4.3 ([#767](https://github.com/AndrewM-F/code-foundry/issues/767)) ([402343f](https://github.com/AndrewM-F/code-foundry/commit/402343fed2b41be3b2a55ddbc56d2256cc511b1a))
 
-## [1.48.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.48.0...v1.48.1) (2026-10-16)
+## [1.48.1](https://github.com/AndrewM-F/code-foundry/compare/v1.48.0...v1.48.1) (2026-10-16)
 
 
 ### Bug Fixes
 
-* vite-plus-cache-post-job-save ([#765](https://github.com/0xPlayerOne/code-foundry/issues/765)) ([3f82e85](https://github.com/0xPlayerOne/code-foundry/commit/3f82e850f5c09af6cea4de6f1a791d098bbd2f6e))
+* vite-plus-cache-post-job-save ([#765](https://github.com/AndrewM-F/code-foundry/issues/765)) ([3f82e85](https://github.com/AndrewM-F/code-foundry/commit/3f82e850f5c09af6cea4de6f1a791d098bbd2f6e))
 
-## [1.48.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.5...v1.48.0) (2026-10-16)
+## [1.48.0](https://github.com/AndrewM-F/code-foundry/compare/v1.47.5...v1.48.0) (2026-10-16)
 
 
 ### Features
 
-* add opt-in Vite+ task runner support ([#763](https://github.com/0xPlayerOne/code-foundry/issues/763)) ([f7970cd](https://github.com/0xPlayerOne/code-foundry/commit/f7970cdf1c1880aaee159d2de79ba043f93711a7))
+* add opt-in Vite+ task runner support ([#763](https://github.com/AndrewM-F/code-foundry/issues/763)) ([f7970cd](https://github.com/AndrewM-F/code-foundry/commit/f7970cdf1c1880aaee159d2de79ba043f93711a7))
 
-## [1.47.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.4...v1.47.5) (2026-10-15)
+## [1.47.5](https://github.com/AndrewM-F/code-foundry/compare/v1.47.4...v1.47.5) (2026-10-15)
 
 
 ### Bug Fixes
 
-* validation-issue-read-v1471 ([#759](https://github.com/0xPlayerOne/code-foundry/issues/759)) ([7119b3e](https://github.com/0xPlayerOne/code-foundry/commit/7119b3e2baebfbfdd47d32428cbf5df2f2079afa))
+* validation-issue-read-v1471 ([#759](https://github.com/AndrewM-F/code-foundry/issues/759)) ([7119b3e](https://github.com/AndrewM-F/code-foundry/commit/7119b3e2baebfbfdd47d32428cbf5df2f2079afa))
 
-## [1.47.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.3...v1.47.4) (2026-10-15)
+## [1.47.4](https://github.com/AndrewM-F/code-foundry/compare/v1.47.3...v1.47.4) (2026-10-15)
 
 
 ### Documentation
 
-* fix generated agent contribution and validation references ([#760](https://github.com/0xPlayerOne/code-foundry/issues/760)) ([c3564c9](https://github.com/0xPlayerOne/code-foundry/commit/c3564c92cb168449317afe2e40359144bf7a0c71))
+* fix generated agent contribution and validation references ([#760](https://github.com/AndrewM-F/code-foundry/issues/760)) ([c3564c9](https://github.com/AndrewM-F/code-foundry/commit/c3564c92cb168449317afe2e40359144bf7a0c71))
 
-## [1.47.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.2...v1.47.3) (2026-10-09)
+## [1.47.3](https://github.com/AndrewM-F/code-foundry/compare/v1.47.2...v1.47.3) (2026-10-09)
 
 
 ### Maintenance
 
-* **fleet:** point the manifest at the rollout worktrees and filter adea's actionlint ([#757](https://github.com/0xPlayerOne/code-foundry/issues/757)) ([55bae8b](https://github.com/0xPlayerOne/code-foundry/commit/55bae8bf99a022bfa03294972d89a3cca20a6203))
+* **fleet:** point the manifest at the rollout worktrees and filter adea's actionlint ([#757](https://github.com/AndrewM-F/code-foundry/issues/757)) ([55bae8b](https://github.com/AndrewM-F/code-foundry/commit/55bae8bf99a022bfa03294972d89a3cca20a6203))
 
-## [1.47.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.1...v1.47.2) (2026-10-08)
+## [1.47.2](https://github.com/AndrewM-F/code-foundry/compare/v1.47.1...v1.47.2) (2026-10-08)
 
 
 ### Bug Fixes
 
-* **qualification:** exclude pending parallel syntax by content, not filename ([#755](https://github.com/0xPlayerOne/code-foundry/issues/755)) ([1f7cae8](https://github.com/0xPlayerOne/code-foundry/commit/1f7cae8167002061850e56e3dc0fa800a69d7be9))
+* **qualification:** exclude pending parallel syntax by content, not filename ([#755](https://github.com/AndrewM-F/code-foundry/issues/755)) ([1f7cae8](https://github.com/AndrewM-F/code-foundry/commit/1f7cae8167002061850e56e3dc0fa800a69d7be9))
 
-## [1.47.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.47.0...v1.47.1) (2026-10-08)
+## [1.47.1](https://github.com/AndrewM-F/code-foundry/compare/v1.47.0...v1.47.1) (2026-10-08)
 
 
 ### Tests
 
-* **doctor:** pin the machine-hook shadow warning ([#753](https://github.com/0xPlayerOne/code-foundry/issues/753)) ([f634269](https://github.com/0xPlayerOne/code-foundry/commit/f634269424580d8d34323319288747587b6d6ae3))
+* **doctor:** pin the machine-hook shadow warning ([#753](https://github.com/AndrewM-F/code-foundry/issues/753)) ([f634269](https://github.com/AndrewM-F/code-foundry/commit/f634269424580d8d34323319288747587b6d6ae3))
 
-## [1.47.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.6...v1.47.0) (2026-10-08)
-
-
-### Features
-
-* **release:** configurable dev channel on top of batched releases ([#749](https://github.com/0xPlayerOne/code-foundry/issues/749)) ([8fd8556](https://github.com/0xPlayerOne/code-foundry/commit/8fd85567a1a89735ab0db589649741253fbbeb21)), closes [#699](https://github.com/0xPlayerOne/code-foundry/issues/699)
-
-## [1.46.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.5...v1.46.6) (2026-10-08)
-
-
-### Bug Fixes
-
-* **pre-commit:** build before lint and type-check when the gate opts in ([#748](https://github.com/0xPlayerOne/code-foundry/issues/748)) ([f56454f](https://github.com/0xPlayerOne/code-foundry/commit/f56454f313a1a5b802b8a17b09d850902de1ba55)), closes [#691](https://github.com/0xPlayerOne/code-foundry/issues/691)
-
-## [1.46.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.4...v1.46.5) (2026-10-08)
-
-
-### Bug Fixes
-
-* **sync:** chain machine-level hooks instead of silencing them ([#747](https://github.com/0xPlayerOne/code-foundry/issues/747)) ([7fcad52](https://github.com/0xPlayerOne/code-foundry/commit/7fcad52d400dbb2aaa9ba46c0c76f14e8d63f660)), closes [#690](https://github.com/0xPlayerOne/code-foundry/issues/690)
-
-## [1.46.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.3...v1.46.4) (2026-10-08)
-
-
-### Bug Fixes
-
-* **release:** preserve current-head validation ownership ([#737](https://github.com/0xPlayerOne/code-foundry/issues/737)) ([aa8bfcf](https://github.com/0xPlayerOne/code-foundry/commit/aa8bfcfbfcd3c213d15ba9e1fbfb5c65ab8ddb6b))
-
-## [1.46.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.2...v1.46.3) (2026-10-07)
-
-
-### Bug Fixes
-
-* **billing:** keep lint standalone; join fast-lane receipts in parallel ([#744](https://github.com/0xPlayerOne/code-foundry/issues/744)) ([574690b](https://github.com/0xPlayerOne/code-foundry/commit/574690b707abffe9350ccc67589540afb82323ee))
-
-## [1.46.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.1...v1.46.2) (2026-10-07)
-
-
-### Bug Fixes
-
-* **billing:** join fast-lane receipts in a second parallel group ([#742](https://github.com/0xPlayerOne/code-foundry/issues/742)) ([c63a39c](https://github.com/0xPlayerOne/code-foundry/commit/c63a39cf5e236d6747bd85cf10b04bd10f690b11))
-
-## [1.46.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.46.0...v1.46.1) (2026-10-07)
-
-
-### Bug Fixes
-
-* **qualification:** skip parallel-syntax files until actionlint supports them ([#740](https://github.com/0xPlayerOne/code-foundry/issues/740)) ([db98c7f](https://github.com/0xPlayerOne/code-foundry/commit/db98c7f40cae080cdc9dcab7baac4976e5e0656e))
-
-## [1.46.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.45.2...v1.46.0) (2026-10-07)
+## [1.47.0](https://github.com/AndrewM-F/code-foundry/compare/v1.46.6...v1.47.0) (2026-10-08)
 
 
 ### Features
 
-* **billing:** run fast-lane executes concurrently ([#738](https://github.com/0xPlayerOne/code-foundry/issues/738)) ([b40e82a](https://github.com/0xPlayerOne/code-foundry/commit/b40e82a0709b288a8be46998cfdc8b909f92c23c))
+* **release:** configurable dev channel on top of batched releases ([#749](https://github.com/AndrewM-F/code-foundry/issues/749)) ([8fd8556](https://github.com/AndrewM-F/code-foundry/commit/8fd85567a1a89735ab0db589649741253fbbeb21)), closes [#699](https://github.com/AndrewM-F/code-foundry/issues/699)
 
-## [1.45.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.45.1...v1.45.2) (2026-10-06)
-
-
-### Bug Fixes
-
-* **billing:** emit the codeql input as a YAML boolean ([#735](https://github.com/0xPlayerOne/code-foundry/issues/735)) ([e0b348c](https://github.com/0xPlayerOne/code-foundry/commit/e0b348c9a3c730e46210fe0b9dc46af49c9db605))
-
-## [1.45.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.45.0...v1.45.1) (2026-10-06)
+## [1.46.6](https://github.com/AndrewM-F/code-foundry/compare/v1.46.5...v1.46.6) (2026-10-08)
 
 
 ### Bug Fixes
 
-* **billing:** declare the runner inputs the callers always forward ([#733](https://github.com/0xPlayerOne/code-foundry/issues/733)) ([f7a29cb](https://github.com/0xPlayerOne/code-foundry/commit/f7a29cb6dbc9a8695a9bef9e85ccce82aa9c84db))
+* **pre-commit:** build before lint and type-check when the gate opts in ([#748](https://github.com/AndrewM-F/code-foundry/issues/748)) ([f56454f](https://github.com/AndrewM-F/code-foundry/commit/f56454f313a1a5b802b8a17b09d850902de1ba55)), closes [#691](https://github.com/AndrewM-F/code-foundry/issues/691)
 
-## [1.45.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.11...v1.45.0) (2026-10-06)
+## [1.46.5](https://github.com/AndrewM-F/code-foundry/compare/v1.46.4...v1.46.5) (2026-10-08)
+
+
+### Bug Fixes
+
+* **sync:** chain machine-level hooks instead of silencing them ([#747](https://github.com/AndrewM-F/code-foundry/issues/747)) ([7fcad52](https://github.com/AndrewM-F/code-foundry/commit/7fcad52d400dbb2aaa9ba46c0c76f14e8d63f660)), closes [#690](https://github.com/AndrewM-F/code-foundry/issues/690)
+
+## [1.46.4](https://github.com/AndrewM-F/code-foundry/compare/v1.46.3...v1.46.4) (2026-10-08)
+
+
+### Bug Fixes
+
+* **release:** preserve current-head validation ownership ([#737](https://github.com/AndrewM-F/code-foundry/issues/737)) ([aa8bfcf](https://github.com/AndrewM-F/code-foundry/commit/aa8bfcfbfcd3c213d15ba9e1fbfb5c65ab8ddb6b))
+
+## [1.46.3](https://github.com/AndrewM-F/code-foundry/compare/v1.46.2...v1.46.3) (2026-10-07)
+
+
+### Bug Fixes
+
+* **billing:** keep lint standalone; join fast-lane receipts in parallel ([#744](https://github.com/AndrewM-F/code-foundry/issues/744)) ([574690b](https://github.com/AndrewM-F/code-foundry/commit/574690b707abffe9350ccc67589540afb82323ee))
+
+## [1.46.2](https://github.com/AndrewM-F/code-foundry/compare/v1.46.1...v1.46.2) (2026-10-07)
+
+
+### Bug Fixes
+
+* **billing:** join fast-lane receipts in a second parallel group ([#742](https://github.com/AndrewM-F/code-foundry/issues/742)) ([c63a39c](https://github.com/AndrewM-F/code-foundry/commit/c63a39cf5e236d6747bd85cf10b04bd10f690b11))
+
+## [1.46.1](https://github.com/AndrewM-F/code-foundry/compare/v1.46.0...v1.46.1) (2026-10-07)
+
+
+### Bug Fixes
+
+* **qualification:** skip parallel-syntax files until actionlint supports them ([#740](https://github.com/AndrewM-F/code-foundry/issues/740)) ([db98c7f](https://github.com/AndrewM-F/code-foundry/commit/db98c7f40cae080cdc9dcab7baac4976e5e0656e))
+
+## [1.46.0](https://github.com/AndrewM-F/code-foundry/compare/v1.45.2...v1.46.0) (2026-10-07)
 
 
 ### Features
 
-* add a merged-lane billing orchestrator for minute-billed consumers ([#731](https://github.com/0xPlayerOne/code-foundry/issues/731)) ([a91402e](https://github.com/0xPlayerOne/code-foundry/commit/a91402e701f458ece0d2ea4715f9586a06b15108))
+* **billing:** run fast-lane executes concurrently ([#738](https://github.com/AndrewM-F/code-foundry/issues/738)) ([b40e82a](https://github.com/AndrewM-F/code-foundry/commit/b40e82a0709b288a8be46998cfdc8b909f92c23c))
 
-## [1.44.11](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.10...v1.44.11) (2026-10-06)
-
-
-### Bug Fixes
-
-* **release:** retry the token probe and REST fallback writes with backoff ([#729](https://github.com/0xPlayerOne/code-foundry/issues/729)) ([ad28e18](https://github.com/0xPlayerOne/code-foundry/commit/ad28e18326f0ee8c25950fb649eb81cdb3dc0a1a))
-
-## [1.44.10](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.9...v1.44.10) (2026-10-06)
+## [1.45.2](https://github.com/AndrewM-F/code-foundry/compare/v1.45.1...v1.45.2) (2026-10-06)
 
 
 ### Bug Fixes
 
-* **release:** treat ref-creation errors in the REST fallback as non-fatal ([#727](https://github.com/0xPlayerOne/code-foundry/issues/727)) ([75ea614](https://github.com/0xPlayerOne/code-foundry/commit/75ea61465e7c4cacd39e3aa8c52df93c2ea9bf03))
+* **billing:** emit the codeql input as a YAML boolean ([#735](https://github.com/AndrewM-F/code-foundry/issues/735)) ([e0b348c](https://github.com/AndrewM-F/code-foundry/commit/e0b348c9a3c730e46210fe0b9dc46af49c9db605))
 
-## [1.44.9](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.8...v1.44.9) (2026-10-06)
-
-
-### Bug Fixes
-
-* **release:** make the REST fallback draft-aware and idempotent ([#725](https://github.com/0xPlayerOne/code-foundry/issues/725)) ([c29da6e](https://github.com/0xPlayerOne/code-foundry/commit/c29da6efb919d68a568c2328eea2c2f7654334fe))
-
-## [1.44.8](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.7...v1.44.8) (2026-10-06)
+## [1.45.1](https://github.com/AndrewM-F/code-foundry/compare/v1.45.0...v1.45.1) (2026-10-06)
 
 
 ### Bug Fixes
 
-* **release:** query the version-PR branch directly in the REST fallback ([#722](https://github.com/0xPlayerOne/code-foundry/issues/722)) ([b38f394](https://github.com/0xPlayerOne/code-foundry/commit/b38f394c0ca6438117fdd2f45bd106b0b145a0f9))
+* **billing:** declare the runner inputs the callers always forward ([#733](https://github.com/AndrewM-F/code-foundry/issues/733)) ([f7a29cb](https://github.com/AndrewM-F/code-foundry/commit/f7a29cb6dbc9a8695a9bef9e85ccce82aa9c84db))
 
-## [1.44.7](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.6...v1.44.7) (2026-10-05)
-
-
-### Bug Fixes
-
-* **release:** complete rejected release-please runs over REST ([#720](https://github.com/0xPlayerOne/code-foundry/issues/720)) ([14e88b5](https://github.com/0xPlayerOne/code-foundry/commit/14e88b5561803fc8d5d3a77b67b99e1be90bc4af))
-
-## [1.44.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.5...v1.44.6) (2026-10-05)
+## [1.45.0](https://github.com/AndrewM-F/code-foundry/compare/v1.44.11...v1.45.0) (2026-10-06)
 
 
-### Bug Fixes
+### Features
 
-* **config:** pin the lint-bearing CI lane to a standard runner by default ([#718](https://github.com/0xPlayerOne/code-foundry/issues/718)) ([fc0ed14](https://github.com/0xPlayerOne/code-foundry/commit/fc0ed14434151fb11eef7c0d4c324c7a370d5058))
+* add a merged-lane billing orchestrator for minute-billed consumers ([#731](https://github.com/AndrewM-F/code-foundry/issues/731)) ([a91402e](https://github.com/AndrewM-F/code-foundry/commit/a91402e701f458ece0d2ea4715f9586a06b15108))
 
-## [1.44.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.4...v1.44.5) (2026-10-05)
+## [1.44.11](https://github.com/AndrewM-F/code-foundry/compare/v1.44.10...v1.44.11) (2026-10-06)
 
 
 ### Bug Fixes
 
-* **release:** probe the tag-creation write before trusting the automation token ([#716](https://github.com/0xPlayerOne/code-foundry/issues/716)) ([fabaddc](https://github.com/0xPlayerOne/code-foundry/commit/fabaddcb05d5dc701248b693f91be6ee433f8d39))
+* **release:** retry the token probe and REST fallback writes with backoff ([#729](https://github.com/AndrewM-F/code-foundry/issues/729)) ([ad28e18](https://github.com/AndrewM-F/code-foundry/commit/ad28e18326f0ee8c25950fb649eb81cdb3dc0a1a))
 
-## [1.44.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.3...v1.44.4) (2026-10-03)
+## [1.44.10](https://github.com/AndrewM-F/code-foundry/compare/v1.44.9...v1.44.10) (2026-10-06)
 
 
 ### Bug Fixes
 
-* **ci:** declare the e2e shard inputs on the no-codeql orchestrator ([#714](https://github.com/0xPlayerOne/code-foundry/issues/714)) ([7500208](https://github.com/0xPlayerOne/code-foundry/commit/7500208f3b25dfe55c41ea45b382e021cf804012))
+* **release:** treat ref-creation errors in the REST fallback as non-fatal ([#727](https://github.com/AndrewM-F/code-foundry/issues/727)) ([75ea614](https://github.com/AndrewM-F/code-foundry/commit/75ea61465e7c4cacd39e3aa8c52df93c2ea9bf03))
 
-## [1.44.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.2...v1.44.3) (2026-10-03)
+## [1.44.9](https://github.com/AndrewM-F/code-foundry/compare/v1.44.8...v1.44.9) (2026-10-06)
+
+
+### Bug Fixes
+
+* **release:** make the REST fallback draft-aware and idempotent ([#725](https://github.com/AndrewM-F/code-foundry/issues/725)) ([c29da6e](https://github.com/AndrewM-F/code-foundry/commit/c29da6efb919d68a568c2328eea2c2f7654334fe))
+
+## [1.44.8](https://github.com/AndrewM-F/code-foundry/compare/v1.44.7...v1.44.8) (2026-10-06)
+
+
+### Bug Fixes
+
+* **release:** query the version-PR branch directly in the REST fallback ([#722](https://github.com/AndrewM-F/code-foundry/issues/722)) ([b38f394](https://github.com/AndrewM-F/code-foundry/commit/b38f394c0ca6438117fdd2f45bd106b0b145a0f9))
+
+## [1.44.7](https://github.com/AndrewM-F/code-foundry/compare/v1.44.6...v1.44.7) (2026-10-05)
+
+
+### Bug Fixes
+
+* **release:** complete rejected release-please runs over REST ([#720](https://github.com/AndrewM-F/code-foundry/issues/720)) ([14e88b5](https://github.com/AndrewM-F/code-foundry/commit/14e88b5561803fc8d5d3a77b67b99e1be90bc4af))
+
+## [1.44.6](https://github.com/AndrewM-F/code-foundry/compare/v1.44.5...v1.44.6) (2026-10-05)
+
+
+### Bug Fixes
+
+* **config:** pin the lint-bearing CI lane to a standard runner by default ([#718](https://github.com/AndrewM-F/code-foundry/issues/718)) ([fc0ed14](https://github.com/AndrewM-F/code-foundry/commit/fc0ed14434151fb11eef7c0d4c324c7a370d5058))
+
+## [1.44.5](https://github.com/AndrewM-F/code-foundry/compare/v1.44.4...v1.44.5) (2026-10-05)
+
+
+### Bug Fixes
+
+* **release:** probe the tag-creation write before trusting the automation token ([#716](https://github.com/AndrewM-F/code-foundry/issues/716)) ([fabaddc](https://github.com/AndrewM-F/code-foundry/commit/fabaddcb05d5dc701248b693f91be6ee433f8d39))
+
+## [1.44.4](https://github.com/AndrewM-F/code-foundry/compare/v1.44.3...v1.44.4) (2026-10-03)
+
+
+### Bug Fixes
+
+* **ci:** declare the e2e shard inputs on the no-codeql orchestrator ([#714](https://github.com/AndrewM-F/code-foundry/issues/714)) ([7500208](https://github.com/AndrewM-F/code-foundry/commit/7500208f3b25dfe55c41ea45b382e021cf804012))
+
+## [1.44.3](https://github.com/AndrewM-F/code-foundry/compare/v1.44.2...v1.44.3) (2026-10-03)
 
 
 ### Tests
 
-* **cli:** assert expected doctor warnings ([#712](https://github.com/0xPlayerOne/code-foundry/issues/712)) ([d036bee](https://github.com/0xPlayerOne/code-foundry/commit/d036beee79a9b200315cdbee5509fc3c2a6c4a04))
+* **cli:** assert expected doctor warnings ([#712](https://github.com/AndrewM-F/code-foundry/issues/712)) ([d036bee](https://github.com/AndrewM-F/code-foundry/commit/d036beee79a9b200315cdbee5509fc3c2a6c4a04))
 
-## [1.44.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.1...v1.44.2) (2026-10-03)
-
-
-### Bug Fixes
-
-* **ci:** cancel only superseded pull-request runs in managed workflows ([#710](https://github.com/0xPlayerOne/code-foundry/issues/710)) ([f5fead6](https://github.com/0xPlayerOne/code-foundry/commit/f5fead677c032d253f2e1a2a256da4f207ddfa2a))
-
-## [1.44.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.44.0...v1.44.1) (2026-10-03)
+## [1.44.2](https://github.com/AndrewM-F/code-foundry/compare/v1.44.1...v1.44.2) (2026-10-03)
 
 
 ### Bug Fixes
 
-* **release:** budget the package without the changelog and ship recent history only ([#708](https://github.com/0xPlayerOne/code-foundry/issues/708)) ([ab365e0](https://github.com/0xPlayerOne/code-foundry/commit/ab365e0910472c3596429adc86a1c8f3e19730f9))
+* **ci:** cancel only superseded pull-request runs in managed workflows ([#710](https://github.com/AndrewM-F/code-foundry/issues/710)) ([f5fead6](https://github.com/AndrewM-F/code-foundry/commit/f5fead677c032d253f2e1a2a256da4f207ddfa2a))
 
-## [1.44.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.43.2...v1.44.0) (2026-10-03)
+## [1.44.1](https://github.com/AndrewM-F/code-foundry/compare/v1.44.0...v1.44.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* **release:** budget the package without the changelog and ship recent history only ([#708](https://github.com/AndrewM-F/code-foundry/issues/708)) ([ab365e0](https://github.com/AndrewM-F/code-foundry/commit/ab365e0910472c3596429adc86a1c8f3e19730f9))
+
+## [1.44.0](https://github.com/AndrewM-F/code-foundry/compare/v1.43.2...v1.44.0) (2026-10-03)
 
 
 ### Features
 
-* **pre-commit:** make the commit gate change-aware ([#702](https://github.com/0xPlayerOne/code-foundry/issues/702)) ([f5bca91](https://github.com/0xPlayerOne/code-foundry/commit/f5bca91c177b30b99f5d62287255d191617b4788))
+* **pre-commit:** make the commit gate change-aware ([#702](https://github.com/AndrewM-F/code-foundry/issues/702)) ([f5bca91](https://github.com/AndrewM-F/code-foundry/commit/f5bca91c177b30b99f5d62287255d191617b4788))
 
-## [1.43.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.43.1...v1.43.2) (2026-10-03)
-
-
-### Bug Fixes
-
-* require candidate asset qualification before stable promotion ([#705](https://github.com/0xPlayerOne/code-foundry/issues/705)) ([f42e4f5](https://github.com/0xPlayerOne/code-foundry/commit/f42e4f5fb063ea22fa25791a13c75c90d41bf17a))
-
-## [1.43.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.43.0...v1.43.1) (2026-10-03)
+## [1.43.2](https://github.com/AndrewM-F/code-foundry/compare/v1.43.1...v1.43.2) (2026-10-03)
 
 
 ### Bug Fixes
 
-* **release:** make batched publication and stable promotion reliable ([#703](https://github.com/0xPlayerOne/code-foundry/issues/703)) ([271731d](https://github.com/0xPlayerOne/code-foundry/commit/271731d8fac3bff42a99b3d5f4a774eccc0a7788))
+* require candidate asset qualification before stable promotion ([#705](https://github.com/AndrewM-F/code-foundry/issues/705)) ([f42e4f5](https://github.com/AndrewM-F/code-foundry/commit/f42e4f5fb063ea22fa25791a13c75c90d41bf17a))
 
-## [1.43.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.42.0...v1.43.0) (2026-10-03)
+## [1.43.1](https://github.com/AndrewM-F/code-foundry/compare/v1.43.0...v1.43.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* **release:** make batched publication and stable promotion reliable ([#703](https://github.com/AndrewM-F/code-foundry/issues/703)) ([271731d](https://github.com/AndrewM-F/code-foundry/commit/271731d8fac3bff42a99b3d5f4a774eccc0a7788))
+
+## [1.43.0](https://github.com/AndrewM-F/code-foundry/compare/v1.42.0...v1.43.0) (2026-10-03)
 
 
 ### Features
 
-* release-batching ([#700](https://github.com/0xPlayerOne/code-foundry/issues/700)) ([3dd5c5f](https://github.com/0xPlayerOne/code-foundry/commit/3dd5c5fd50883608baa3e2f9daef6b8aa83f269f))
+* release-batching ([#700](https://github.com/AndrewM-F/code-foundry/issues/700)) ([3dd5c5f](https://github.com/AndrewM-F/code-foundry/commit/3dd5c5fd50883608baa3e2f9daef6b8aa83f269f))
 
-## [1.42.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.41.0...v1.42.0) (2026-10-02)
-
-
-### Features
-
-* **validation:** shard the managed E2E lane via e2e_shards ([#697](https://github.com/0xPlayerOne/code-foundry/issues/697)) ([edb20b4](https://github.com/0xPlayerOne/code-foundry/commit/edb20b4e32e2055bf22e6f6f94b51f234a24687d))
-
-## [1.41.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.40.0...v1.41.0) (2026-10-02)
+## [1.42.0](https://github.com/AndrewM-F/code-foundry/compare/v1.41.0...v1.42.0) (2026-10-02)
 
 
 ### Features
 
-* **validation:** skip default-branch CodeQL on release-please merges ([#694](https://github.com/0xPlayerOne/code-foundry/issues/694)) ([25fc22e](https://github.com/0xPlayerOne/code-foundry/commit/25fc22e6d4b76f0b7e06601f6dc420085949f127))
+* **validation:** shard the managed E2E lane via e2e_shards ([#697](https://github.com/AndrewM-F/code-foundry/issues/697)) ([edb20b4](https://github.com/AndrewM-F/code-foundry/commit/edb20b4e32e2055bf22e6f6f94b51f234a24687d))
 
-
-### Bug Fixes
-
-* give the release artifact budgets several releases of headroom ([#696](https://github.com/0xPlayerOne/code-foundry/issues/696)) ([a504607](https://github.com/0xPlayerOne/code-foundry/commit/a504607e16f097a5075191fd24cb26953b06a340))
-
-## [1.40.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.39.3...v1.40.0) (2026-10-02)
+## [1.41.0](https://github.com/AndrewM-F/code-foundry/compare/v1.40.0...v1.41.0) (2026-10-02)
 
 
 ### Features
 
-* **sync:** add dependency_updater setting to gate Dependabot and scaffold Renovate ([#692](https://github.com/0xPlayerOne/code-foundry/issues/692)) ([15805de](https://github.com/0xPlayerOne/code-foundry/commit/15805dee09a93ca168bbc00dbc3c3af36a40e7bf))
-
-## [1.39.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.39.2...v1.39.3) (2026-10-01)
+* **validation:** skip default-branch CodeQL on release-please merges ([#694](https://github.com/AndrewM-F/code-foundry/issues/694)) ([25fc22e](https://github.com/AndrewM-F/code-foundry/commit/25fc22e6d4b76f0b7e06601f6dc420085949f127))
 
 
 ### Bug Fixes
 
-* **hooks:** run the gate from a local dependency, not npx ([#688](https://github.com/0xPlayerOne/code-foundry/issues/688)) ([d256b69](https://github.com/0xPlayerOne/code-foundry/commit/d256b69b8f89f0041a01c53cc51af32fe582b5dc))
+* give the release artifact budgets several releases of headroom ([#696](https://github.com/AndrewM-F/code-foundry/issues/696)) ([a504607](https://github.com/AndrewM-F/code-foundry/commit/a504607e16f097a5075191fd24cb26953b06a340))
 
-## [1.39.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.39.1...v1.39.2) (2026-10-01)
-
-
-### Bug Fixes
-
-* **hooks:** delegate the generated pre-commit hook to the runtime ([#684](https://github.com/0xPlayerOne/code-foundry/issues/684)) ([5d9a571](https://github.com/0xPlayerOne/code-foundry/commit/5d9a5714aeff0d48397e3be51b22e08395bfb5ce))
-
-## [1.39.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.39.0...v1.39.1) (2026-10-01)
-
-
-### Bug Fixes
-
-* report inactive main rulesets in github doctor ([#682](https://github.com/0xPlayerOne/code-foundry/issues/682)) ([695a0b4](https://github.com/0xPlayerOne/code-foundry/commit/695a0b437910aa8e664a481c1648dbadcc1a2de8))
-
-## [1.39.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.38.1...v1.39.0) (2026-10-01)
+## [1.40.0](https://github.com/AndrewM-F/code-foundry/compare/v1.39.3...v1.40.0) (2026-10-02)
 
 
 ### Features
 
-* **ci:** surface ungated scheduled workflows in the billing pause controls ([#681](https://github.com/0xPlayerOne/code-foundry/issues/681)) ([ef48f9a](https://github.com/0xPlayerOne/code-foundry/commit/ef48f9a25aa0b22f82b0ed8a512bc1a65d08d8e9))
+* **sync:** add dependency_updater setting to gate Dependabot and scaffold Renovate ([#692](https://github.com/AndrewM-F/code-foundry/issues/692)) ([15805de](https://github.com/AndrewM-F/code-foundry/commit/15805dee09a93ca168bbc00dbc3c3af36a40e7bf))
+
+## [1.39.3](https://github.com/AndrewM-F/code-foundry/compare/v1.39.2...v1.39.3) (2026-10-01)
+
+
+### Bug Fixes
+
+* **hooks:** run the gate from a local dependency, not npx ([#688](https://github.com/AndrewM-F/code-foundry/issues/688)) ([d256b69](https://github.com/AndrewM-F/code-foundry/commit/d256b69b8f89f0041a01c53cc51af32fe582b5dc))
+
+## [1.39.2](https://github.com/AndrewM-F/code-foundry/compare/v1.39.1...v1.39.2) (2026-10-01)
+
+
+### Bug Fixes
+
+* **hooks:** delegate the generated pre-commit hook to the runtime ([#684](https://github.com/AndrewM-F/code-foundry/issues/684)) ([5d9a571](https://github.com/AndrewM-F/code-foundry/commit/5d9a5714aeff0d48397e3be51b22e08395bfb5ce))
+
+## [1.39.1](https://github.com/AndrewM-F/code-foundry/compare/v1.39.0...v1.39.1) (2026-10-01)
+
+
+### Bug Fixes
+
+* report inactive main rulesets in github doctor ([#682](https://github.com/AndrewM-F/code-foundry/issues/682)) ([695a0b4](https://github.com/AndrewM-F/code-foundry/commit/695a0b437910aa8e664a481c1648dbadcc1a2de8))
+
+## [1.39.0](https://github.com/AndrewM-F/code-foundry/compare/v1.38.1...v1.39.0) (2026-10-01)
+
+
+### Features
+
+* **ci:** surface ungated scheduled workflows in the billing pause controls ([#681](https://github.com/AndrewM-F/code-foundry/issues/681)) ([ef48f9a](https://github.com/AndrewM-F/code-foundry/commit/ef48f9a25aa0b22f82b0ed8a512bc1a65d08d8e9))
 
 
 ### Maintenance
 
-* register the adea-ai ui and themes consumers in the fleet manifest ([#680](https://github.com/0xPlayerOne/code-foundry/issues/680)) ([f50e6c6](https://github.com/0xPlayerOne/code-foundry/commit/f50e6c6a4ef4b7f0396cdce21f53070fec818c50))
+* register the adea-ai ui and themes consumers in the fleet manifest ([#680](https://github.com/AndrewM-F/code-foundry/issues/680)) ([f50e6c6](https://github.com/AndrewM-F/code-foundry/commit/f50e6c6a4ef4b7f0396cdce21f53070fec818c50))
 
-## [1.38.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.38.0...v1.38.1) (2026-09-30)
+## [1.38.1](https://github.com/AndrewM-F/code-foundry/compare/v1.38.0...v1.38.1) (2026-09-30)
 
 
 ### Bug Fixes
 
-* normalize blank runs when stripping legacy managed markers ([#678](https://github.com/0xPlayerOne/code-foundry/issues/678)) ([acd5afc](https://github.com/0xPlayerOne/code-foundry/commit/acd5afce12b3de3b3574259639e89067e1ab3cb0))
+* normalize blank runs when stripping legacy managed markers ([#678](https://github.com/AndrewM-F/code-foundry/issues/678)) ([acd5afc](https://github.com/AndrewM-F/code-foundry/commit/acd5afce12b3de3b3574259639e89067e1ab3cb0))
 
-## [1.38.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.37.3...v1.38.0) (2026-09-30)
+## [1.38.0](https://github.com/AndrewM-F/code-foundry/compare/v1.37.3...v1.38.0) (2026-09-30)
 
 
 ### Features
 
-* fold the Turbo impact check into the delivery candidate job ([#676](https://github.com/0xPlayerOne/code-foundry/issues/676)) ([fd99d29](https://github.com/0xPlayerOne/code-foundry/commit/fd99d29ae7e10ef9346b8059dcad0ed4df6df109))
+* fold the Turbo impact check into the delivery candidate job ([#676](https://github.com/AndrewM-F/code-foundry/issues/676)) ([fd99d29](https://github.com/AndrewM-F/code-foundry/commit/fd99d29ae7e10ef9346b8059dcad0ed4df6df109))
 
-## [1.37.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.37.2...v1.37.3) (2026-09-30)
-
-
-### Bug Fixes
-
-* perf-budget-best-of-n ([#674](https://github.com/0xPlayerOne/code-foundry/issues/674)) ([c377ede](https://github.com/0xPlayerOne/code-foundry/commit/c377ede617d89fb0606413ab7b5d478330c49e93))
-
-## [1.37.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.37.1...v1.37.2) (2026-09-30)
+## [1.37.3](https://github.com/AndrewM-F/code-foundry/compare/v1.37.2...v1.37.3) (2026-09-30)
 
 
 ### Bug Fixes
 
-* **cloudflare:** surface the cf deploy error instead of discarding it ([66de0d1](https://github.com/0xPlayerOne/code-foundry/commit/66de0d1e8238315dbd910abbd907e921cbc6764f))
+* perf-budget-best-of-n ([#674](https://github.com/AndrewM-F/code-foundry/issues/674)) ([c377ede](https://github.com/AndrewM-F/code-foundry/commit/c377ede617d89fb0606413ab7b5d478330c49e93))
 
-## [1.37.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.37.0...v1.37.1) (2026-09-30)
+## [1.37.2](https://github.com/AndrewM-F/code-foundry/compare/v1.37.1...v1.37.2) (2026-09-30)
 
 
 ### Bug Fixes
 
-* **cloudflare:** build the production Build Output before the prebuilt deploy ([5f2f83c](https://github.com/0xPlayerOne/code-foundry/commit/5f2f83c6d6135c403b520f83469c0c5ca350cdba))
+* **cloudflare:** surface the cf deploy error instead of discarding it ([66de0d1](https://github.com/AndrewM-F/code-foundry/commit/66de0d1e8238315dbd910abbd907e921cbc6764f))
 
-## [1.37.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.36.4...v1.37.0) (2026-09-30)
+## [1.37.1](https://github.com/AndrewM-F/code-foundry/compare/v1.37.0...v1.37.1) (2026-09-30)
+
+
+### Bug Fixes
+
+* **cloudflare:** build the production Build Output before the prebuilt deploy ([5f2f83c](https://github.com/AndrewM-F/code-foundry/commit/5f2f83c6d6135c403b520f83469c0c5ca350cdba))
+
+## [1.37.0](https://github.com/AndrewM-F/code-foundry/compare/v1.36.4...v1.37.0) (2026-09-30)
 
 
 ### Features
 
-* preserve repository-owned sections of managed policy documents ([#668](https://github.com/0xPlayerOne/code-foundry/issues/668)) ([26e9f4b](https://github.com/0xPlayerOne/code-foundry/commit/26e9f4bfeaca8b01087626bafbfc5090d891530f)), closes [#667](https://github.com/0xPlayerOne/code-foundry/issues/667)
+* preserve repository-owned sections of managed policy documents ([#668](https://github.com/AndrewM-F/code-foundry/issues/668)) ([26e9f4b](https://github.com/AndrewM-F/code-foundry/commit/26e9f4bfeaca8b01087626bafbfc5090d891530f)), closes [#667](https://github.com/AndrewM-F/code-foundry/issues/667)
 
-## [1.36.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.36.3...v1.36.4) (2026-09-29)
+## [1.36.4](https://github.com/AndrewM-F/code-foundry/compare/v1.36.3...v1.36.4) (2026-09-29)
 
 
 ### Bug Fixes
 
-* **cloudflare:** deploy previews from the prebuilt Preview Build Output ([#664](https://github.com/0xPlayerOne/code-foundry/issues/664)) ([34966ea](https://github.com/0xPlayerOne/code-foundry/commit/34966ea3917c145c441a460c741c125c60f84d25))
+* **cloudflare:** deploy previews from the prebuilt Preview Build Output ([#664](https://github.com/AndrewM-F/code-foundry/issues/664)) ([34966ea](https://github.com/AndrewM-F/code-foundry/commit/34966ea3917c145c441a460c741c125c60f84d25))
 
-## [1.36.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.36.2...v1.36.3) (2026-09-29)
+## [1.36.3](https://github.com/AndrewM-F/code-foundry/compare/v1.36.2...v1.36.3) (2026-09-29)
 
 
 ### Maintenance
 
-* track the JavaScript Dependabot ecosystem as bun by default ([#648](https://github.com/0xPlayerOne/code-foundry/issues/648)) ([6aa9712](https://github.com/0xPlayerOne/code-foundry/commit/6aa9712904340a7e4783f697a0e02d2be6ab1dce))
+* track the JavaScript Dependabot ecosystem as bun by default ([#648](https://github.com/AndrewM-F/code-foundry/issues/648)) ([6aa9712](https://github.com/AndrewM-F/code-foundry/commit/6aa9712904340a7e4783f697a0e02d2be6ab1dce))
 
-## [1.36.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.36.1...v1.36.2) (2026-09-29)
-
-
-### Bug Fixes
-
-* **cloudflare:** resolve cf bins by walking up node_modules/.bin ([#662](https://github.com/0xPlayerOne/code-foundry/issues/662)) ([e82bbe0](https://github.com/0xPlayerOne/code-foundry/commit/e82bbe0a1687b5cc8bf939769e15639f25199969))
-
-## [1.36.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.36.0...v1.36.1) (2026-09-29)
+## [1.36.2](https://github.com/AndrewM-F/code-foundry/compare/v1.36.1...v1.36.2) (2026-09-29)
 
 
 ### Bug Fixes
 
-* **cloudflare:** build a preview Build Output before cf previews deploy ([#660](https://github.com/0xPlayerOne/code-foundry/issues/660)) ([d897380](https://github.com/0xPlayerOne/code-foundry/commit/d897380110a692143b3bcb0915d8ce40cff4663c))
+* **cloudflare:** resolve cf bins by walking up node_modules/.bin ([#662](https://github.com/AndrewM-F/code-foundry/issues/662)) ([e82bbe0](https://github.com/AndrewM-F/code-foundry/commit/e82bbe0a1687b5cc8bf939769e15639f25199969))
 
-## [1.36.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.35.0...v1.36.0) (2026-09-29)
+## [1.36.1](https://github.com/AndrewM-F/code-foundry/compare/v1.36.0...v1.36.1) (2026-09-29)
+
+
+### Bug Fixes
+
+* **cloudflare:** build a preview Build Output before cf previews deploy ([#660](https://github.com/AndrewM-F/code-foundry/issues/660)) ([d897380](https://github.com/AndrewM-F/code-foundry/commit/d897380110a692143b3bcb0915d8ce40cff4663c))
+
+## [1.36.0](https://github.com/AndrewM-F/code-foundry/compare/v1.35.0...v1.36.0) (2026-09-29)
 
 
 ### Features
 
-* **cloudflare:** add a cf deploy mode to cloudflare-deploy.yml ([#658](https://github.com/0xPlayerOne/code-foundry/issues/658)) ([31ef8ca](https://github.com/0xPlayerOne/code-foundry/commit/31ef8ca607c189d7ca0bbe4f42de85ee27edabc9))
+* **cloudflare:** add a cf deploy mode to cloudflare-deploy.yml ([#658](https://github.com/AndrewM-F/code-foundry/issues/658)) ([31ef8ca](https://github.com/AndrewM-F/code-foundry/commit/31ef8ca607c189d7ca0bbe4f42de85ee27edabc9))
 
-## [1.35.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.34.0...v1.35.0) (2026-09-29)
+## [1.35.0](https://github.com/AndrewM-F/code-foundry/compare/v1.34.0...v1.35.0) (2026-09-29)
 
 
 ### Features
 
-* fold the Turbo impact check into the cloudflare deploy job ([#655](https://github.com/0xPlayerOne/code-foundry/issues/655)) ([b72f5f2](https://github.com/0xPlayerOne/code-foundry/commit/b72f5f26f045103755bb2795f2fc3a84e7625b3c))
-* scope CodeQL analysis to changed languages and Rust shards on pull requests ([#654](https://github.com/0xPlayerOne/code-foundry/issues/654)) ([d5ce743](https://github.com/0xPlayerOne/code-foundry/commit/d5ce74377601c2efb3be4831320cb62cdfbd999b))
-* skip the security detector entirely while OpenCode Security is disabled ([#653](https://github.com/0xPlayerOne/code-foundry/issues/653)) ([9e4271e](https://github.com/0xPlayerOne/code-foundry/commit/9e4271e597d65b4f63c571baab5507eacaab1ce5))
+* fold the Turbo impact check into the cloudflare deploy job ([#655](https://github.com/AndrewM-F/code-foundry/issues/655)) ([b72f5f2](https://github.com/AndrewM-F/code-foundry/commit/b72f5f26f045103755bb2795f2fc3a84e7625b3c))
+* scope CodeQL analysis to changed languages and Rust shards on pull requests ([#654](https://github.com/AndrewM-F/code-foundry/issues/654)) ([d5ce743](https://github.com/AndrewM-F/code-foundry/commit/d5ce74377601c2efb3be4831320cb62cdfbd999b))
+* skip the security detector entirely while OpenCode Security is disabled ([#653](https://github.com/AndrewM-F/code-foundry/issues/653)) ([9e4271e](https://github.com/AndrewM-F/code-foundry/commit/9e4271e597d65b4f63c571baab5507eacaab1ce5))
 
 
 ### Maintenance
 
-* raise the packed artifact budget to 286 kB ([#657](https://github.com/0xPlayerOne/code-foundry/issues/657)) ([4512af7](https://github.com/0xPlayerOne/code-foundry/commit/4512af75fc18a36292f495c5e7f51791ba38f3d6))
+* raise the packed artifact budget to 286 kB ([#657](https://github.com/AndrewM-F/code-foundry/issues/657)) ([4512af7](https://github.com/AndrewM-F/code-foundry/commit/4512af75fc18a36292f495c5e7f51791ba38f3d6))
 
-## [1.34.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.33.3...v1.34.0) (2026-09-29)
+## [1.34.0](https://github.com/AndrewM-F/code-foundry/compare/v1.33.3...v1.34.0) (2026-09-29)
 
 
 ### Features
 
-* billing-paused-dependabot ([#651](https://github.com/0xPlayerOne/code-foundry/issues/651)) ([eda05b5](https://github.com/0xPlayerOne/code-foundry/commit/eda05b5cfa28fc7314ec33a94e539a1660549511))
+* billing-paused-dependabot ([#651](https://github.com/AndrewM-F/code-foundry/issues/651)) ([eda05b5](https://github.com/AndrewM-F/code-foundry/commit/eda05b5cfa28fc7314ec33a94e539a1660549511))
 
-## [1.33.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.33.2...v1.33.3) (2026-09-29)
-
-
-### Bug Fixes
-
-* **ci:** launch wrangler under Node in the cloudflare deploy step ([#649](https://github.com/0xPlayerOne/code-foundry/issues/649)) ([e797934](https://github.com/0xPlayerOne/code-foundry/commit/e7979343d3ff4d1fe5dc1520568a501cce0c47f3))
-
-## [1.33.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.33.1...v1.33.2) (2026-09-26)
+## [1.33.3](https://github.com/AndrewM-F/code-foundry/compare/v1.33.2...v1.33.3) (2026-09-29)
 
 
 ### Bug Fixes
 
-* **release:** queue version PR merges on branch policy ([#646](https://github.com/0xPlayerOne/code-foundry/issues/646)) ([ca492c8](https://github.com/0xPlayerOne/code-foundry/commit/ca492c8402bfc43ef718c0a6443ee06fcb33e957))
+* **ci:** launch wrangler under Node in the cloudflare deploy step ([#649](https://github.com/AndrewM-F/code-foundry/issues/649)) ([e797934](https://github.com/AndrewM-F/code-foundry/commit/e7979343d3ff4d1fe5dc1520568a501cce0c47f3))
 
-## [1.33.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.33.0...v1.33.1) (2026-09-25)
+## [1.33.2](https://github.com/AndrewM-F/code-foundry/compare/v1.33.1...v1.33.2) (2026-09-26)
 
 
 ### Bug Fixes
 
-* **security:** stop a clean pip-audit result from failing the audit gate ([#643](https://github.com/0xPlayerOne/code-foundry/issues/643)) ([7260291](https://github.com/0xPlayerOne/code-foundry/commit/7260291fc24e851678ddbf9cc9dfcf99bea48f59))
+* **release:** queue version PR merges on branch policy ([#646](https://github.com/AndrewM-F/code-foundry/issues/646)) ([ca492c8](https://github.com/AndrewM-F/code-foundry/commit/ca492c8402bfc43ef718c0a6443ee06fcb33e957))
+
+## [1.33.1](https://github.com/AndrewM-F/code-foundry/compare/v1.33.0...v1.33.1) (2026-09-25)
+
+
+### Bug Fixes
+
+* **security:** stop a clean pip-audit result from failing the audit gate ([#643](https://github.com/AndrewM-F/code-foundry/issues/643)) ([7260291](https://github.com/AndrewM-F/code-foundry/commit/7260291fc24e851678ddbf9cc9dfcf99bea48f59))
 
 
 ### Maintenance
 
-* **perf:** recalibrate the packed artifact budget ([#645](https://github.com/0xPlayerOne/code-foundry/issues/645)) ([64b6504](https://github.com/0xPlayerOne/code-foundry/commit/64b65049ba313f01f6989bf52a83efe31d2b91dd))
+* **perf:** recalibrate the packed artifact budget ([#645](https://github.com/AndrewM-F/code-foundry/issues/645)) ([64b6504](https://github.com/AndrewM-F/code-foundry/commit/64b65049ba313f01f6989bf52a83efe31d2b91dd))
 
-## [1.33.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.32.0...v1.33.0) (2026-09-22)
-
-
-### Features
-
-* **cloudflare-deploy:** accept optional TURBO_TOKEN secret for remote-cached deploy builds ([#640](https://github.com/0xPlayerOne/code-foundry/issues/640)) ([091bfd1](https://github.com/0xPlayerOne/code-foundry/commit/091bfd12b6bbca0e9289a74827713dc50bcb4193))
-
-## [1.32.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.31.0...v1.32.0) (2026-09-21)
+## [1.33.0](https://github.com/AndrewM-F/code-foundry/compare/v1.32.0...v1.33.0) (2026-09-22)
 
 
 ### Features
 
-* forward TURBO_API to validation and cloudflare deploy builds ([#638](https://github.com/0xPlayerOne/code-foundry/issues/638)) ([55347f6](https://github.com/0xPlayerOne/code-foundry/commit/55347f6fd3bea41f11aa936650222cd73cfd8026))
+* **cloudflare-deploy:** accept optional TURBO_TOKEN secret for remote-cached deploy builds ([#640](https://github.com/AndrewM-F/code-foundry/issues/640)) ([091bfd1](https://github.com/AndrewM-F/code-foundry/commit/091bfd12b6bbca0e9289a74827713dc50bcb4193))
 
-## [1.31.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.30.2...v1.31.0) (2026-09-21)
+## [1.32.0](https://github.com/AndrewM-F/code-foundry/compare/v1.31.0...v1.32.0) (2026-09-21)
 
 
 ### Features
 
-* **cloudflare-deploy:** cache the Bun package cache across deploy jobs ([#636](https://github.com/0xPlayerOne/code-foundry/issues/636)) ([42048b8](https://github.com/0xPlayerOne/code-foundry/commit/42048b8ec7130c89d35cd93568d720098c37d773))
+* forward TURBO_API to validation and cloudflare deploy builds ([#638](https://github.com/AndrewM-F/code-foundry/issues/638)) ([55347f6](https://github.com/AndrewM-F/code-foundry/commit/55347f6fd3bea41f11aa936650222cd73cfd8026))
 
-## [1.30.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.30.1...v1.30.2) (2026-09-17)
+## [1.31.0](https://github.com/AndrewM-F/code-foundry/compare/v1.30.2...v1.31.0) (2026-09-21)
+
+
+### Features
+
+* **cloudflare-deploy:** cache the Bun package cache across deploy jobs ([#636](https://github.com/AndrewM-F/code-foundry/issues/636)) ([42048b8](https://github.com/AndrewM-F/code-foundry/commit/42048b8ec7130c89d35cd93568d720098c37d773))
+
+## [1.30.2](https://github.com/AndrewM-F/code-foundry/compare/v1.30.1...v1.30.2) (2026-09-17)
 
 
 ### Maintenance
 
-* adopt Code Foundry runtime v1.30.0 ([#634](https://github.com/0xPlayerOne/code-foundry/issues/634)) ([2d6d6c9](https://github.com/0xPlayerOne/code-foundry/commit/2d6d6c96a98603dc1394356d01802ca551482ae4))
+* adopt Code Foundry runtime v1.30.0 ([#634](https://github.com/AndrewM-F/code-foundry/issues/634)) ([2d6d6c9](https://github.com/AndrewM-F/code-foundry/commit/2d6d6c96a98603dc1394356d01802ca551482ae4))
 
-## [1.30.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.30.0...v1.30.1) (2026-09-17)
-
-
-### Maintenance
-
-* toolchain-alignment ([#630](https://github.com/0xPlayerOne/code-foundry/issues/630)) ([0d0ddbe](https://github.com/0xPlayerOne/code-foundry/commit/0d0ddbe9f6cbee65094360ff1cd4aadab845b326))
-
-## [1.30.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.29.1...v1.30.0) (2026-09-17)
-
-
-### Features
-
-* resolve lane diffs only for filtered lanes and accept injected paths ([#631](https://github.com/0xPlayerOne/code-foundry/issues/631)) ([04a0d8a](https://github.com/0xPlayerOne/code-foundry/commit/04a0d8a69b3fd3d3417eef46e22e0eb79860fb04))
-
-## [1.29.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.29.0...v1.29.1) (2026-09-17)
+## [1.30.1](https://github.com/AndrewM-F/code-foundry/compare/v1.30.0...v1.30.1) (2026-09-17)
 
 
 ### Maintenance
 
-* align oxlint and oxfmt pins with fleet standard ([#628](https://github.com/0xPlayerOne/code-foundry/issues/628)) ([32c88f1](https://github.com/0xPlayerOne/code-foundry/commit/32c88f153e06e1f1eda61b16fcb0ba50a847a99a))
+* toolchain-alignment ([#630](https://github.com/AndrewM-F/code-foundry/issues/630)) ([0d0ddbe](https://github.com/AndrewM-F/code-foundry/commit/0d0ddbe9f6cbee65094360ff1cd4aadab845b326))
 
-## [1.29.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.15...v1.29.0) (2026-09-17)
+## [1.30.0](https://github.com/AndrewM-F/code-foundry/compare/v1.29.1...v1.30.0) (2026-09-17)
 
 
 ### Features
 
-* opt-in lane path filters, sccache, and nextest for Rust CI ([#626](https://github.com/0xPlayerOne/code-foundry/issues/626)) ([691ccad](https://github.com/0xPlayerOne/code-foundry/commit/691ccad529d88cde4ddd134b30cfb86988a1cb0a))
+* resolve lane diffs only for filtered lanes and accept injected paths ([#631](https://github.com/AndrewM-F/code-foundry/issues/631)) ([04a0d8a](https://github.com/AndrewM-F/code-foundry/commit/04a0d8a69b3fd3d3417eef46e22e0eb79860fb04))
 
-## [1.28.15](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.14...v1.28.15) (2026-09-17)
-
-
-### Bug Fixes
-
-* **codeql:** analyze the pull request head commit ([#624](https://github.com/0xPlayerOne/code-foundry/issues/624)) ([ce05d1f](https://github.com/0xPlayerOne/code-foundry/commit/ce05d1f4f6c5df3a2d9134dd4657f478a265cb85))
-
-## [1.28.14](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.13...v1.28.14) (2026-09-11)
-
-
-### Bug Fixes
-
-* **sync:** accept mixed broad and scoped CodeQL Rust shards ([#621](https://github.com/0xPlayerOne/code-foundry/issues/621)) ([f13c5a7](https://github.com/0xPlayerOne/code-foundry/commit/f13c5a734a1b24ee75566bab3b778052a28ada99))
-
-## [1.28.13](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.12...v1.28.13) (2026-09-11)
-
-
-### Bug Fixes
-
-* **fleet:** accept base-config evidence for merged rollouts ([#620](https://github.com/0xPlayerOne/code-foundry/issues/620)) ([394c528](https://github.com/0xPlayerOne/code-foundry/commit/394c528a137617ce2c4464436dbc6068349a0c54))
-
-## [1.28.12](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.11...v1.28.12) (2026-09-11)
+## [1.29.1](https://github.com/AndrewM-F/code-foundry/compare/v1.29.0...v1.29.1) (2026-09-17)
 
 
 ### Maintenance
 
-* **fleet:** add explicit inventory manifest ([#618](https://github.com/0xPlayerOne/code-foundry/issues/618)) ([0771878](https://github.com/0xPlayerOne/code-foundry/commit/077187817728f3d4eb40333b6e6d07fa533a9780))
+* align oxlint and oxfmt pins with fleet standard ([#628](https://github.com/AndrewM-F/code-foundry/issues/628)) ([32c88f1](https://github.com/AndrewM-F/code-foundry/commit/32c88f153e06e1f1eda61b16fcb0ba50a847a99a))
 
-## [1.28.11](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.10...v1.28.11) (2026-09-11)
-
-
-### Bug Fixes
-
-* **fleet:** bound rendered jobs with timeouts and refresh stale runtime pins ([#616](https://github.com/0xPlayerOne/code-foundry/issues/616)) ([f8d20b4](https://github.com/0xPlayerOne/code-foundry/commit/f8d20b4ad48cddd20630ff9b7c1c21d0c5ac9520))
-
-## [1.28.10](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.9...v1.28.10) (2026-09-11)
+## [1.29.0](https://github.com/AndrewM-F/code-foundry/compare/v1.28.15...v1.29.0) (2026-09-17)
 
 
-### Bug Fixes
+### Features
 
-* **ci:** dedupe caller names and keep CodeQL Rust shards aligned ([#613](https://github.com/0xPlayerOne/code-foundry/issues/613)) ([8000e5e](https://github.com/0xPlayerOne/code-foundry/commit/8000e5e152ccc7e657933b55eb5b82a278762176))
+* opt-in lane path filters, sccache, and nextest for Rust CI ([#626](https://github.com/AndrewM-F/code-foundry/issues/626)) ([691ccad](https://github.com/AndrewM-F/code-foundry/commit/691ccad529d88cde4ddd134b30cfb86988a1cb0a))
 
-## [1.28.9](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.8...v1.28.9) (2026-09-11)
+## [1.28.15](https://github.com/AndrewM-F/code-foundry/compare/v1.28.14...v1.28.15) (2026-09-17)
 
 
 ### Bug Fixes
 
-* **sync:** render the configured Rust shards into every CodeQL lane ([#612](https://github.com/0xPlayerOne/code-foundry/issues/612)) ([4e7eb2f](https://github.com/0xPlayerOne/code-foundry/commit/4e7eb2f03ba34b4fe459e8ce302bcbf3303b26cc))
+* **codeql:** analyze the pull request head commit ([#624](https://github.com/AndrewM-F/code-foundry/issues/624)) ([ce05d1f](https://github.com/AndrewM-F/code-foundry/commit/ce05d1f4f6c5df3a2d9134dd4657f478a265cb85))
 
-## [1.28.8](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.7...v1.28.8) (2026-09-11)
-
-
-### Bug Fixes
-
-* **deploy:** send auto_inactive once when completing a deployment status ([#610](https://github.com/0xPlayerOne/code-foundry/issues/610)) ([9951887](https://github.com/0xPlayerOne/code-foundry/commit/99518875f584e08cbd2b52759f13fc6065bcd1c5))
-
-## [1.28.7](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.6...v1.28.7) (2026-09-11)
+## [1.28.14](https://github.com/AndrewM-F/code-foundry/compare/v1.28.13...v1.28.14) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **delivery:** drop impossible NUL guard that always failed the turbo impact check ([#607](https://github.com/0xPlayerOne/code-foundry/issues/607)) ([211db01](https://github.com/0xPlayerOne/code-foundry/commit/211db01cda6fc4f3f6f660b0a807c4cd921cc877))
+* **sync:** accept mixed broad and scoped CodeQL Rust shards ([#621](https://github.com/AndrewM-F/code-foundry/issues/621)) ([f13c5a7](https://github.com/AndrewM-F/code-foundry/commit/f13c5a734a1b24ee75566bab3b778052a28ada99))
 
-## [1.28.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.5...v1.28.6) (2026-09-10)
-
-
-### Bug Fixes
-
-* **sync:** preserve non-CodeQL workflow triggers ([#605](https://github.com/0xPlayerOne/code-foundry/issues/605)) ([e215207](https://github.com/0xPlayerOne/code-foundry/commit/e215207d596361f283072d4f43f8ab58676e13c8))
-
-## [1.28.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.4...v1.28.5) (2026-09-10)
+## [1.28.13](https://github.com/AndrewM-F/code-foundry/compare/v1.28.12...v1.28.13) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **fleet:** require explicit inventory manifest ([#603](https://github.com/0xPlayerOne/code-foundry/issues/603)) ([1345331](https://github.com/0xPlayerOne/code-foundry/commit/13453318ba4fb21e6df6d978f1d51119148300ba))
+* **fleet:** accept base-config evidence for merged rollouts ([#620](https://github.com/AndrewM-F/code-foundry/issues/620)) ([394c528](https://github.com/AndrewM-F/code-foundry/commit/394c528a137617ce2c4464436dbc6068349a0c54))
 
-## [1.28.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.3...v1.28.4) (2026-09-10)
-
-
-### Bug Fixes
-
-* **release:** scope reconciliation to staging topology ([bfba0c1](https://github.com/0xPlayerOne/code-foundry/commit/bfba0c147ea6281c47754938d6711d3e5e0335a2))
-
-## [1.28.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.2...v1.28.3) (2026-09-10)
+## [1.28.12](https://github.com/AndrewM-F/code-foundry/compare/v1.28.11...v1.28.12) (2026-09-11)
 
 
 ### Maintenance
 
-* **config:** pin Code Foundry runtime to v1.28.2 ([#599](https://github.com/0xPlayerOne/code-foundry/issues/599)) ([ed61358](https://github.com/0xPlayerOne/code-foundry/commit/ed6135813e12e1f5410066a92183f2f2d18dcc8c))
+* **fleet:** add explicit inventory manifest ([#618](https://github.com/AndrewM-F/code-foundry/issues/618)) ([0771878](https://github.com/AndrewM-F/code-foundry/commit/077187817728f3d4eb40333b6e6d07fa533a9780))
 
-## [1.28.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.1...v1.28.2) (2026-09-10)
-
-
-### Bug Fixes
-
-* **release:** pass one qualification report per required node ([#597](https://github.com/0xPlayerOne/code-foundry/issues/597)) ([5ceb92c](https://github.com/0xPlayerOne/code-foundry/commit/5ceb92cab3afc97145ef068e6b5e33399d99b9e5))
-
-## [1.28.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.28.0...v1.28.1) (2026-09-10)
+## [1.28.11](https://github.com/AndrewM-F/code-foundry/compare/v1.28.10...v1.28.11) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **cloudflare:** remove duplicate deployment records ([#595](https://github.com/0xPlayerOne/code-foundry/issues/595)) ([d9a2a4b](https://github.com/0xPlayerOne/code-foundry/commit/d9a2a4b0363bb9a9ded91d3368bdb7b9b580330f))
+* **fleet:** bound rendered jobs with timeouts and refresh stale runtime pins ([#616](https://github.com/AndrewM-F/code-foundry/issues/616)) ([f8d20b4](https://github.com/AndrewM-F/code-foundry/commit/f8d20b4ad48cddd20630ff9b7c1c21d0c5ac9520))
 
-## [1.28.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.27.0...v1.28.0) (2026-09-10)
-
-
-### Features
-
-* **release:** qualify only when a release or a stuck draft needs it ([#591](https://github.com/0xPlayerOne/code-foundry/issues/591)) ([4cce045](https://github.com/0xPlayerOne/code-foundry/commit/4cce045228648e6e705ad1e89c59eaf20a72a538))
-
-## [1.27.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.26.0...v1.27.0) (2026-09-10)
-
-
-### Features
-
-* **validation:** downgrade docs-only PRs to fast and gate bot pushes ([#590](https://github.com/0xPlayerOne/code-foundry/issues/590)) ([df774f5](https://github.com/0xPlayerOne/code-foundry/commit/df774f5d1e4a8a6c5f174219eb2b24ef012f6fd3))
-
-## [1.26.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.25.3...v1.26.0) (2026-09-10)
-
-
-### Features
-
-* **node:** support Node 24 and 26, drop 20 and 22 ([#589](https://github.com/0xPlayerOne/code-foundry/issues/589)) ([ee3e294](https://github.com/0xPlayerOne/code-foundry/commit/ee3e2943889ffd06a8d4cd4ccb75a3f36c46c0fd))
-
-## [1.25.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.25.2...v1.25.3) (2026-09-10)
+## [1.28.10](https://github.com/AndrewM-F/code-foundry/compare/v1.28.9...v1.28.10) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **release:** cover the attestation lag in publication retries ([#587](https://github.com/0xPlayerOne/code-foundry/issues/587)) ([7ae5e4b](https://github.com/0xPlayerOne/code-foundry/commit/7ae5e4bb95f68cbf4e2b48778776a0396c877271))
+* **ci:** dedupe caller names and keep CodeQL Rust shards aligned ([#613](https://github.com/AndrewM-F/code-foundry/issues/613)) ([8000e5e](https://github.com/AndrewM-F/code-foundry/commit/8000e5e152ccc7e657933b55eb5b82a278762176))
 
-## [1.25.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.25.1...v1.25.2) (2026-09-10)
-
-
-### Bug Fixes
-
-* **release:** retry integrity verification through the publication consistency window ([#585](https://github.com/0xPlayerOne/code-foundry/issues/585)) ([5b997dd](https://github.com/0xPlayerOne/code-foundry/commit/5b997dda7e272b59a386eeeda115e60ad284f6ce))
-
-## [1.25.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.25.0...v1.25.1) (2026-09-10)
+## [1.28.9](https://github.com/AndrewM-F/code-foundry/compare/v1.28.8...v1.28.9) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **release:** wait for the release index before verifying a published release ([#583](https://github.com/0xPlayerOne/code-foundry/issues/583)) ([7823c14](https://github.com/0xPlayerOne/code-foundry/commit/7823c1473d8c5e7c17b039dc755ff5c8d1dba39c))
+* **sync:** render the configured Rust shards into every CodeQL lane ([#612](https://github.com/AndrewM-F/code-foundry/issues/612)) ([4e7eb2f](https://github.com/AndrewM-F/code-foundry/commit/4e7eb2f03ba34b4fe459e8ce302bcbf3303b26cc))
 
-## [1.25.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.24.0...v1.25.0) (2026-09-10)
-
-
-### Features
-
-* **eval:** run the eval tier as a managed Validation / Eval lane ([#580](https://github.com/0xPlayerOne/code-foundry/issues/580)) ([9414889](https://github.com/0xPlayerOne/code-foundry/commit/94148894da9a627a6bd7c71c846848c198c1dfec))
-
-## [1.24.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.23.0...v1.24.0) (2026-09-10)
-
-
-### Features
-
-* **validation:** run a lean release lane for Release Please pull requests ([#579](https://github.com/0xPlayerOne/code-foundry/issues/579)) ([a38ca75](https://github.com/0xPlayerOne/code-foundry/commit/a38ca75c7da577af8368467b8b026d0ec563fc41))
-
-## [1.23.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.22.1...v1.23.0) (2026-09-09)
-
-
-### Features
-
-* add ci eval tier with shared report contract and budget gate ([#576](https://github.com/0xPlayerOne/code-foundry/issues/576)) ([7d881dd](https://github.com/0xPlayerOne/code-foundry/commit/7d881dd1bc6ace8e48dffff45b1a22a12bdae1c9))
-
-## [1.22.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.22.0...v1.22.1) (2026-09-09)
+## [1.28.8](https://github.com/AndrewM-F/code-foundry/compare/v1.28.7...v1.28.8) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **release:** use shell-safe recovery script ([#574](https://github.com/0xPlayerOne/code-foundry/issues/574)) ([264036f](https://github.com/0xPlayerOne/code-foundry/commit/264036f34afa4d7bc405285918395f2ce075bde3))
+* **deploy:** send auto_inactive once when completing a deployment status ([#610](https://github.com/AndrewM-F/code-foundry/issues/610)) ([9951887](https://github.com/AndrewM-F/code-foundry/commit/99518875f584e08cbd2b52759f13fc6065bcd1c5))
 
-## [1.22.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.21.3...v1.22.0) (2026-09-09)
-
-
-### Features
-
-* **workflows:** protect draft pull requests by default ([#572](https://github.com/0xPlayerOne/code-foundry/issues/572)) ([6fa4ce1](https://github.com/0xPlayerOne/code-foundry/commit/6fa4ce1b2dde5eddff361b819722912fed7a9815))
-
-## [1.21.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.21.2...v1.21.3) (2026-09-09)
+## [1.28.7](https://github.com/AndrewM-F/code-foundry/compare/v1.28.6...v1.28.7) (2026-09-11)
 
 
 ### Bug Fixes
 
-* **release:** unblock draft publication and PR deployment links ([#570](https://github.com/0xPlayerOne/code-foundry/issues/570)) ([35ab90f](https://github.com/0xPlayerOne/code-foundry/commit/35ab90f185483b0cd6a9c622b9793e46c90dd60c))
+* **delivery:** drop impossible NUL guard that always failed the turbo impact check ([#607](https://github.com/AndrewM-F/code-foundry/issues/607)) ([211db01](https://github.com/AndrewM-F/code-foundry/commit/211db01cda6fc4f3f6f660b0a807c4cd921cc877))
 
-## [1.21.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.21.1...v1.21.2) (2026-09-09)
+## [1.28.6](https://github.com/AndrewM-F/code-foundry/compare/v1.28.5...v1.28.6) (2026-09-10)
+
+
+### Bug Fixes
+
+* **sync:** preserve non-CodeQL workflow triggers ([#605](https://github.com/AndrewM-F/code-foundry/issues/605)) ([e215207](https://github.com/AndrewM-F/code-foundry/commit/e215207d596361f283072d4f43f8ab58676e13c8))
+
+## [1.28.5](https://github.com/AndrewM-F/code-foundry/compare/v1.28.4...v1.28.5) (2026-09-10)
+
+
+### Bug Fixes
+
+* **fleet:** require explicit inventory manifest ([#603](https://github.com/AndrewM-F/code-foundry/issues/603)) ([1345331](https://github.com/AndrewM-F/code-foundry/commit/13453318ba4fb21e6df6d978f1d51119148300ba))
+
+## [1.28.4](https://github.com/AndrewM-F/code-foundry/compare/v1.28.3...v1.28.4) (2026-09-10)
+
+
+### Bug Fixes
+
+* **release:** scope reconciliation to staging topology ([bfba0c1](https://github.com/AndrewM-F/code-foundry/commit/bfba0c147ea6281c47754938d6711d3e5e0335a2))
+
+## [1.28.3](https://github.com/AndrewM-F/code-foundry/compare/v1.28.2...v1.28.3) (2026-09-10)
+
+
+### Maintenance
+
+* **config:** pin Code Foundry runtime to v1.28.2 ([#599](https://github.com/AndrewM-F/code-foundry/issues/599)) ([ed61358](https://github.com/AndrewM-F/code-foundry/commit/ed6135813e12e1f5410066a92183f2f2d18dcc8c))
+
+## [1.28.2](https://github.com/AndrewM-F/code-foundry/compare/v1.28.1...v1.28.2) (2026-09-10)
+
+
+### Bug Fixes
+
+* **release:** pass one qualification report per required node ([#597](https://github.com/AndrewM-F/code-foundry/issues/597)) ([5ceb92c](https://github.com/AndrewM-F/code-foundry/commit/5ceb92cab3afc97145ef068e6b5e33399d99b9e5))
+
+## [1.28.1](https://github.com/AndrewM-F/code-foundry/compare/v1.28.0...v1.28.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* **cloudflare:** remove duplicate deployment records ([#595](https://github.com/AndrewM-F/code-foundry/issues/595)) ([d9a2a4b](https://github.com/AndrewM-F/code-foundry/commit/d9a2a4b0363bb9a9ded91d3368bdb7b9b580330f))
+
+## [1.28.0](https://github.com/AndrewM-F/code-foundry/compare/v1.27.0...v1.28.0) (2026-09-10)
+
+
+### Features
+
+* **release:** qualify only when a release or a stuck draft needs it ([#591](https://github.com/AndrewM-F/code-foundry/issues/591)) ([4cce045](https://github.com/AndrewM-F/code-foundry/commit/4cce045228648e6e705ad1e89c59eaf20a72a538))
+
+## [1.27.0](https://github.com/AndrewM-F/code-foundry/compare/v1.26.0...v1.27.0) (2026-09-10)
+
+
+### Features
+
+* **validation:** downgrade docs-only PRs to fast and gate bot pushes ([#590](https://github.com/AndrewM-F/code-foundry/issues/590)) ([df774f5](https://github.com/AndrewM-F/code-foundry/commit/df774f5d1e4a8a6c5f174219eb2b24ef012f6fd3))
+
+## [1.26.0](https://github.com/AndrewM-F/code-foundry/compare/v1.25.3...v1.26.0) (2026-09-10)
+
+
+### Features
+
+* **node:** support Node 24 and 26, drop 20 and 22 ([#589](https://github.com/AndrewM-F/code-foundry/issues/589)) ([ee3e294](https://github.com/AndrewM-F/code-foundry/commit/ee3e2943889ffd06a8d4cd4ccb75a3f36c46c0fd))
+
+## [1.25.3](https://github.com/AndrewM-F/code-foundry/compare/v1.25.2...v1.25.3) (2026-09-10)
+
+
+### Bug Fixes
+
+* **release:** cover the attestation lag in publication retries ([#587](https://github.com/AndrewM-F/code-foundry/issues/587)) ([7ae5e4b](https://github.com/AndrewM-F/code-foundry/commit/7ae5e4bb95f68cbf4e2b48778776a0396c877271))
+
+## [1.25.2](https://github.com/AndrewM-F/code-foundry/compare/v1.25.1...v1.25.2) (2026-09-10)
+
+
+### Bug Fixes
+
+* **release:** retry integrity verification through the publication consistency window ([#585](https://github.com/AndrewM-F/code-foundry/issues/585)) ([5b997dd](https://github.com/AndrewM-F/code-foundry/commit/5b997dda7e272b59a386eeeda115e60ad284f6ce))
+
+## [1.25.1](https://github.com/AndrewM-F/code-foundry/compare/v1.25.0...v1.25.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* **release:** wait for the release index before verifying a published release ([#583](https://github.com/AndrewM-F/code-foundry/issues/583)) ([7823c14](https://github.com/AndrewM-F/code-foundry/commit/7823c1473d8c5e7c17b039dc755ff5c8d1dba39c))
+
+## [1.25.0](https://github.com/AndrewM-F/code-foundry/compare/v1.24.0...v1.25.0) (2026-09-10)
+
+
+### Features
+
+* **eval:** run the eval tier as a managed Validation / Eval lane ([#580](https://github.com/AndrewM-F/code-foundry/issues/580)) ([9414889](https://github.com/AndrewM-F/code-foundry/commit/94148894da9a627a6bd7c71c846848c198c1dfec))
+
+## [1.24.0](https://github.com/AndrewM-F/code-foundry/compare/v1.23.0...v1.24.0) (2026-09-10)
+
+
+### Features
+
+* **validation:** run a lean release lane for Release Please pull requests ([#579](https://github.com/AndrewM-F/code-foundry/issues/579)) ([a38ca75](https://github.com/AndrewM-F/code-foundry/commit/a38ca75c7da577af8368467b8b026d0ec563fc41))
+
+## [1.23.0](https://github.com/AndrewM-F/code-foundry/compare/v1.22.1...v1.23.0) (2026-09-09)
+
+
+### Features
+
+* add ci eval tier with shared report contract and budget gate ([#576](https://github.com/AndrewM-F/code-foundry/issues/576)) ([7d881dd](https://github.com/AndrewM-F/code-foundry/commit/7d881dd1bc6ace8e48dffff45b1a22a12bdae1c9))
+
+## [1.22.1](https://github.com/AndrewM-F/code-foundry/compare/v1.22.0...v1.22.1) (2026-09-09)
+
+
+### Bug Fixes
+
+* **release:** use shell-safe recovery script ([#574](https://github.com/AndrewM-F/code-foundry/issues/574)) ([264036f](https://github.com/AndrewM-F/code-foundry/commit/264036f34afa4d7bc405285918395f2ce075bde3))
+
+## [1.22.0](https://github.com/AndrewM-F/code-foundry/compare/v1.21.3...v1.22.0) (2026-09-09)
+
+
+### Features
+
+* **workflows:** protect draft pull requests by default ([#572](https://github.com/AndrewM-F/code-foundry/issues/572)) ([6fa4ce1](https://github.com/AndrewM-F/code-foundry/commit/6fa4ce1b2dde5eddff361b819722912fed7a9815))
+
+## [1.21.3](https://github.com/AndrewM-F/code-foundry/compare/v1.21.2...v1.21.3) (2026-09-09)
+
+
+### Bug Fixes
+
+* **release:** unblock draft publication and PR deployment links ([#570](https://github.com/AndrewM-F/code-foundry/issues/570)) ([35ab90f](https://github.com/AndrewM-F/code-foundry/commit/35ab90f185483b0cd6a9c622b9793e46c90dd60c))
+
+## [1.21.2](https://github.com/AndrewM-F/code-foundry/compare/v1.21.1...v1.21.2) (2026-09-09)
 
 
 ### Documentation
 
-* refresh documentation for current workflows ([#568](https://github.com/0xPlayerOne/code-foundry/issues/568)) ([d0028e0](https://github.com/0xPlayerOne/code-foundry/commit/d0028e096371e1019c466f72f8744bdf832e067c))
+* refresh documentation for current workflows ([#568](https://github.com/AndrewM-F/code-foundry/issues/568)) ([d0028e0](https://github.com/AndrewM-F/code-foundry/commit/d0028e096371e1019c466f72f8744bdf832e067c))
 
-## [1.21.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.21.0...v1.21.1) (2026-09-09)
+## [1.21.1](https://github.com/AndrewM-F/code-foundry/compare/v1.21.0...v1.21.1) (2026-09-09)
 
 
 ### Bug Fixes
 
-* release-hook-and-performance-safety ([#565](https://github.com/0xPlayerOne/code-foundry/issues/565)) ([0d410c6](https://github.com/0xPlayerOne/code-foundry/commit/0d410c68abfbc0d9fdd03b7aa81676489e459c19))
-* **release:** automate self publication after CI ([91b2655](https://github.com/0xPlayerOne/code-foundry/commit/91b265585aa03e742e5bfc8a839b2794bf234491))
+* release-hook-and-performance-safety ([#565](https://github.com/AndrewM-F/code-foundry/issues/565)) ([0d410c6](https://github.com/AndrewM-F/code-foundry/commit/0d410c68abfbc0d9fdd03b7aa81676489e459c19))
+* **release:** automate self publication after CI ([91b2655](https://github.com/AndrewM-F/code-foundry/commit/91b265585aa03e742e5bfc8a839b2794bf234491))
 
 
 ### Performance
 
-* **ci:** batch native Rust test targets by category ([#564](https://github.com/0xPlayerOne/code-foundry/issues/564)) ([6def882](https://github.com/0xPlayerOne/code-foundry/commit/6def8826e90b23d021a4f4587fa843dbb37df0e7))
+* **ci:** batch native Rust test targets by category ([#564](https://github.com/AndrewM-F/code-foundry/issues/564)) ([6def882](https://github.com/AndrewM-F/code-foundry/commit/6def8826e90b23d021a4f4587fa843dbb37df0e7))
 
-## [1.21.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.20.2...v1.21.0) (2026-09-09)
-
-
-### Features
-
-* **release:** wire qualified draft staging and immutable publication ([#558](https://github.com/0xPlayerOne/code-foundry/issues/558)) ([19aea32](https://github.com/0xPlayerOne/code-foundry/commit/19aea32f50c747cdc5642d1752a9f02008c157f6))
-
-
-### Bug Fixes
-
-* **quality:** harden HTML filtering ([#562](https://github.com/0xPlayerOne/code-foundry/issues/562)) ([ea45590](https://github.com/0xPlayerOne/code-foundry/commit/ea45590db24dc05ef12db57e80c7405fa217514f))
-
-## [1.20.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.20.1...v1.20.2) (2026-09-09)
-
-
-### Bug Fixes
-
-* **ci:** retain scoped task receipts across success and failure ([#557](https://github.com/0xPlayerOne/code-foundry/issues/557)) ([ee0fe45](https://github.com/0xPlayerOne/code-foundry/commit/ee0fe45e821621e3193831d70a533077b7bcf8a9))
-
-## [1.20.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.20.0...v1.20.1) (2026-09-09)
-
-
-### Bug Fixes
-
-* **qualification:** isolate attempts and verify release handoff ([#556](https://github.com/0xPlayerOne/code-foundry/issues/556)) ([5fe7f42](https://github.com/0xPlayerOne/code-foundry/commit/5fe7f4203b8018fd3eb88bd68e2286c6feb3d3dc))
-
-## [1.20.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.19.0...v1.20.0) (2026-09-09)
+## [1.21.0](https://github.com/AndrewM-F/code-foundry/compare/v1.20.2...v1.21.0) (2026-09-09)
 
 
 ### Features
 
-* **ci:** add opt-in merge-group audit validation ([#549](https://github.com/0xPlayerOne/code-foundry/issues/549)) ([ae418a7](https://github.com/0xPlayerOne/code-foundry/commit/ae418a779ada2927bd391cc6cf54db16e342d921))
+* **release:** wire qualified draft staging and immutable publication ([#558](https://github.com/AndrewM-F/code-foundry/issues/558)) ([19aea32](https://github.com/AndrewM-F/code-foundry/commit/19aea32f50c747cdc5642d1752a9f02008c157f6))
 
-## [1.19.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.18.0...v1.19.0) (2026-09-09)
+
+### Bug Fixes
+
+* **quality:** harden HTML filtering ([#562](https://github.com/AndrewM-F/code-foundry/issues/562)) ([ea45590](https://github.com/AndrewM-F/code-foundry/commit/ea45590db24dc05ef12db57e80c7405fa217514f))
+
+## [1.20.2](https://github.com/AndrewM-F/code-foundry/compare/v1.20.1...v1.20.2) (2026-09-09)
+
+
+### Bug Fixes
+
+* **ci:** retain scoped task receipts across success and failure ([#557](https://github.com/AndrewM-F/code-foundry/issues/557)) ([ee0fe45](https://github.com/AndrewM-F/code-foundry/commit/ee0fe45e821621e3193831d70a533077b7bcf8a9))
+
+## [1.20.1](https://github.com/AndrewM-F/code-foundry/compare/v1.20.0...v1.20.1) (2026-09-09)
+
+
+### Bug Fixes
+
+* **qualification:** isolate attempts and verify release handoff ([#556](https://github.com/AndrewM-F/code-foundry/issues/556)) ([5fe7f42](https://github.com/AndrewM-F/code-foundry/commit/5fe7f4203b8018fd3eb88bd68e2286c6feb3d3dc))
+
+## [1.20.0](https://github.com/AndrewM-F/code-foundry/compare/v1.19.0...v1.20.0) (2026-09-09)
 
 
 ### Features
 
-* **fleet:** gate upgrades on verified release qualification ([#548](https://github.com/0xPlayerOne/code-foundry/issues/548)) ([3247cc6](https://github.com/0xPlayerOne/code-foundry/commit/3247cc6f2295c65c42bb43e4ec8f87a08f3dd02d))
+* **ci:** add opt-in merge-group audit validation ([#549](https://github.com/AndrewM-F/code-foundry/issues/549)) ([ae418a7](https://github.com/AndrewM-F/code-foundry/commit/ae418a779ada2927bd391cc6cf54db16e342d921))
 
-## [1.18.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.17.0...v1.18.0) (2026-09-09)
-
-
-### Features
-
-* **releases:** stage qualified assets and publish verified identical archives ([#547](https://github.com/0xPlayerOne/code-foundry/issues/547)) ([dffcb83](https://github.com/0xPlayerOne/code-foundry/commit/dffcb834c8ee8c5c2bcba606350276e6a7de58d0))
-
-## [1.17.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.16.0...v1.17.0) (2026-09-09)
+## [1.19.0](https://github.com/AndrewM-F/code-foundry/compare/v1.18.0...v1.19.0) (2026-09-09)
 
 
 ### Features
 
-* **quality:** add opt-in site, app, Worker, and package acceptance profiles ([#545](https://github.com/0xPlayerOne/code-foundry/issues/545)) ([1201793](https://github.com/0xPlayerOne/code-foundry/commit/1201793805b443c835b608609704bc43bcb035f5))
+* **fleet:** gate upgrades on verified release qualification ([#548](https://github.com/AndrewM-F/code-foundry/issues/548)) ([3247cc6](https://github.com/AndrewM-F/code-foundry/commit/3247cc6f2295c65c42bb43e4ec8f87a08f3dd02d))
 
-## [1.16.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.15.0...v1.16.0) (2026-09-09)
-
-
-### Features
-
-* **qualification:** gate releases on installed consumer compatibility ([#544](https://github.com/0xPlayerOne/code-foundry/issues/544)) ([33c759b](https://github.com/0xPlayerOne/code-foundry/commit/33c759be8c78c633f55a58dc6144986758676336))
-
-## [1.15.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.14.0...v1.15.0) (2026-09-09)
+## [1.18.0](https://github.com/AndrewM-F/code-foundry/compare/v1.17.0...v1.18.0) (2026-09-09)
 
 
 ### Features
 
-* **releases:** verify immutable releases and attest selected build artifacts ([#537](https://github.com/0xPlayerOne/code-foundry/issues/537)) ([099aa57](https://github.com/0xPlayerOne/code-foundry/commit/099aa577227ab067a9a554e4cfc286aa2f5eb38e))
+* **releases:** stage qualified assets and publish verified identical archives ([#547](https://github.com/AndrewM-F/code-foundry/issues/547)) ([dffcb83](https://github.com/AndrewM-F/code-foundry/commit/dffcb834c8ee8c5c2bcba606350276e6a7de58d0))
 
-## [1.14.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.13.0...v1.14.0) (2026-09-09)
-
-
-### Features
-
-* **cli:** add shared validation plans and agent check evidence ([#538](https://github.com/0xPlayerOne/code-foundry/issues/538)) ([95af9ed](https://github.com/0xPlayerOne/code-foundry/commit/95af9ed42682ff3ed1dc74609ea4628d0c95a799))
-
-## [1.13.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.12.0...v1.13.0) (2026-09-09)
+## [1.17.0](https://github.com/AndrewM-F/code-foundry/compare/v1.16.0...v1.17.0) (2026-09-09)
 
 
 ### Features
 
-* **fleet:** add declared inventory and resumable canary rollouts ([#536](https://github.com/0xPlayerOne/code-foundry/issues/536)) ([6aa86d4](https://github.com/0xPlayerOne/code-foundry/commit/6aa86d4cd85cdbd4041c70d8c01d8e351e21fc0b))
+* **quality:** add opt-in site, app, Worker, and package acceptance profiles ([#545](https://github.com/AndrewM-F/code-foundry/issues/545)) ([1201793](https://github.com/AndrewM-F/code-foundry/commit/1201793805b443c835b608609704bc43bcb035f5))
 
-## [1.12.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.11.0...v1.12.0) (2026-09-09)
-
-
-### Features
-
-* **cloudflare:** verify candidates before protected version promotion ([#535](https://github.com/0xPlayerOne/code-foundry/issues/535)) ([5dd9afa](https://github.com/0xPlayerOne/code-foundry/commit/5dd9afa8418718823844875b0aedce926b887184))
-
-## [1.11.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.10.1...v1.11.0) (2026-09-09)
+## [1.16.0](https://github.com/AndrewM-F/code-foundry/compare/v1.15.0...v1.16.0) (2026-09-09)
 
 
 ### Features
 
-* **validation:** enforce required capabilities, coverage, and task evidence ([#534](https://github.com/0xPlayerOne/code-foundry/issues/534)) ([2e341d9](https://github.com/0xPlayerOne/code-foundry/commit/2e341d94381599f1d78ec1394d42883157b30ea6))
+* **qualification:** gate releases on installed consumer compatibility ([#544](https://github.com/AndrewM-F/code-foundry/issues/544)) ([33c759b](https://github.com/AndrewM-F/code-foundry/commit/33c759be8c78c633f55a58dc6144986758676336))
 
-## [1.10.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.10.0...v1.10.1) (2026-09-09)
-
-
-### Bug Fixes
-
-* **doctor:** honor shared config and correctly identify npm/Yarn lockfiles ([#533](https://github.com/0xPlayerOne/code-foundry/issues/533)) ([6464409](https://github.com/0xPlayerOne/code-foundry/commit/646440907ad3fc47f63e27b9621c8e0025459964))
-* **validation:** scan default branch with CodeQL on push ([#540](https://github.com/0xPlayerOne/code-foundry/issues/540)) ([98d8241](https://github.com/0xPlayerOne/code-foundry/commit/98d8241522c78e1b6d3f4f29a44053d33888edba))
-
-## [1.10.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.13...v1.10.0) (2026-09-08)
+## [1.15.0](https://github.com/AndrewM-F/code-foundry/compare/v1.14.0...v1.15.0) (2026-09-09)
 
 
 ### Features
 
-* **ci:** enforce draft pull request readiness ([#530](https://github.com/0xPlayerOne/code-foundry/issues/530)) ([fe62147](https://github.com/0xPlayerOne/code-foundry/commit/fe621477a46b49dee69a4c74c482e815a3e60b8d))
+* **releases:** verify immutable releases and attest selected build artifacts ([#537](https://github.com/AndrewM-F/code-foundry/issues/537)) ([099aa57](https://github.com/AndrewM-F/code-foundry/commit/099aa577227ab067a9a554e4cfc286aa2f5eb38e))
 
-## [1.9.13](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.12...v1.9.13) (2026-09-08)
-
-
-### Bug Fixes
-
-* **cloudflare:** preserve Bun package manager for OpenNext deploys ([#529](https://github.com/0xPlayerOne/code-foundry/issues/529)) ([2f1bc00](https://github.com/0xPlayerOne/code-foundry/commit/2f1bc000ea28e207e4f12cc7abb5c330cb8448b9))
-
-## [1.9.12](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.11...v1.9.12) (2026-09-08)
-
-
-### Bug Fixes
-
-* **validation:** run available suites for no-CodeQL releases ([805c470](https://github.com/0xPlayerOne/code-foundry/commit/805c470f188ccfe7410bc9b2f02022d50c68f321))
-
-## [1.9.11](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.10...v1.9.11) (2026-09-08)
-
-
-### Bug Fixes
-
-* **doctor:** support nested Rust crates ([#525](https://github.com/0xPlayerOne/code-foundry/issues/525)) ([0ffc87d](https://github.com/0xPlayerOne/code-foundry/commit/0ffc87d71c5e8069a26814dea2250e93a3e87416))
-
-## [1.9.10](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.9...v1.9.10) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** keep OpenCode detection visible ([#523](https://github.com/0xPlayerOne/code-foundry/issues/523)) ([5499db8](https://github.com/0xPlayerOne/code-foundry/commit/5499db818f0b06e98f07173893104c655b2b63c1))
-
-## [1.9.9](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.8...v1.9.9) (2026-09-08)
-
-
-### Bug Fixes
-
-* **sync:** standardize existing release PR titles ([#521](https://github.com/0xPlayerOne/code-foundry/issues/521)) ([76b1c94](https://github.com/0xPlayerOne/code-foundry/commit/76b1c94ee2ddde2a438bbb0cd11515eacbcbdb8d))
-
-## [1.9.8](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.7...v1.9.8) (2026-09-08)
-
-
-### Bug Fixes
-
-* **docs:** describe full release validation ([#519](https://github.com/0xPlayerOne/code-foundry/issues/519)) ([1c51368](https://github.com/0xPlayerOne/code-foundry/commit/1c513681dcd34d30d16d89505a159061d66e8fdb))
-
-## [1.9.7](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.6...v1.9.7) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** run full validation on release PRs ([#517](https://github.com/0xPlayerOne/code-foundry/issues/517)) ([01a3555](https://github.com/0xPlayerOne/code-foundry/commit/01a355505d6372dc26e2d917e0e6d566ab25546c))
-* **sync:** remove direct topology staging residue ([#515](https://github.com/0xPlayerOne/code-foundry/issues/515)) ([2765e6a](https://github.com/0xPlayerOne/code-foundry/commit/2765e6a6f66137d37f3d65f8eb8311ba28eeafd7))
-
-## [1.9.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.5...v1.9.6) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** finalize direct fleet policy ([#513](https://github.com/0xPlayerOne/code-foundry/issues/513)) ([98c59a7](https://github.com/0xPlayerOne/code-foundry/commit/98c59a713f31d0bc5e3b9893434d89dba3257550))
-
-## [1.9.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.4...v1.9.5) (2026-09-08)
-
-
-### Bug Fixes
-
-* **docs:** document draft validation behavior ([#511](https://github.com/0xPlayerOne/code-foundry/issues/511)) ([cfa3d9b](https://github.com/0xPlayerOne/code-foundry/commit/cfa3d9b9e7a6c9a4fe5af0dd858552c412d2d542))
-
-## [1.9.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.3...v1.9.4) (2026-09-08)
-
-
-### Bug Fixes
-
-* **doctor:** accept no-CodeQL validation callers ([#509](https://github.com/0xPlayerOne/code-foundry/issues/509)) ([f447de8](https://github.com/0xPlayerOne/code-foundry/commit/f447de81b8f2e7e59ab6fdbd6b1939635286e2a9))
-
-## [1.9.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.2...v1.9.3) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** suppress unavailable and draft checks ([#507](https://github.com/0xPlayerOne/code-foundry/issues/507)) ([e0b313a](https://github.com/0xPlayerOne/code-foundry/commit/e0b313ad1e4601ccd14066fb97a4f547400a6eaa))
-
-## [1.9.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.1...v1.9.2) (2026-09-08)
-
-
-### Bug Fixes
-
-* **sync:** refresh config-aware policies ([#505](https://github.com/0xPlayerOne/code-foundry/issues/505)) ([466150d](https://github.com/0xPlayerOne/code-foundry/commit/466150dcf263187e9cb08be2a2c2fe7ff67ef060))
-
-## [1.9.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.9.0...v1.9.1) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** restore protected consumer audits ([#503](https://github.com/0xPlayerOne/code-foundry/issues/503)) ([d045cc4](https://github.com/0xPlayerOne/code-foundry/commit/d045cc4a5543d2096e4d6f33c5e74aa40604c887))
-
-## [1.9.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.8.0...v1.9.0) (2026-09-08)
+## [1.14.0](https://github.com/AndrewM-F/code-foundry/compare/v1.13.0...v1.14.0) (2026-09-09)
 
 
 ### Features
 
-* **performance:** standardize package audit contracts ([#501](https://github.com/0xPlayerOne/code-foundry/issues/501)) ([ab30081](https://github.com/0xPlayerOne/code-foundry/commit/ab3008120772922a1affd1e5648a99b97b02e455))
+* **cli:** add shared validation plans and agent check evidence ([#538](https://github.com/AndrewM-F/code-foundry/issues/538)) ([95af9ed](https://github.com/AndrewM-F/code-foundry/commit/95af9ed42682ff3ed1dc74609ea4628d0c95a799))
 
-## [1.8.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.7.0...v1.8.0) (2026-09-08)
-
-
-### Features
-
-* **performance:** enforce source budgets ([#499](https://github.com/0xPlayerOne/code-foundry/issues/499)) ([2f65ba1](https://github.com/0xPlayerOne/code-foundry/commit/2f65ba127f8fe186eda5d6bcae77150f13458428))
-
-## [1.7.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.6.1...v1.7.0) (2026-09-08)
+## [1.13.0](https://github.com/AndrewM-F/code-foundry/compare/v1.12.0...v1.13.0) (2026-09-09)
 
 
 ### Features
 
-* **release:** standardize generated PR titles ([#497](https://github.com/0xPlayerOne/code-foundry/issues/497)) ([44de0c4](https://github.com/0xPlayerOne/code-foundry/commit/44de0c4f1261a017a0395ddae268c203cccc71b4))
+* **fleet:** add declared inventory and resumable canary rollouts ([#536](https://github.com/AndrewM-F/code-foundry/issues/536)) ([6aa86d4](https://github.com/AndrewM-F/code-foundry/commit/6aa86d4cd85cdbd4041c70d8c01d8e351e21fc0b))
 
-## [1.6.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.6.0...v1.6.1) (2026-09-08)
-
-
-### Bug Fixes
-
-* **ci:** isolate default-branch security audits ([5ea0914](https://github.com/0xPlayerOne/code-foundry/commit/5ea09146af9995f16d1ab4e9a73f14a13582da36))
-
-## [1.6.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.5.4...v1.6.0) (2026-09-08)
+## [1.12.0](https://github.com/AndrewM-F/code-foundry/compare/v1.11.0...v1.12.0) (2026-09-09)
 
 
 ### Features
 
-* **ci:** add shared performance validation ([#492](https://github.com/0xPlayerOne/code-foundry/issues/492)) ([ef12990](https://github.com/0xPlayerOne/code-foundry/commit/ef1299045b6d67e447def93e2096862cde64bbc7))
+* **cloudflare:** verify candidates before protected version promotion ([#535](https://github.com/AndrewM-F/code-foundry/issues/535)) ([5dd9afa](https://github.com/AndrewM-F/code-foundry/commit/5dd9afa8418718823844875b0aedce926b887184))
 
-## [1.5.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.5.3...v1.5.4) (2026-09-08)
-
-
-### Bug Fixes
-
-* **security:** pin scheduled audit runtime ([#491](https://github.com/0xPlayerOne/code-foundry/issues/491)) ([af25ef6](https://github.com/0xPlayerOne/code-foundry/commit/af25ef6137078809f27c316bdde2a9d025ef34af))
-
-## [1.5.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.5.2...v1.5.3) (2026-09-08)
-
-
-### Bug Fixes
-
-* **security:** remove cache-capable setup from audits ([#489](https://github.com/0xPlayerOne/code-foundry/issues/489)) ([47bd1d9](https://github.com/0xPlayerOne/code-foundry/commit/47bd1d9495a02dd2abcb2fee82052136b7a3675d))
-
-## [1.5.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.5.1...v1.5.2) (2026-09-08)
-
-
-### Bug Fixes
-
-* **workflows:** disable security cache writes ([#487](https://github.com/0xPlayerOne/code-foundry/issues/487)) ([f484a9b](https://github.com/0xPlayerOne/code-foundry/commit/f484a9b014b731bc1ae48e4b69a0ac3ae6c07ef6))
-
-## [1.5.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.5.0...v1.5.1) (2026-09-08)
-
-
-### Bug Fixes
-
-* sync-caller-runtime-pin ([#484](https://github.com/0xPlayerOne/code-foundry/issues/484)) ([e1a216a](https://github.com/0xPlayerOne/code-foundry/commit/e1a216a9dcebd040ef0eacdb20791f360a921908))
-
-## [1.5.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.4.1...v1.5.0) (2026-09-07)
+## [1.11.0](https://github.com/AndrewM-F/code-foundry/compare/v1.10.1...v1.11.0) (2026-09-09)
 
 
 ### Features
 
-* **release:** squash release merges, Cloudflare deploy workflow, tooling neutrality ([6a847eb](https://github.com/0xPlayerOne/code-foundry/commit/6a847eb0a3f78dbd343b7b189f32543d621b4b8a))
+* **validation:** enforce required capabilities, coverage, and task evidence ([#534](https://github.com/AndrewM-F/code-foundry/issues/534)) ([2e341d9](https://github.com/AndrewM-F/code-foundry/commit/2e341d94381599f1d78ec1394d42883157b30ea6))
 
-## [1.4.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.4.0...v1.4.1) (2026-09-07)
+## [1.10.1](https://github.com/AndrewM-F/code-foundry/compare/v1.10.0...v1.10.1) (2026-09-09)
 
 
 ### Bug Fixes
 
-* **validation:** run CodeQL on the release tier ([e93c36c](https://github.com/0xPlayerOne/code-foundry/commit/e93c36c4be11611117a13aa88212f16b6129f464))
+* **doctor:** honor shared config and correctly identify npm/Yarn lockfiles ([#533](https://github.com/AndrewM-F/code-foundry/issues/533)) ([6464409](https://github.com/AndrewM-F/code-foundry/commit/646440907ad3fc47f63e27b9621c8e0025459964))
+* **validation:** scan default branch with CodeQL on push ([#540](https://github.com/AndrewM-F/code-foundry/issues/540)) ([98d8241](https://github.com/AndrewM-F/code-foundry/commit/98d8241522c78e1b6d3f4f29a44053d33888edba))
 
-## [1.4.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.3.2...v1.4.0) (2026-09-07)
+## [1.10.0](https://github.com/AndrewM-F/code-foundry/compare/v1.9.13...v1.10.0) (2026-09-08)
 
 
 ### Features
 
-* **sync:** oxfmt-stable config merges, gitignore preservation, and OPENCODE_SECURITY variable override ([455ac37](https://github.com/0xPlayerOne/code-foundry/commit/455ac37635d7e88a0bfe007a98ee12b56bc430dc))
+* **ci:** enforce draft pull request readiness ([#530](https://github.com/AndrewM-F/code-foundry/issues/530)) ([fe62147](https://github.com/AndrewM-F/code-foundry/commit/fe621477a46b49dee69a4c74c482e815a3e60b8d))
 
-## [1.3.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.3.1...v1.3.2) (2026-09-07)
-
-
-### Bug Fixes
-
-* preserve consumer-only Oxc config keys across syncs ([#476](https://github.com/0xPlayerOne/code-foundry/issues/476)) ([07aee3a](https://github.com/0xPlayerOne/code-foundry/commit/07aee3aed2aadeccf9740e1966941281e3f031f4))
-
-## [1.3.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.3.0...v1.3.1) (2026-09-07)
+## [1.9.13](https://github.com/AndrewM-F/code-foundry/compare/v1.9.12...v1.9.13) (2026-09-08)
 
 
 ### Bug Fixes
 
-* restore job-level OpenCode scanner call; preserve consumer oxlint ignores on sync ([#473](https://github.com/0xPlayerOne/code-foundry/issues/473)) ([171ac3d](https://github.com/0xPlayerOne/code-foundry/commit/171ac3dc57368a6ad1e21d8b439a34cbbe2eca58))
+* **cloudflare:** preserve Bun package manager for OpenNext deploys ([#529](https://github.com/AndrewM-F/code-foundry/issues/529)) ([2f1bc00](https://github.com/AndrewM-F/code-foundry/commit/2f1bc000ea28e207e4f12cc7abb5c330cb8448b9))
 
-## [1.3.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.2.1...v1.3.0) (2026-09-07)
+## [1.9.12](https://github.com/AndrewM-F/code-foundry/compare/v1.9.11...v1.9.12) (2026-09-08)
+
+
+### Bug Fixes
+
+* **validation:** run available suites for no-CodeQL releases ([805c470](https://github.com/AndrewM-F/code-foundry/commit/805c470f188ccfe7410bc9b2f02022d50c68f321))
+
+## [1.9.11](https://github.com/AndrewM-F/code-foundry/compare/v1.9.10...v1.9.11) (2026-09-08)
+
+
+### Bug Fixes
+
+* **doctor:** support nested Rust crates ([#525](https://github.com/AndrewM-F/code-foundry/issues/525)) ([0ffc87d](https://github.com/AndrewM-F/code-foundry/commit/0ffc87d71c5e8069a26814dea2250e93a3e87416))
+
+## [1.9.10](https://github.com/AndrewM-F/code-foundry/compare/v1.9.9...v1.9.10) (2026-09-08)
+
+
+### Bug Fixes
+
+* **ci:** keep OpenCode detection visible ([#523](https://github.com/AndrewM-F/code-foundry/issues/523)) ([5499db8](https://github.com/AndrewM-F/code-foundry/commit/5499db818f0b06e98f07173893104c655b2b63c1))
+
+## [1.9.9](https://github.com/AndrewM-F/code-foundry/compare/v1.9.8...v1.9.9) (2026-09-08)
+
+
+### Bug Fixes
+
+* **sync:** standardize existing release PR titles ([#521](https://github.com/AndrewM-F/code-foundry/issues/521)) ([76b1c94](https://github.com/AndrewM-F/code-foundry/commit/76b1c94ee2ddde2a438bbb0cd11515eacbcbdb8d))
+
+## [1.9.8](https://github.com/AndrewM-F/code-foundry/compare/v1.9.7...v1.9.8) (2026-09-08)
+
+
+### Bug Fixes
+
+* **docs:** describe full release validation ([#519](https://github.com/AndrewM-F/code-foundry/issues/519)) ([1c51368](https://github.com/AndrewM-F/code-foundry/commit/1c513681dcd34d30d16d89505a159061d66e8fdb))
+
+## [1.9.7](https://github.com/AndrewM-F/code-foundry/compare/v1.9.6...v1.9.7) (2026-09-08)
+
+
+### Bug Fixes
+
+* **ci:** run full validation on release PRs ([#517](https://github.com/AndrewM-F/code-foundry/issues/517)) ([01a3555](https://github.com/AndrewM-F/code-foundry/commit/01a355505d6372dc26e2d917e0e6d566ab25546c))
+* **sync:** remove direct topology staging residue ([#515](https://github.com/AndrewM-F/code-foundry/issues/515)) ([2765e6a](https://github.com/AndrewM-F/code-foundry/commit/2765e6a6f66137d37f3d65f8eb8311ba28eeafd7))
+
+## [1.9.6](https://github.com/AndrewM-F/code-foundry/compare/v1.9.5...v1.9.6) (2026-09-08)
+
+
+### Bug Fixes
+
+* **ci:** finalize direct fleet policy ([#513](https://github.com/AndrewM-F/code-foundry/issues/513)) ([98c59a7](https://github.com/AndrewM-F/code-foundry/commit/98c59a713f31d0bc5e3b9893434d89dba3257550))
+
+## [1.9.5](https://github.com/AndrewM-F/code-foundry/compare/v1.9.4...v1.9.5) (2026-09-08)
+
+
+### Bug Fixes
+
+* **docs:** document draft validation behavior ([#511](https://github.com/AndrewM-F/code-foundry/issues/511)) ([cfa3d9b](https://github.com/AndrewM-F/code-foundry/commit/cfa3d9b9e7a6c9a4fe5af0dd858552c412d2d542))
+
+## [1.9.4](https://github.com/AndrewM-F/code-foundry/compare/v1.9.3...v1.9.4) (2026-09-08)
+
+
+### Bug Fixes
+
+* **doctor:** accept no-CodeQL validation callers ([#509](https://github.com/AndrewM-F/code-foundry/issues/509)) ([f447de8](https://github.com/AndrewM-F/code-foundry/commit/f447de81b8f2e7e59ab6fdbd6b1939635286e2a9))
+
+## [1.9.3](https://github.com/AndrewM-F/code-foundry/compare/v1.9.2...v1.9.3) (2026-09-08)
+
+
+### Bug Fixes
+
+* **ci:** suppress unavailable and draft checks ([#507](https://github.com/AndrewM-F/code-foundry/issues/507)) ([e0b313a](https://github.com/AndrewM-F/code-foundry/commit/e0b313ad1e4601ccd14066fb97a4f547400a6eaa))
+
+## [1.9.2](https://github.com/AndrewM-F/code-foundry/compare/v1.9.1...v1.9.2) (2026-09-08)
+
+
+### Bug Fixes
+
+* **sync:** refresh config-aware policies ([#505](https://github.com/AndrewM-F/code-foundry/issues/505)) ([466150d](https://github.com/AndrewM-F/code-foundry/commit/466150dcf263187e9cb08be2a2c2fe7ff67ef060))
+
+## [1.9.1](https://github.com/AndrewM-F/code-foundry/compare/v1.9.0...v1.9.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* **ci:** restore protected consumer audits ([#503](https://github.com/AndrewM-F/code-foundry/issues/503)) ([d045cc4](https://github.com/AndrewM-F/code-foundry/commit/d045cc4a5543d2096e4d6f33c5e74aa40604c887))
+
+## [1.9.0](https://github.com/AndrewM-F/code-foundry/compare/v1.8.0...v1.9.0) (2026-09-08)
 
 
 ### Features
 
-* migrate the JavaScript toolchain from ESLint/Prettier to oxlint/oxfmt ([#471](https://github.com/0xPlayerOne/code-foundry/issues/471)) ([8ed872a](https://github.com/0xPlayerOne/code-foundry/commit/8ed872a2c61c6bbac111da645760671c49333dbd))
+* **performance:** standardize package audit contracts ([#501](https://github.com/AndrewM-F/code-foundry/issues/501)) ([ab30081](https://github.com/AndrewM-F/code-foundry/commit/ab3008120772922a1affd1e5648a99b97b02e455))
 
-## [1.2.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.2.0...v1.2.1) (2026-09-06)
-
-
-### Bug Fixes
-
-* restore pre-matrix CodeQL SARIF category strings ([#468](https://github.com/0xPlayerOne/code-foundry/issues/468)) ([8c51892](https://github.com/0xPlayerOne/code-foundry/commit/8c518921bf3632ba5b8ee4ca757efe3bc302739a))
-
-## [1.2.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.1.1...v1.2.0) (2026-09-06)
+## [1.8.0](https://github.com/AndrewM-F/code-foundry/compare/v1.7.0...v1.8.0) (2026-09-08)
 
 
 ### Features
 
-* eliminate skipped checks with unified matrices and an in-gate release check ([#465](https://github.com/0xPlayerOne/code-foundry/issues/465)) ([55c3dca](https://github.com/0xPlayerOne/code-foundry/commit/55c3dca7a7d1460830464ec61f9b083d1350e3dd))
+* **performance:** enforce source budgets ([#499](https://github.com/AndrewM-F/code-foundry/issues/499)) ([2f65ba1](https://github.com/AndrewM-F/code-foundry/commit/2f65ba127f8fe186eda5d6bcae77150f13458428))
 
-## [1.1.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.1.0...v1.1.1) (2026-09-06)
-
-
-### Bug Fixes
-
-* keep a static check name for the Rust CodeQL job ([#462](https://github.com/0xPlayerOne/code-foundry/issues/462)) ([c8c4a36](https://github.com/0xPlayerOne/code-foundry/commit/c8c4a364a7f77e404159fbe7c08ee695f78c8b61))
-
-## [1.1.0](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.6...v1.1.0) (2026-09-06)
+## [1.7.0](https://github.com/AndrewM-F/code-foundry/compare/v1.6.1...v1.7.0) (2026-09-08)
 
 
 ### Features
 
-* scope per-language checks to detected languages via matrix ([#459](https://github.com/0xPlayerOne/code-foundry/issues/459)) ([71f8985](https://github.com/0xPlayerOne/code-foundry/commit/71f8985b9732d39b7b68df40a4c8cbe5a90175fe))
+* **release:** standardize generated PR titles ([#497](https://github.com/AndrewM-F/code-foundry/issues/497)) ([44de0c4](https://github.com/AndrewM-F/code-foundry/commit/44de0c4f1261a017a0395ddae268c203cccc71b4))
 
-## [1.0.6](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.5...v1.0.6) (2026-09-06)
-
-
-### Bug Fixes
-
-* scope dependabot ecosystems to configured languages ([#457](https://github.com/0xPlayerOne/code-foundry/issues/457)) ([2bb9121](https://github.com/0xPlayerOne/code-foundry/commit/2bb91215de662dfa7a38d0c13cc7af1b5b07d798))
-
-## [1.0.5](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.4...v1.0.5) (2026-09-06)
+## [1.6.1](https://github.com/AndrewM-F/code-foundry/compare/v1.6.0...v1.6.1) (2026-09-08)
 
 
 ### Bug Fixes
 
-* default runtime-ref inputs to the current runtime release ([#454](https://github.com/0xPlayerOne/code-foundry/issues/454)) ([6d77025](https://github.com/0xPlayerOne/code-foundry/commit/6d77025511ca641e98a17c4eed63a24285a48169))
+* **ci:** isolate default-branch security audits ([5ea0914](https://github.com/AndrewM-F/code-foundry/commit/5ea09146af9995f16d1ab4e9a73f14a13582da36))
 
-## [1.0.4](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.3...v1.0.4) (2026-09-06)
-
-
-### Bug Fixes
-
-* **security:** only save caches on push in security workflow ([fff3e25](https://github.com/0xPlayerOne/code-foundry/commit/fff3e251f13e2f3954a20be8da30d4f274f36eba))
-
-## [1.0.3](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.2...v1.0.3) (2026-09-06)
+## [1.6.0](https://github.com/AndrewM-F/code-foundry/compare/v1.5.4...v1.6.0) (2026-09-08)
 
 
-### Bug Fixes
+### Features
 
-* **security:** save caches on push events only ([3180b07](https://github.com/0xPlayerOne/code-foundry/commit/3180b07a669b7caa5728be6a07143d60a0c7f6af))
+* **ci:** add shared performance validation ([#492](https://github.com/AndrewM-F/code-foundry/issues/492)) ([ef12990](https://github.com/AndrewM-F/code-foundry/commit/ef1299045b6d67e447def93e2096862cde64bbc7))
 
-## [1.0.2](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.1...v1.0.2) (2026-09-05)
+## [1.5.4](https://github.com/AndrewM-F/code-foundry/compare/v1.5.3...v1.5.4) (2026-09-08)
 
 
 ### Bug Fixes
 
-* **release:** provision bun and corepack before publish install ([32f9b15](https://github.com/0xPlayerOne/code-foundry/commit/32f9b153cdc96cf3c38b379eada41853116e9200))
+* **security:** pin scheduled audit runtime ([#491](https://github.com/AndrewM-F/code-foundry/issues/491)) ([af25ef6](https://github.com/AndrewM-F/code-foundry/commit/af25ef6137078809f27c316bdde2a9d025ef34af))
 
-## [1.0.1](https://github.com/0xPlayerOne/code-foundry/compare/v1.0.0...v1.0.1) (2026-09-05)
+## [1.5.3](https://github.com/AndrewM-F/code-foundry/compare/v1.5.2...v1.5.3) (2026-09-08)
 
 
 ### Bug Fixes
 
-* **release:** install dependencies before npm publish ([8e03535](https://github.com/0xPlayerOne/code-foundry/commit/8e0353549c42b982e84c28db94351d752a28d60e))
+* **security:** remove cache-capable setup from audits ([#489](https://github.com/AndrewM-F/code-foundry/issues/489)) ([47bd1d9](https://github.com/AndrewM-F/code-foundry/commit/47bd1d9495a02dd2abcb2fee82052136b7a3675d))
 
-## [1.0.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.40.3...v1.0.0) (2026-09-05)
+## [1.5.2](https://github.com/AndrewM-F/code-foundry/compare/v1.5.1...v1.5.2) (2026-09-08)
+
+
+### Bug Fixes
+
+* **workflows:** disable security cache writes ([#487](https://github.com/AndrewM-F/code-foundry/issues/487)) ([f484a9b](https://github.com/AndrewM-F/code-foundry/commit/f484a9b014b731bc1ae48e4b69a0ac3ae6c07ef6))
+
+## [1.5.1](https://github.com/AndrewM-F/code-foundry/compare/v1.5.0...v1.5.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* sync-caller-runtime-pin ([#484](https://github.com/AndrewM-F/code-foundry/issues/484)) ([e1a216a](https://github.com/AndrewM-F/code-foundry/commit/e1a216a9dcebd040ef0eacdb20791f360a921908))
+
+## [1.5.0](https://github.com/AndrewM-F/code-foundry/compare/v1.4.1...v1.5.0) (2026-09-07)
+
+
+### Features
+
+* **release:** squash release merges, Cloudflare deploy workflow, tooling neutrality ([6a847eb](https://github.com/AndrewM-F/code-foundry/commit/6a847eb0a3f78dbd343b7b189f32543d621b4b8a))
+
+## [1.4.1](https://github.com/AndrewM-F/code-foundry/compare/v1.4.0...v1.4.1) (2026-09-07)
+
+
+### Bug Fixes
+
+* **validation:** run CodeQL on the release tier ([e93c36c](https://github.com/AndrewM-F/code-foundry/commit/e93c36c4be11611117a13aa88212f16b6129f464))
+
+## [1.4.0](https://github.com/AndrewM-F/code-foundry/compare/v1.3.2...v1.4.0) (2026-09-07)
+
+
+### Features
+
+* **sync:** oxfmt-stable config merges, gitignore preservation, and OPENCODE_SECURITY variable override ([455ac37](https://github.com/AndrewM-F/code-foundry/commit/455ac37635d7e88a0bfe007a98ee12b56bc430dc))
+
+## [1.3.2](https://github.com/AndrewM-F/code-foundry/compare/v1.3.1...v1.3.2) (2026-09-07)
+
+
+### Bug Fixes
+
+* preserve consumer-only Oxc config keys across syncs ([#476](https://github.com/AndrewM-F/code-foundry/issues/476)) ([07aee3a](https://github.com/AndrewM-F/code-foundry/commit/07aee3aed2aadeccf9740e1966941281e3f031f4))
+
+## [1.3.1](https://github.com/AndrewM-F/code-foundry/compare/v1.3.0...v1.3.1) (2026-09-07)
+
+
+### Bug Fixes
+
+* restore job-level OpenCode scanner call; preserve consumer oxlint ignores on sync ([#473](https://github.com/AndrewM-F/code-foundry/issues/473)) ([171ac3d](https://github.com/AndrewM-F/code-foundry/commit/171ac3dc57368a6ad1e21d8b439a34cbbe2eca58))
+
+## [1.3.0](https://github.com/AndrewM-F/code-foundry/compare/v1.2.1...v1.3.0) (2026-09-07)
+
+
+### Features
+
+* migrate the JavaScript toolchain from ESLint/Prettier to oxlint/oxfmt ([#471](https://github.com/AndrewM-F/code-foundry/issues/471)) ([8ed872a](https://github.com/AndrewM-F/code-foundry/commit/8ed872a2c61c6bbac111da645760671c49333dbd))
+
+## [1.2.1](https://github.com/AndrewM-F/code-foundry/compare/v1.2.0...v1.2.1) (2026-09-06)
+
+
+### Bug Fixes
+
+* restore pre-matrix CodeQL SARIF category strings ([#468](https://github.com/AndrewM-F/code-foundry/issues/468)) ([8c51892](https://github.com/AndrewM-F/code-foundry/commit/8c518921bf3632ba5b8ee4ca757efe3bc302739a))
+
+## [1.2.0](https://github.com/AndrewM-F/code-foundry/compare/v1.1.1...v1.2.0) (2026-09-06)
+
+
+### Features
+
+* eliminate skipped checks with unified matrices and an in-gate release check ([#465](https://github.com/AndrewM-F/code-foundry/issues/465)) ([55c3dca](https://github.com/AndrewM-F/code-foundry/commit/55c3dca7a7d1460830464ec61f9b083d1350e3dd))
+
+## [1.1.1](https://github.com/AndrewM-F/code-foundry/compare/v1.1.0...v1.1.1) (2026-09-06)
+
+
+### Bug Fixes
+
+* keep a static check name for the Rust CodeQL job ([#462](https://github.com/AndrewM-F/code-foundry/issues/462)) ([c8c4a36](https://github.com/AndrewM-F/code-foundry/commit/c8c4a364a7f77e404159fbe7c08ee695f78c8b61))
+
+## [1.1.0](https://github.com/AndrewM-F/code-foundry/compare/v1.0.6...v1.1.0) (2026-09-06)
+
+
+### Features
+
+* scope per-language checks to detected languages via matrix ([#459](https://github.com/AndrewM-F/code-foundry/issues/459)) ([71f8985](https://github.com/AndrewM-F/code-foundry/commit/71f8985b9732d39b7b68df40a4c8cbe5a90175fe))
+
+## [1.0.6](https://github.com/AndrewM-F/code-foundry/compare/v1.0.5...v1.0.6) (2026-09-06)
+
+
+### Bug Fixes
+
+* scope dependabot ecosystems to configured languages ([#457](https://github.com/AndrewM-F/code-foundry/issues/457)) ([2bb9121](https://github.com/AndrewM-F/code-foundry/commit/2bb91215de662dfa7a38d0c13cc7af1b5b07d798))
+
+## [1.0.5](https://github.com/AndrewM-F/code-foundry/compare/v1.0.4...v1.0.5) (2026-09-06)
+
+
+### Bug Fixes
+
+* default runtime-ref inputs to the current runtime release ([#454](https://github.com/AndrewM-F/code-foundry/issues/454)) ([6d77025](https://github.com/AndrewM-F/code-foundry/commit/6d77025511ca641e98a17c4eed63a24285a48169))
+
+## [1.0.4](https://github.com/AndrewM-F/code-foundry/compare/v1.0.3...v1.0.4) (2026-09-06)
+
+
+### Bug Fixes
+
+* **security:** only save caches on push in security workflow ([fff3e25](https://github.com/AndrewM-F/code-foundry/commit/fff3e251f13e2f3954a20be8da30d4f274f36eba))
+
+## [1.0.3](https://github.com/AndrewM-F/code-foundry/compare/v1.0.2...v1.0.3) (2026-09-06)
+
+
+### Bug Fixes
+
+* **security:** save caches on push events only ([3180b07](https://github.com/AndrewM-F/code-foundry/commit/3180b07a669b7caa5728be6a07143d60a0c7f6af))
+
+## [1.0.2](https://github.com/AndrewM-F/code-foundry/compare/v1.0.1...v1.0.2) (2026-09-05)
+
+
+### Bug Fixes
+
+* **release:** provision bun and corepack before publish install ([32f9b15](https://github.com/AndrewM-F/code-foundry/commit/32f9b153cdc96cf3c38b379eada41853116e9200))
+
+## [1.0.1](https://github.com/AndrewM-F/code-foundry/compare/v1.0.0...v1.0.1) (2026-09-05)
+
+
+### Bug Fixes
+
+* **release:** install dependencies before npm publish ([8e03535](https://github.com/AndrewM-F/code-foundry/commit/8e0353549c42b982e84c28db94351d752a28d60e))
+
+## [1.0.0](https://github.com/AndrewM-F/code-foundry/compare/v0.40.3...v1.0.0) (2026-09-05)
 
 
 ### ⚠ BREAKING CHANGES
@@ -1333,911 +1333,911 @@
 
 ### Features
 
-* remove RELEASE_PLEASE_TOKEN fallback in favor of CODE_FOUNDRY_TOKEN ([3f6ba1c](https://github.com/0xPlayerOne/code-foundry/commit/3f6ba1c3cb0db698a7c75485b9e4201720e930d7))
+* remove RELEASE_PLEASE_TOKEN fallback in favor of CODE_FOUNDRY_TOKEN ([3f6ba1c](https://github.com/AndrewM-F/code-foundry/commit/3f6ba1c3cb0db698a7c75485b9e4201720e930d7))
 
-## [0.40.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.40.2...v0.40.3) (2026-09-05)
-
-
-### Bug Fixes
-
-* **sync:** hold TypeScript toolchain below v7 in consumer dependabot config ([e3c91e1](https://github.com/0xPlayerOne/code-foundry/commit/e3c91e1079bfcd69d174d3ede6d20674eb8fd37b))
-
-## [0.40.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.40.1...v0.40.2) (2026-09-05)
+## [0.40.3](https://github.com/AndrewM-F/code-foundry/compare/v0.40.2...v0.40.3) (2026-09-05)
 
 
 ### Bug Fixes
 
-* **validation:** skip eslint fallback without repo setup and ignore overlaid actions ([bb4756c](https://github.com/0xPlayerOne/code-foundry/commit/bb4756cb8a40199f4d0b6bdb47020f0bc7283de1))
+* **sync:** hold TypeScript toolchain below v7 in consumer dependabot config ([e3c91e1](https://github.com/AndrewM-F/code-foundry/commit/e3c91e1079bfcd69d174d3ede6d20674eb8fd37b))
 
-## [0.40.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.40.0...v0.40.1) (2026-08-31)
-
-
-### Bug Fixes
-
-* **validation:** load consumer audit policy ([8d13173](https://github.com/0xPlayerOne/code-foundry/commit/8d13173a36849528335f87a550072e08137f4473))
-
-## [0.40.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.39.4...v0.40.0) (2026-08-31)
-
-
-### Features
-
-* **validation:** allow audit mode on staging PRs ([0d95123](https://github.com/0xPlayerOne/code-foundry/commit/0d951230b9095d3b875db44ae8287335152eee60))
-
-## [0.39.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.39.3...v0.39.4) (2026-08-29)
+## [0.40.2](https://github.com/AndrewM-F/code-foundry/compare/v0.40.1...v0.40.2) (2026-09-05)
 
 
 ### Bug Fixes
 
-* **security:** pin authoritative scan resealing ([6885fea](https://github.com/0xPlayerOne/code-foundry/commit/6885fea2848ec13ae6a8fc6c3f378c7b98a46a9f))
+* **validation:** skip eslint fallback without repo setup and ignore overlaid actions ([bb4756c](https://github.com/AndrewM-F/code-foundry/commit/bb4756cb8a40199f4d0b6bdb47020f0bc7283de1))
 
-## [0.39.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.39.2...v0.39.3) (2026-08-29)
-
-
-### Bug Fixes
-
-* **security:** pin scanner target normalization ([f03ddb0](https://github.com/0xPlayerOne/code-foundry/commit/f03ddb07d9bc6c06d9a94962f475ec157e5d194e))
-
-## [0.39.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.39.1...v0.39.2) (2026-08-29)
+## [0.40.1](https://github.com/AndrewM-F/code-foundry/compare/v0.40.0...v0.40.1) (2026-08-31)
 
 
 ### Bug Fixes
 
-* **release:** qualify promotion PR head filters ([75a0985](https://github.com/0xPlayerOne/code-foundry/commit/75a09856d764aafc1cd301ae68121e187c43e2d1))
+* **validation:** load consumer audit policy ([8d13173](https://github.com/AndrewM-F/code-foundry/commit/8d13173a36849528335f87a550072e08137f4473))
 
-## [0.39.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.39.0...v0.39.1) (2026-08-29)
-
-
-### Bug Fixes
-
-* **release:** build exact-tree reconciliation heads ([33b0151](https://github.com/0xPlayerOne/code-foundry/commit/33b015102f07ca03ffb677fe4b9f5e67bbf9a485))
-
-## [0.39.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.38.2...v0.39.0) (2026-08-29)
+## [0.40.0](https://github.com/AndrewM-F/code-foundry/compare/v0.39.4...v0.40.0) (2026-08-31)
 
 
 ### Features
 
-* code-foundry 0.38.3 — direct workflow default, muse spark model, opencode_security_model override ([436da59](https://github.com/0xPlayerOne/code-foundry/commit/436da5947098039642cb961987e962cd88960db8))
+* **validation:** allow audit mode on staging PRs ([0d95123](https://github.com/AndrewM-F/code-foundry/commit/0d951230b9095d3b875db44ae8287335152eee60))
+
+## [0.39.4](https://github.com/AndrewM-F/code-foundry/compare/v0.39.3...v0.39.4) (2026-08-29)
 
 
 ### Bug Fixes
 
-* draft-pr base main for direct workflow (staging deleted) ([b1c063f](https://github.com/0xPlayerOne/code-foundry/commit/b1c063fa8e967800b85ffb9ae42df5d62e9a4e1e))
+* **security:** pin authoritative scan resealing ([6885fea](https://github.com/AndrewM-F/code-foundry/commit/6885fea2848ec13ae6a8fc6c3f378c7b98a46a9f))
 
-## [0.38.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.38.1...v0.38.2) (2026-08-29)
-
-
-### Bug Fixes
-
-* **release:** preserve promotion release semantics ([#418](https://github.com/0xPlayerOne/code-foundry/issues/418)) ([b1702a7](https://github.com/0xPlayerOne/code-foundry/commit/b1702a756cc6d7297f98b529b0bca178a1cdc3d1))
-
-## [0.38.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.38.0...v0.38.1) (2026-08-29)
+## [0.39.3](https://github.com/AndrewM-F/code-foundry/compare/v0.39.2...v0.39.3) (2026-08-29)
 
 
 ### Bug Fixes
 
-* **release:** avoid unsafe history-only reconciliation PRs ([#412](https://github.com/0xPlayerOne/code-foundry/issues/412)) ([941f08b](https://github.com/0xPlayerOne/code-foundry/commit/941f08ba7e830ec3ab0ae9c6b937e488c621b95e))
+* **security:** pin scanner target normalization ([f03ddb0](https://github.com/AndrewM-F/code-foundry/commit/f03ddb07d9bc6c06d9a94962f475ec157e5d194e))
 
-## [0.38.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.5...v0.38.0) (2026-08-24)
-
-
-### Features
-
-* **ci:** add reversible billing pause ([#402](https://github.com/0xPlayerOne/code-foundry/issues/402)) ([aa17b11](https://github.com/0xPlayerOne/code-foundry/commit/aa17b11037dccced17dd1173d9d788ac83ba50b5))
+## [0.39.2](https://github.com/AndrewM-F/code-foundry/compare/v0.39.1...v0.39.2) (2026-08-29)
 
 
 ### Bug Fixes
 
-* **ci:** guard every workflow during billing pause ([#405](https://github.com/0xPlayerOne/code-foundry/issues/405)) ([fc3930f](https://github.com/0xPlayerOne/code-foundry/commit/fc3930fcb50e9182bb0f5e97ea523a6805f3fa95))
-* **release:** allow explicit release while CI is paused ([#407](https://github.com/0xPlayerOne/code-foundry/issues/407)) ([3d31cf1](https://github.com/0xPlayerOne/code-foundry/commit/3d31cf154255225ecdd9bca94f8620ad8c2b3473))
+* **release:** qualify promotion PR head filters ([75a0985](https://github.com/AndrewM-F/code-foundry/commit/75a09856d764aafc1cd301ae68121e187c43e2d1))
 
-## [0.37.5](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.4...v0.37.5) (2026-08-23)
-
-
-### Bug Fixes
-
-* **sync:** omit Cargo Dependabot outside Rust repos ([#398](https://github.com/0xPlayerOne/code-foundry/issues/398)) ([395c4f3](https://github.com/0xPlayerOne/code-foundry/commit/395c4f34887bbb3e9f67378325b70c21d467adf0))
-
-## [0.37.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.3...v0.37.4) (2026-08-23)
+## [0.39.1](https://github.com/AndrewM-F/code-foundry/compare/v0.39.0...v0.39.1) (2026-08-29)
 
 
 ### Bug Fixes
 
-* release-workspace-state ([#395](https://github.com/0xPlayerOne/code-foundry/issues/395)) ([a708bc0](https://github.com/0xPlayerOne/code-foundry/commit/a708bc07272b9751b22a457771cc386601bbe3d8))
+* **release:** build exact-tree reconciliation heads ([33b0151](https://github.com/AndrewM-F/code-foundry/commit/33b015102f07ca03ffb677fe4b9f5e67bbf9a485))
 
-## [0.37.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.2...v0.37.3) (2026-08-23)
-
-
-### Bug Fixes
-
-* release-required-check-discovery ([#392](https://github.com/0xPlayerOne/code-foundry/issues/392)) ([d086cb5](https://github.com/0xPlayerOne/code-foundry/commit/d086cb5b6d1dc25eb28b6551ae56467887637296))
-
-## [0.37.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.1...v0.37.2) (2026-08-23)
-
-
-### Bug Fixes
-
-* **ci:** stabilize runners and release reconciliation ([#387](https://github.com/0xPlayerOne/code-foundry/issues/387)) ([ea2c503](https://github.com/0xPlayerOne/code-foundry/commit/ea2c503cb6ea9b944ffa5b70ff7fbfc3d56d3a10))
-
-## [0.37.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.37.0...v0.37.1) (2026-08-08)
-
-
-### Bug Fixes
-
-* **sync:** prettier-canonical CONTRIBUTING.md tables for both topologies ([af9137b](https://github.com/0xPlayerOne/code-foundry/commit/af9137bc788853ed97c4c17aef9848b7f9d15fbf))
-
-## [0.37.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.36.2...v0.37.0) (2026-08-07)
+## [0.39.0](https://github.com/AndrewM-F/code-foundry/compare/v0.38.2...v0.39.0) (2026-08-29)
 
 
 ### Features
 
-* **agents:** add explicit merge-workflow guidance ([a74c0ce](https://github.com/0xPlayerOne/code-foundry/commit/a74c0ce61c8dc53795a645ab5f2062ded732e3a5))
-
-## [0.36.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.36.1...v0.36.2) (2026-08-07)
+* code-foundry 0.38.3 — direct workflow default, muse spark model, opencode_security_model override ([436da59](https://github.com/AndrewM-F/code-foundry/commit/436da5947098039642cb961987e962cd88960db8))
 
 
 ### Bug Fixes
 
-* **sync:** prettier-canonical dependabot ignore quotes ([491e06a](https://github.com/0xPlayerOne/code-foundry/commit/491e06ade14531eb02f1d7aa729cee3b1acdf78b))
+* draft-pr base main for direct workflow (staging deleted) ([b1c063f](https://github.com/AndrewM-F/code-foundry/commit/b1c063fa8e967800b85ffb9ae42df5d62e9a4e1e))
 
-## [0.36.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.36.0...v0.36.1) (2026-08-07)
+## [0.38.2](https://github.com/AndrewM-F/code-foundry/compare/v0.38.1...v0.38.2) (2026-08-29)
 
 
 ### Bug Fixes
 
-* **sync:** prettier-canonical direct doc tables + dependabot ignore for runtime pins ([f4286b6](https://github.com/0xPlayerOne/code-foundry/commit/f4286b62ac06145b250d02ede9421f36df72a344))
+* **release:** preserve promotion release semantics ([#418](https://github.com/AndrewM-F/code-foundry/issues/418)) ([b1702a7](https://github.com/AndrewM-F/code-foundry/commit/b1702a756cc6d7297f98b529b0bca178a1cdc3d1))
 
-## [0.36.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.35.0...v0.36.0) (2026-08-07)
+## [0.38.1](https://github.com/AndrewM-F/code-foundry/compare/v0.38.0...v0.38.1) (2026-08-29)
 
 
-### Features
+### Bug Fixes
 
-* make staging-release opt-in and direct-to-main the default ([#370](https://github.com/0xPlayerOne/code-foundry/issues/370)) ([7c66507](https://github.com/0xPlayerOne/code-foundry/commit/7c665071769f0b0332e2f47929ee0c19bbfd5af3))
+* **release:** avoid unsafe history-only reconciliation PRs ([#412](https://github.com/AndrewM-F/code-foundry/issues/412)) ([941f08b](https://github.com/AndrewM-F/code-foundry/commit/941f08ba7e830ec3ab0ae9c6b937e488c621b95e))
 
-## [0.35.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.14...v0.35.0) (2026-08-04)
+## [0.38.0](https://github.com/AndrewM-F/code-foundry/compare/v0.37.5...v0.38.0) (2026-08-24)
 
 
 ### Features
 
-* support Apache 2.0 license sync ([538e7e4](https://github.com/0xPlayerOne/code-foundry/commit/538e7e4e85f9ee8c0af3e319f0440fc78e14dae9))
+* **ci:** add reversible billing pause ([#402](https://github.com/AndrewM-F/code-foundry/issues/402)) ([aa17b11](https://github.com/AndrewM-F/code-foundry/commit/aa17b11037dccced17dd1173d9d788ac83ba50b5))
 
 
 ### Bug Fixes
 
-* validate license policy before sync ([5baffa8](https://github.com/0xPlayerOne/code-foundry/commit/5baffa80c59f907fbf27974b43dfa4e063842d71))
+* **ci:** guard every workflow during billing pause ([#405](https://github.com/AndrewM-F/code-foundry/issues/405)) ([fc3930f](https://github.com/AndrewM-F/code-foundry/commit/fc3930fcb50e9182bb0f5e97ea523a6805f3fa95))
+* **release:** allow explicit release while CI is paused ([#407](https://github.com/AndrewM-F/code-foundry/issues/407)) ([3d31cf1](https://github.com/AndrewM-F/code-foundry/commit/3d31cf154255225ecdd9bca94f8620ad8c2b3473))
 
-## [0.34.14](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.13...v0.34.14) (2026-08-03)
-
-
-### Bug Fixes
-
-* **reconcile:** ignore historical paths absent from final tree ([#362](https://github.com/0xPlayerOne/code-foundry/issues/362)) ([8b8a123](https://github.com/0xPlayerOne/code-foundry/commit/8b8a123a1a7ea23a789c491414d3c9ea235a3d72))
-
-## [0.34.13](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.12...v0.34.13) (2026-08-03)
+## [0.37.5](https://github.com/AndrewM-F/code-foundry/compare/v0.37.4...v0.37.5) (2026-08-23)
 
 
 ### Bug Fixes
 
-* **reconcile:** classify patch-equivalent trees consistently ([#360](https://github.com/0xPlayerOne/code-foundry/issues/360)) ([c95f1bd](https://github.com/0xPlayerOne/code-foundry/commit/c95f1bdeaa69fc5fbcd42821bc633edbbd31de49))
-* **release:** use rebase for release PRs ([#358](https://github.com/0xPlayerOne/code-foundry/issues/358)) ([3b2b2f5](https://github.com/0xPlayerOne/code-foundry/commit/3b2b2f5cee15e3f61a1688e5b3ef0847a6eb8c55))
+* **sync:** omit Cargo Dependabot outside Rust repos ([#398](https://github.com/AndrewM-F/code-foundry/issues/398)) ([395c4f3](https://github.com/AndrewM-F/code-foundry/commit/395c4f34887bbb3e9f67378325b70c21d467adf0))
 
-## [0.34.12](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.11...v0.34.12) (2026-08-02)
-
-
-### Bug Fixes
-
-* **reconcile:** classify final tree deltas ([#353](https://github.com/0xPlayerOne/code-foundry/issues/353)) ([18d23e4](https://github.com/0xPlayerOne/code-foundry/commit/18d23e4847ffbcfc274bc11c80244ecac64395ed))
-
-## [0.34.11](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.10...v0.34.11) (2026-08-02)
+## [0.37.4](https://github.com/AndrewM-F/code-foundry/compare/v0.37.3...v0.37.4) (2026-08-23)
 
 
 ### Bug Fixes
 
-* **draft-pr:** fall back to workflow token ([#350](https://github.com/0xPlayerOne/code-foundry/issues/350)) ([aef07db](https://github.com/0xPlayerOne/code-foundry/commit/aef07db6945badd7d7b3526b5490b1512ac1a468))
+* release-workspace-state ([#395](https://github.com/AndrewM-F/code-foundry/issues/395)) ([a708bc0](https://github.com/AndrewM-F/code-foundry/commit/a708bc07272b9751b22a457771cc386601bbe3d8))
 
-## [0.34.10](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.9...v0.34.10) (2026-08-02)
-
-
-### Bug Fixes
-
-* **release:** validate automation token before Release Please ([654094f](https://github.com/0xPlayerOne/code-foundry/commit/654094f452a4a6351de247aa82bf2448d7ea79c6))
-
-## [0.34.9](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.8...v0.34.9) (2026-08-02)
+## [0.37.3](https://github.com/AndrewM-F/code-foundry/compare/v0.37.2...v0.37.3) (2026-08-23)
 
 
 ### Bug Fixes
 
-* **ci:** fall back to github token for promotion ([37ff019](https://github.com/0xPlayerOne/code-foundry/commit/37ff019e95a9024338c05fec7579476bd5cf0b3f))
+* release-required-check-discovery ([#392](https://github.com/AndrewM-F/code-foundry/issues/392)) ([d086cb5](https://github.com/AndrewM-F/code-foundry/commit/d086cb5b6d1dc25eb28b6551ae56467887637296))
 
-## [0.34.8](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.7...v0.34.8) (2026-08-02)
-
-
-### Bug Fixes
-
-* **ci:** create promotion PRs through REST ([c123e21](https://github.com/0xPlayerOne/code-foundry/commit/c123e21e868de685a91de228ca57cf6614767bb7))
-
-## [0.34.7](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.6...v0.34.7) (2026-08-02)
+## [0.37.2](https://github.com/AndrewM-F/code-foundry/compare/v0.37.1...v0.37.2) (2026-08-23)
 
 
 ### Bug Fixes
 
-* **release:** authenticate partial clone comparisons ([172dfbe](https://github.com/0xPlayerOne/code-foundry/commit/172dfbef53ab1a9eee44cf68f648889ae99b93b1))
+* **ci:** stabilize runners and release reconciliation ([#387](https://github.com/AndrewM-F/code-foundry/issues/387)) ([ea2c503](https://github.com/AndrewM-F/code-foundry/commit/ea2c503cb6ea9b944ffa5b70ff7fbfc3d56d3a10))
 
-## [0.34.6](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.5...v0.34.6) (2026-08-02)
-
-
-### Bug Fixes
-
-* **sync:** keep prettier ignores idempotent ([5db5307](https://github.com/0xPlayerOne/code-foundry/commit/5db53072fded27a57cca3cedf7c40527cd238507))
-
-## [0.34.5](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.4...v0.34.5) (2026-08-02)
+## [0.37.1](https://github.com/AndrewM-F/code-foundry/compare/v0.37.0...v0.37.1) (2026-08-08)
 
 
 ### Bug Fixes
 
-* **release:** reconcile protected staging branches ([fa18bfb](https://github.com/0xPlayerOne/code-foundry/commit/fa18bfbb90aaed5c78ff70dbb3dc17d5633e7e5f))
+* **sync:** prettier-canonical CONTRIBUTING.md tables for both topologies ([af9137b](https://github.com/AndrewM-F/code-foundry/commit/af9137bc788853ed97c4c17aef9848b7f9d15fbf))
 
-## [0.34.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.3...v0.34.4) (2026-08-02)
-
-
-### Bug Fixes
-
-* split native test suites by category ([93c9ede](https://github.com/0xPlayerOne/code-foundry/commit/93c9ede6e202a790befe1ee0e57633e3d01dc428))
-
-## [0.34.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.2...v0.34.3) (2026-08-02)
-
-
-### Bug Fixes
-
-* **release:** reconcile only after creating a release ([#317](https://github.com/0xPlayerOne/code-foundry/issues/317)) ([#318](https://github.com/0xPlayerOne/code-foundry/issues/318)) ([6f2b00c](https://github.com/0xPlayerOne/code-foundry/commit/6f2b00c5f3fe27e56b448671902bf6f5e33cca1f))
-
-## [0.34.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.1...v0.34.2) (2026-08-01)
-
-
-### Bug Fixes
-
-* **release:** make mergeability poll executable ([#314](https://github.com/0xPlayerOne/code-foundry/issues/314)) ([66161ab](https://github.com/0xPlayerOne/code-foundry/commit/66161abe151f6fa7ec09844aa6fa5dab83b37de6))
-
-## [0.34.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.34.0...v0.34.1) (2026-08-01)
-
-
-### Bug Fixes
-
-* **release:** wait for PR mergeability before guarded auto-merge ([#311](https://github.com/0xPlayerOne/code-foundry/issues/311)) ([e9be192](https://github.com/0xPlayerOne/code-foundry/commit/e9be192e6b42020f327d42d928f2c6a835358e59))
-
-## [0.34.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.33.0...v0.34.0) (2026-08-01)
+## [0.37.0](https://github.com/AndrewM-F/code-foundry/compare/v0.36.2...v0.37.0) (2026-08-07)
 
 
 ### Features
 
-* **release:** classify reconcile push failures and log sanitized details ([#307](https://github.com/0xPlayerOne/code-foundry/issues/307)) ([0651fca](https://github.com/0xPlayerOne/code-foundry/commit/0651fca3eb4f11eeb21b91462397eef865eee7cc))
+* **agents:** add explicit merge-workflow guidance ([a74c0ce](https://github.com/AndrewM-F/code-foundry/commit/a74c0ce61c8dc53795a645ab5f2062ded732e3a5))
+
+## [0.36.2](https://github.com/AndrewM-F/code-foundry/compare/v0.36.1...v0.36.2) (2026-08-07)
 
 
 ### Bug Fixes
 
-* **release:** include ssh executable in reconcile transport ([#308](https://github.com/0xPlayerOne/code-foundry/issues/308)) ([49713ed](https://github.com/0xPlayerOne/code-foundry/commit/49713edeaf5262a0ed872aa6d3fdf55927b6e1c5))
-* **release:** keep reconcile fetch over HTTPS ([#305](https://github.com/0xPlayerOne/code-foundry/issues/305)) ([022afad](https://github.com/0xPlayerOne/code-foundry/commit/022afade430a00b9656dcfa50af3056bb27a54e3))
+* **sync:** prettier-canonical dependabot ignore quotes ([491e06a](https://github.com/AndrewM-F/code-foundry/commit/491e06ade14531eb02f1d7aa729cee3b1acdf78b))
 
-## [0.33.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.32.4...v0.33.0) (2026-08-01)
+## [0.36.1](https://github.com/AndrewM-F/code-foundry/compare/v0.36.0...v0.36.1) (2026-08-07)
+
+
+### Bug Fixes
+
+* **sync:** prettier-canonical direct doc tables + dependabot ignore for runtime pins ([f4286b6](https://github.com/AndrewM-F/code-foundry/commit/f4286b62ac06145b250d02ede9421f36df72a344))
+
+## [0.36.0](https://github.com/AndrewM-F/code-foundry/compare/v0.35.0...v0.36.0) (2026-08-07)
 
 
 ### Features
 
-* add tiered validation workflow ([#301](https://github.com/0xPlayerOne/code-foundry/issues/301)) ([dd3015e](https://github.com/0xPlayerOne/code-foundry/commit/dd3015ea22ab94b2ed3d55f6e900a04f3e968aeb))
+* make staging-release opt-in and direct-to-main the default ([#370](https://github.com/AndrewM-F/code-foundry/issues/370)) ([7c66507](https://github.com/AndrewM-F/code-foundry/commit/7c665071769f0b0332e2f47929ee0c19bbfd5af3))
 
-
-### Bug Fixes
-
-* preserve regex escape in test assertion ([#303](https://github.com/0xPlayerOne/code-foundry/issues/303)) ([0a3c56f](https://github.com/0xPlayerOne/code-foundry/commit/0a3c56f5318baa8002b1079687797702f2c06383))
-
-## [0.32.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.32.3...v0.32.4) (2026-08-01)
-
-
-### Bug Fixes
-
-* **sync:** never leak runtime release-type into consumer configs ([b7c51f3](https://github.com/0xPlayerOne/code-foundry/commit/b7c51f3e465e048be933292e0db9ca08d5420c9a))
-* **sync:** quote collection-like config values so prettier accepts them ([b0d4fea](https://github.com/0xPlayerOne/code-foundry/commit/b0d4fea815b6417de23cf577cba525e2017004dc))
-* **sync:** satisfy JSDoc type-check for baseline merge ([ce54339](https://github.com/0xPlayerOne/code-foundry/commit/ce54339b2092722e4d0d4e43afdb7ab5bacd2bc1))
-
-## [0.32.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.32.2...v0.32.3) (2026-07-31)
-
-
-### Bug Fixes
-
-* **release:** no-op when staging already points at main's commit ([a47180a](https://github.com/0xPlayerOne/code-foundry/commit/a47180a16ae8b9fd66548aba284939b3cdfaeba8))
-* **release:** squash Release Please PRs for release-please compatibility ([41c808b](https://github.com/0xPlayerOne/code-foundry/commit/41c808b8c2502ca78e271cb6702334daf90169da))
-
-## [0.32.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.32.1...v0.32.2) (2026-07-31)
-
-
-### Bug Fixes
-
-* **release:** mirror staging onto main and require rebase merges on main ([31ab9b1](https://github.com/0xPlayerOne/code-foundry/commit/31ab9b125e66ae35f7d2a2c6893d0a3aec5d4560))
-* **release:** synchronize staging with a linear commit instead of a blocked fast-forward ([b808dff](https://github.com/0xPlayerOne/code-foundry/commit/b808dffeae38ec8211f8f0dee79e19d60f70b708))
-
-## [0.32.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.32.0...v0.32.1) (2026-07-31)
-
-
-### Bug Fixes
-
-* **ci:** key runtime concurrency by event so promotion PRs do not cancel push checks ([5a8d8fd](https://github.com/0xPlayerOne/code-foundry/commit/5a8d8fd80e62feabc887869e07219a77f2c46c1a))
-* **release:** bootstrap release-please manifest during sync ([98c7e5d](https://github.com/0xPlayerOne/code-foundry/commit/98c7e5d9341eedf22d49611f19825a5ef8d6d596))
-* **release:** satisfy JSDoc type-check for manifest bootstrap ([02ddb45](https://github.com/0xPlayerOne/code-foundry/commit/02ddb459405ee9d54c91afdc3cf5602790a4c2b4))
-* **release:** squash release PRs so staging can fast-forward after releases ([5d9a788](https://github.com/0xPlayerOne/code-foundry/commit/5d9a78843fde4ce764237eacfde9b1720d15696e))
-
-## [0.32.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.18...v0.32.0) (2026-07-31)
+## [0.35.0](https://github.com/AndrewM-F/code-foundry/compare/v0.34.14...v0.35.0) (2026-08-04)
 
 
 ### Features
 
-* improve draft PR titles from branch conventions ([#290](https://github.com/0xPlayerOne/code-foundry/issues/290)) ([7b215db](https://github.com/0xPlayerOne/code-foundry/commit/7b215db961347dfdb74241fc2c3489d390b34533))
-
-## [0.31.18](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.17...v0.31.18) (2026-07-30)
+* support Apache 2.0 license sync ([538e7e4](https://github.com/AndrewM-F/code-foundry/commit/538e7e4e85f9ee8c0af3e319f0440fc78e14dae9))
 
 
 ### Bug Fixes
 
-* **codeql:** keep generated config in workspace ([9ca8f3b](https://github.com/0xPlayerOne/code-foundry/commit/9ca8f3b958e40209727f305bd0c0856f4820e1b6))
+* validate license policy before sync ([5baffa8](https://github.com/AndrewM-F/code-foundry/commit/5baffa80c59f907fbf27974b43dfa4e063842d71))
 
-## [0.31.17](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.16...v0.31.17) (2026-07-30)
-
-
-### Bug Fixes
-
-* **sync:** preserve repository release policy ([8a8291b](https://github.com/0xPlayerOne/code-foundry/commit/8a8291b940bcc777e4aa9a426e56235b031fd002))
-
-## [0.31.16](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.15...v0.31.16) (2026-07-30)
+## [0.34.14](https://github.com/AndrewM-F/code-foundry/compare/v0.34.13...v0.34.14) (2026-08-03)
 
 
 ### Bug Fixes
 
-* **release:** avoid duplicate release PR checks ([42d7354](https://github.com/0xPlayerOne/code-foundry/commit/42d735404cd7b77d5a30a03a4fb8856096e931b0))
-* **workflows:** validate main promotion PRs ([4f41f90](https://github.com/0xPlayerOne/code-foundry/commit/4f41f90a3e4a5eec8e80d46c21083c1380655341))
+* **reconcile:** ignore historical paths absent from final tree ([#362](https://github.com/AndrewM-F/code-foundry/issues/362)) ([8b8a123](https://github.com/AndrewM-F/code-foundry/commit/8b8a123a1a7ea23a789c491414d3c9ea235a3d72))
 
-## [0.31.15](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.14...v0.31.15) (2026-07-30)
-
-
-### Bug Fixes
-
-* **release:** suppress release-only promotion loops ([fb35a6f](https://github.com/0xPlayerOne/code-foundry/commit/fb35a6f6e03a8ab4da65eeaeeeec579389b508b3))
-
-## [0.31.14](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.13...v0.31.14) (2026-07-30)
+## [0.34.13](https://github.com/AndrewM-F/code-foundry/compare/v0.34.12...v0.34.13) (2026-08-03)
 
 
 ### Bug Fixes
 
-* **codeql:** make Rust parallelism safe and configurable ([545454f](https://github.com/0xPlayerOne/code-foundry/commit/545454fa42a8bb4e6970ff858af186f1cba09900))
+* **reconcile:** classify patch-equivalent trees consistently ([#360](https://github.com/AndrewM-F/code-foundry/issues/360)) ([c95f1bd](https://github.com/AndrewM-F/code-foundry/commit/c95f1bdeaa69fc5fbcd42821bc633edbbd31de49))
+* **release:** use rebase for release PRs ([#358](https://github.com/AndrewM-F/code-foundry/issues/358)) ([3b2b2f5](https://github.com/AndrewM-F/code-foundry/commit/3b2b2f5cee15e3f61a1688e5b3ef0847a6eb8c55))
 
-## [0.31.13](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.12...v0.31.13) (2026-07-30)
-
-
-### Bug Fixes
-
-* **runtime:** pin template defaults to v0.31.12 ([f84b62d](https://github.com/0xPlayerOne/code-foundry/commit/f84b62d50955c623b9bc67e981645d9c0fcb2bcd))
-
-## [0.31.12](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.11...v0.31.12) (2026-07-30)
+## [0.34.12](https://github.com/AndrewM-F/code-foundry/compare/v0.34.11...v0.34.12) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **package:** include ruff baseline ([645f63e](https://github.com/0xPlayerOne/code-foundry/commit/645f63e9e66d67338345bb3eb14949543f97f89b))
+* **reconcile:** classify final tree deltas ([#353](https://github.com/AndrewM-F/code-foundry/issues/353)) ([18d23e4](https://github.com/AndrewM-F/code-foundry/commit/18d23e4847ffbcfc274bc11c80244ecac64395ed))
 
-## [0.31.11](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.10...v0.31.11) (2026-07-30)
-
-
-### Bug Fixes
-
-* **package:** include prettier ignore baseline ([4cf91e1](https://github.com/0xPlayerOne/code-foundry/commit/4cf91e1d0ec6b53e3751469937b44f903ef09466))
-
-## [0.31.10](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.9...v0.31.10) (2026-07-30)
+## [0.34.11](https://github.com/AndrewM-F/code-foundry/compare/v0.34.10...v0.34.11) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **opencode:** avoid duplicate self checks ([71b1201](https://github.com/0xPlayerOne/code-foundry/commit/71b1201baf58624401676b99fa257780b1eb1abc))
+* **draft-pr:** fall back to workflow token ([#350](https://github.com/AndrewM-F/code-foundry/issues/350)) ([aef07db](https://github.com/AndrewM-F/code-foundry/commit/aef07db6945badd7d7b3526b5490b1512ac1a468))
 
-## [0.31.9](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.8...v0.31.9) (2026-07-30)
-
-
-### Bug Fixes
-
-* **doctor:** deduplicate required check contexts ([f244494](https://github.com/0xPlayerOne/code-foundry/commit/f24449448f177c99978fe216b92385909f275d89))
-
-## [0.31.8](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.7...v0.31.8) (2026-07-30)
+## [0.34.10](https://github.com/AndrewM-F/code-foundry/compare/v0.34.9...v0.34.10) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **runtime:** pin self workflows to v0.31.7 ([565b5bc](https://github.com/0xPlayerOne/code-foundry/commit/565b5bcc2b8f4ade8b3addc02f72c96a42308325))
+* **release:** validate automation token before Release Please ([654094f](https://github.com/AndrewM-F/code-foundry/commit/654094f452a4a6351de247aa82bf2448d7ea79c6))
 
-## [0.31.7](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.6...v0.31.7) (2026-07-30)
-
-
-### Bug Fixes
-
-* **ci:** remove duplicate promotion checks ([b210b7f](https://github.com/0xPlayerOne/code-foundry/commit/b210b7f0aa5bdb6cb7e121cc751b6f618512ebf3))
-
-## [0.31.6](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.5...v0.31.6) (2026-07-30)
+## [0.34.9](https://github.com/AndrewM-F/code-foundry/compare/v0.34.8...v0.34.9) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **release:** skip identical promotion trees ([d8242b9](https://github.com/0xPlayerOne/code-foundry/commit/d8242b9897c9210a2534712fedb12d2258573686))
+* **ci:** fall back to github token for promotion ([37ff019](https://github.com/AndrewM-F/code-foundry/commit/37ff019e95a9024338c05fec7579476bd5cf0b3f))
 
-## [0.31.5](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.4...v0.31.5) (2026-07-30)
-
-
-### Bug Fixes
-
-* **ci:** isolate reusable workflow concurrency ([330a939](https://github.com/0xPlayerOne/code-foundry/commit/330a9396390aef11a482bf370dbbbee22151759e))
-* **ci:** use stable workflow concurrency keys ([a7eca35](https://github.com/0xPlayerOne/code-foundry/commit/a7eca35836f24f9fb240234b999462f95fa4e7da))
-* **ci:** validate main promotion pull requests ([00377bb](https://github.com/0xPlayerOne/code-foundry/commit/00377bb6e54288e296245efa1466e8e61477f25a))
-* **release:** allow manual promotion validation ([aaa453f](https://github.com/0xPlayerOne/code-foundry/commit/aaa453f3bc63c4e256352f094468f983dad236a9))
-* **release:** promote staging runtime safeguards ([e53df8c](https://github.com/0xPlayerOne/code-foundry/commit/e53df8cca59e59a8ffd7aad3f05effc915ba2196))
-
-## [0.31.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.3...v0.31.4) (2026-07-29)
+## [0.34.8](https://github.com/AndrewM-F/code-foundry/compare/v0.34.7...v0.34.8) (2026-08-02)
 
 
 ### Bug Fixes
 
-* harden fleet pins and github doctor ([c6efa7a](https://github.com/0xPlayerOne/code-foundry/commit/c6efa7a436308959950d958c5897574193cd763b))
+* **ci:** create promotion PRs through REST ([c123e21](https://github.com/AndrewM-F/code-foundry/commit/c123e21e868de685a91de228ca57cf6614767bb7))
 
-## [0.31.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.2...v0.31.3) (2026-07-29)
-
-
-### Bug Fixes
-
-* **ci:** isolate runtime from consumer tooling ([9bb07da](https://github.com/0xPlayerOne/code-foundry/commit/9bb07daa383a3ec89a57c6279546f1d8d4483457))
-* **ci:** keep runtime out of project tooling ([0aec04a](https://github.com/0xPlayerOne/code-foundry/commit/0aec04a01f6378f165b83dbedde670ddee61657e))
-
-## [0.31.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.1...v0.31.2) (2026-07-29)
+## [0.34.7](https://github.com/AndrewM-F/code-foundry/compare/v0.34.6...v0.34.7) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **release:** treat identical branch trees as aligned ([32b739e](https://github.com/0xPlayerOne/code-foundry/commit/32b739e8e663dca05fd89005b26c6457ec265c1c))
+* **release:** authenticate partial clone comparisons ([172dfbe](https://github.com/AndrewM-F/code-foundry/commit/172dfbef53ab1a9eee44cf68f648889ae99b93b1))
 
-## [0.31.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.31.0...v0.31.1) (2026-07-29)
+## [0.34.6](https://github.com/AndrewM-F/code-foundry/compare/v0.34.5...v0.34.6) (2026-08-02)
 
 
 ### Bug Fixes
 
-* **release:** build clean staging sync branches ([03a7c19](https://github.com/0xPlayerOne/code-foundry/commit/03a7c191d7a5a6b95cce639e6ed9201b374f1010))
+* **sync:** keep prettier ignores idempotent ([5db5307](https://github.com/AndrewM-F/code-foundry/commit/5db53072fded27a57cca3cedf7c40527cd238507))
 
-## [0.31.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.30.4...v0.31.0) (2026-07-29)
+## [0.34.5](https://github.com/AndrewM-F/code-foundry/compare/v0.34.4...v0.34.5) (2026-08-02)
+
+
+### Bug Fixes
+
+* **release:** reconcile protected staging branches ([fa18bfb](https://github.com/AndrewM-F/code-foundry/commit/fa18bfbb90aaed5c78ff70dbb3dc17d5633e7e5f))
+
+## [0.34.4](https://github.com/AndrewM-F/code-foundry/compare/v0.34.3...v0.34.4) (2026-08-02)
+
+
+### Bug Fixes
+
+* split native test suites by category ([93c9ede](https://github.com/AndrewM-F/code-foundry/commit/93c9ede6e202a790befe1ee0e57633e3d01dc428))
+
+## [0.34.3](https://github.com/AndrewM-F/code-foundry/compare/v0.34.2...v0.34.3) (2026-08-02)
+
+
+### Bug Fixes
+
+* **release:** reconcile only after creating a release ([#317](https://github.com/AndrewM-F/code-foundry/issues/317)) ([#318](https://github.com/AndrewM-F/code-foundry/issues/318)) ([6f2b00c](https://github.com/AndrewM-F/code-foundry/commit/6f2b00c5f3fe27e56b448671902bf6f5e33cca1f))
+
+## [0.34.2](https://github.com/AndrewM-F/code-foundry/compare/v0.34.1...v0.34.2) (2026-08-01)
+
+
+### Bug Fixes
+
+* **release:** make mergeability poll executable ([#314](https://github.com/AndrewM-F/code-foundry/issues/314)) ([66161ab](https://github.com/AndrewM-F/code-foundry/commit/66161abe151f6fa7ec09844aa6fa5dab83b37de6))
+
+## [0.34.1](https://github.com/AndrewM-F/code-foundry/compare/v0.34.0...v0.34.1) (2026-08-01)
+
+
+### Bug Fixes
+
+* **release:** wait for PR mergeability before guarded auto-merge ([#311](https://github.com/AndrewM-F/code-foundry/issues/311)) ([e9be192](https://github.com/AndrewM-F/code-foundry/commit/e9be192e6b42020f327d42d928f2c6a835358e59))
+
+## [0.34.0](https://github.com/AndrewM-F/code-foundry/compare/v0.33.0...v0.34.0) (2026-08-01)
 
 
 ### Features
 
-* **release:** open safe staging sync PRs ([6adb1dc](https://github.com/0xPlayerOne/code-foundry/commit/6adb1dc63966e5bfe70deb3ccd3c3aa5e93ccfad))
+* **release:** classify reconcile push failures and log sanitized details ([#307](https://github.com/AndrewM-F/code-foundry/issues/307)) ([0651fca](https://github.com/AndrewM-F/code-foundry/commit/0651fca3eb4f11eeb21b91462397eef865eee7cc))
 
 
 ### Bug Fixes
 
-* **release:** compare promoted branch tips ([081666b](https://github.com/0xPlayerOne/code-foundry/commit/081666b774418ab333d34eb9a3ca2a8c3bd60c78))
+* **release:** include ssh executable in reconcile transport ([#308](https://github.com/AndrewM-F/code-foundry/issues/308)) ([49713ed](https://github.com/AndrewM-F/code-foundry/commit/49713edeaf5262a0ed872aa6d3fdf55927b6e1c5))
+* **release:** keep reconcile fetch over HTTPS ([#305](https://github.com/AndrewM-F/code-foundry/issues/305)) ([022afad](https://github.com/AndrewM-F/code-foundry/commit/022afade430a00b9656dcfa50af3056bb27a54e3))
 
-## [0.30.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.30.3...v0.30.4) (2026-07-29)
-
-
-### Bug Fixes
-
-* **ci:** isolate runtime from consumer tooling ([32fe3ee](https://github.com/0xPlayerOne/code-foundry/commit/32fe3eea20ddad6086c1cfcacff6e7cb90606da0))
-* **self-ci:** test the checked-out runtime revision ([93973ba](https://github.com/0xPlayerOne/code-foundry/commit/93973bac19da7d250e3ccda4d4c79b1b0033008b))
-
-## [0.30.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.30.2...v0.30.3) (2026-07-29)
-
-
-### Bug Fixes
-
-* **fleet:** branch upgrades from remote staging ([58d4389](https://github.com/0xPlayerOne/code-foundry/commit/58d43890436789ec5289e0aaeea71dea0375a140))
-
-## [0.30.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.30.1...v0.30.2) (2026-07-29)
-
-
-### Bug Fixes
-
-* **fleet:** support explicit repository exclusions ([2c3a641](https://github.com/0xPlayerOne/code-foundry/commit/2c3a641814de392457f94f3581f01e5b625056ee))
-
-## [0.30.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.30.0...v0.30.1) (2026-07-29)
-
-
-### Bug Fixes
-
-* **release:** retry generated PR discovery ([dba7233](https://github.com/0xPlayerOne/code-foundry/commit/dba72337a04e73a2436d417b9e6f68d67bf54f83))
-* **sync:** include Python formatter baseline ([c7ce208](https://github.com/0xPlayerOne/code-foundry/commit/c7ce2084dcc7a7a3372056b879f435276e31aaa0))
-
-## [0.30.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.29.0...v0.30.0) (2026-07-29)
+## [0.33.0](https://github.com/AndrewM-F/code-foundry/compare/v0.32.4...v0.33.0) (2026-08-01)
 
 
 ### Features
 
-* **ci:** recommend stack-aware runners ([83df327](https://github.com/0xPlayerOne/code-foundry/commit/83df32777344898651d71af28496202337ae6788))
-* **doctor:** validate GitHub release configuration ([877525c](https://github.com/0xPlayerOne/code-foundry/commit/877525c11f6713b235aa3945dd98d017bef5732e))
-* **fleet:** add isolated repository upgrades ([76d1765](https://github.com/0xPlayerOne/code-foundry/commit/76d176593ea025a2090bd62f21b275d261d3a9d5))
-* **release:** add exactly-once post-release hooks ([f4ffa13](https://github.com/0xPlayerOne/code-foundry/commit/f4ffa136ef972665fe269b6685f9c4b840fc95a9))
-* **release:** add non-destructive recovery planning ([6c45592](https://github.com/0xPlayerOne/code-foundry/commit/6c45592358d9ceb0335acc6584ac565971433737))
-* **security:** add opt-in OpenCode release scan ([34512c1](https://github.com/0xPlayerOne/code-foundry/commit/34512c1507519d2b37a9bd665243490fa888beb9))
-* **sync:** formalize custom workflow overlays ([ee540f9](https://github.com/0xPlayerOne/code-foundry/commit/ee540f9a80c0b128100e795471042fc12aefc226))
+* add tiered validation workflow ([#301](https://github.com/AndrewM-F/code-foundry/issues/301)) ([dd3015e](https://github.com/AndrewM-F/code-foundry/commit/dd3015ea22ab94b2ed3d55f6e900a04f3e968aeb))
 
 
 ### Bug Fixes
 
-* **release:** grant post-release dispatch permission ([c18a52d](https://github.com/0xPlayerOne/code-foundry/commit/c18a52dff2ac76e648eeb9fa1f92fab8a01dafec))
+* preserve regex escape in test assertion ([#303](https://github.com/AndrewM-F/code-foundry/issues/303)) ([0a3c56f](https://github.com/AndrewM-F/code-foundry/commit/0a3c56f5318baa8002b1079687797702f2c06383))
 
-## [0.29.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.28.0...v0.29.0) (2026-07-29)
+## [0.32.4](https://github.com/AndrewM-F/code-foundry/compare/v0.32.3...v0.32.4) (2026-08-01)
+
+
+### Bug Fixes
+
+* **sync:** never leak runtime release-type into consumer configs ([b7c51f3](https://github.com/AndrewM-F/code-foundry/commit/b7c51f3e465e048be933292e0db9ca08d5420c9a))
+* **sync:** quote collection-like config values so prettier accepts them ([b0d4fea](https://github.com/AndrewM-F/code-foundry/commit/b0d4fea815b6417de23cf577cba525e2017004dc))
+* **sync:** satisfy JSDoc type-check for baseline merge ([ce54339](https://github.com/AndrewM-F/code-foundry/commit/ce54339b2092722e4d0d4e43afdb7ab5bacd2bc1))
+
+## [0.32.3](https://github.com/AndrewM-F/code-foundry/compare/v0.32.2...v0.32.3) (2026-07-31)
+
+
+### Bug Fixes
+
+* **release:** no-op when staging already points at main's commit ([a47180a](https://github.com/AndrewM-F/code-foundry/commit/a47180a16ae8b9fd66548aba284939b3cdfaeba8))
+* **release:** squash Release Please PRs for release-please compatibility ([41c808b](https://github.com/AndrewM-F/code-foundry/commit/41c808b8c2502ca78e271cb6702334daf90169da))
+
+## [0.32.2](https://github.com/AndrewM-F/code-foundry/compare/v0.32.1...v0.32.2) (2026-07-31)
+
+
+### Bug Fixes
+
+* **release:** mirror staging onto main and require rebase merges on main ([31ab9b1](https://github.com/AndrewM-F/code-foundry/commit/31ab9b125e66ae35f7d2a2c6893d0a3aec5d4560))
+* **release:** synchronize staging with a linear commit instead of a blocked fast-forward ([b808dff](https://github.com/AndrewM-F/code-foundry/commit/b808dffeae38ec8211f8f0dee79e19d60f70b708))
+
+## [0.32.1](https://github.com/AndrewM-F/code-foundry/compare/v0.32.0...v0.32.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* **ci:** key runtime concurrency by event so promotion PRs do not cancel push checks ([5a8d8fd](https://github.com/AndrewM-F/code-foundry/commit/5a8d8fd80e62feabc887869e07219a77f2c46c1a))
+* **release:** bootstrap release-please manifest during sync ([98c7e5d](https://github.com/AndrewM-F/code-foundry/commit/98c7e5d9341eedf22d49611f19825a5ef8d6d596))
+* **release:** satisfy JSDoc type-check for manifest bootstrap ([02ddb45](https://github.com/AndrewM-F/code-foundry/commit/02ddb459405ee9d54c91afdc3cf5602790a4c2b4))
+* **release:** squash release PRs so staging can fast-forward after releases ([5d9a788](https://github.com/AndrewM-F/code-foundry/commit/5d9a78843fde4ce764237eacfde9b1720d15696e))
+
+## [0.32.0](https://github.com/AndrewM-F/code-foundry/compare/v0.31.18...v0.32.0) (2026-07-31)
 
 
 ### Features
 
-* **release:** detect mixed-language release manifests ([f2daa61](https://github.com/0xPlayerOne/code-foundry/commit/f2daa616f2d8cfd2883f960823e862768454fbd6))
+* improve draft PR titles from branch conventions ([#290](https://github.com/AndrewM-F/code-foundry/issues/290)) ([7b215db](https://github.com/AndrewM-F/code-foundry/commit/7b215db961347dfdb74241fc2c3489d390b34533))
 
-## [0.28.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.18...v0.28.0) (2026-07-29)
+## [0.31.18](https://github.com/AndrewM-F/code-foundry/compare/v0.31.17...v0.31.18) (2026-07-30)
+
+
+### Bug Fixes
+
+* **codeql:** keep generated config in workspace ([9ca8f3b](https://github.com/AndrewM-F/code-foundry/commit/9ca8f3b958e40209727f305bd0c0856f4820e1b6))
+
+## [0.31.17](https://github.com/AndrewM-F/code-foundry/compare/v0.31.16...v0.31.17) (2026-07-30)
+
+
+### Bug Fixes
+
+* **sync:** preserve repository release policy ([8a8291b](https://github.com/AndrewM-F/code-foundry/commit/8a8291b940bcc777e4aa9a426e56235b031fd002))
+
+## [0.31.16](https://github.com/AndrewM-F/code-foundry/compare/v0.31.15...v0.31.16) (2026-07-30)
+
+
+### Bug Fixes
+
+* **release:** avoid duplicate release PR checks ([42d7354](https://github.com/AndrewM-F/code-foundry/commit/42d735404cd7b77d5a30a03a4fb8856096e931b0))
+* **workflows:** validate main promotion PRs ([4f41f90](https://github.com/AndrewM-F/code-foundry/commit/4f41f90a3e4a5eec8e80d46c21083c1380655341))
+
+## [0.31.15](https://github.com/AndrewM-F/code-foundry/compare/v0.31.14...v0.31.15) (2026-07-30)
+
+
+### Bug Fixes
+
+* **release:** suppress release-only promotion loops ([fb35a6f](https://github.com/AndrewM-F/code-foundry/commit/fb35a6f6e03a8ab4da65eeaeeeec579389b508b3))
+
+## [0.31.14](https://github.com/AndrewM-F/code-foundry/compare/v0.31.13...v0.31.14) (2026-07-30)
+
+
+### Bug Fixes
+
+* **codeql:** make Rust parallelism safe and configurable ([545454f](https://github.com/AndrewM-F/code-foundry/commit/545454fa42a8bb4e6970ff858af186f1cba09900))
+
+## [0.31.13](https://github.com/AndrewM-F/code-foundry/compare/v0.31.12...v0.31.13) (2026-07-30)
+
+
+### Bug Fixes
+
+* **runtime:** pin template defaults to v0.31.12 ([f84b62d](https://github.com/AndrewM-F/code-foundry/commit/f84b62d50955c623b9bc67e981645d9c0fcb2bcd))
+
+## [0.31.12](https://github.com/AndrewM-F/code-foundry/compare/v0.31.11...v0.31.12) (2026-07-30)
+
+
+### Bug Fixes
+
+* **package:** include ruff baseline ([645f63e](https://github.com/AndrewM-F/code-foundry/commit/645f63e9e66d67338345bb3eb14949543f97f89b))
+
+## [0.31.11](https://github.com/AndrewM-F/code-foundry/compare/v0.31.10...v0.31.11) (2026-07-30)
+
+
+### Bug Fixes
+
+* **package:** include prettier ignore baseline ([4cf91e1](https://github.com/AndrewM-F/code-foundry/commit/4cf91e1d0ec6b53e3751469937b44f903ef09466))
+
+## [0.31.10](https://github.com/AndrewM-F/code-foundry/compare/v0.31.9...v0.31.10) (2026-07-30)
+
+
+### Bug Fixes
+
+* **opencode:** avoid duplicate self checks ([71b1201](https://github.com/AndrewM-F/code-foundry/commit/71b1201baf58624401676b99fa257780b1eb1abc))
+
+## [0.31.9](https://github.com/AndrewM-F/code-foundry/compare/v0.31.8...v0.31.9) (2026-07-30)
+
+
+### Bug Fixes
+
+* **doctor:** deduplicate required check contexts ([f244494](https://github.com/AndrewM-F/code-foundry/commit/f24449448f177c99978fe216b92385909f275d89))
+
+## [0.31.8](https://github.com/AndrewM-F/code-foundry/compare/v0.31.7...v0.31.8) (2026-07-30)
+
+
+### Bug Fixes
+
+* **runtime:** pin self workflows to v0.31.7 ([565b5bc](https://github.com/AndrewM-F/code-foundry/commit/565b5bcc2b8f4ade8b3addc02f72c96a42308325))
+
+## [0.31.7](https://github.com/AndrewM-F/code-foundry/compare/v0.31.6...v0.31.7) (2026-07-30)
+
+
+### Bug Fixes
+
+* **ci:** remove duplicate promotion checks ([b210b7f](https://github.com/AndrewM-F/code-foundry/commit/b210b7f0aa5bdb6cb7e121cc751b6f618512ebf3))
+
+## [0.31.6](https://github.com/AndrewM-F/code-foundry/compare/v0.31.5...v0.31.6) (2026-07-30)
+
+
+### Bug Fixes
+
+* **release:** skip identical promotion trees ([d8242b9](https://github.com/AndrewM-F/code-foundry/commit/d8242b9897c9210a2534712fedb12d2258573686))
+
+## [0.31.5](https://github.com/AndrewM-F/code-foundry/compare/v0.31.4...v0.31.5) (2026-07-30)
+
+
+### Bug Fixes
+
+* **ci:** isolate reusable workflow concurrency ([330a939](https://github.com/AndrewM-F/code-foundry/commit/330a9396390aef11a482bf370dbbbee22151759e))
+* **ci:** use stable workflow concurrency keys ([a7eca35](https://github.com/AndrewM-F/code-foundry/commit/a7eca35836f24f9fb240234b999462f95fa4e7da))
+* **ci:** validate main promotion pull requests ([00377bb](https://github.com/AndrewM-F/code-foundry/commit/00377bb6e54288e296245efa1466e8e61477f25a))
+* **release:** allow manual promotion validation ([aaa453f](https://github.com/AndrewM-F/code-foundry/commit/aaa453f3bc63c4e256352f094468f983dad236a9))
+* **release:** promote staging runtime safeguards ([e53df8c](https://github.com/AndrewM-F/code-foundry/commit/e53df8cca59e59a8ffd7aad3f05effc915ba2196))
+
+## [0.31.4](https://github.com/AndrewM-F/code-foundry/compare/v0.31.3...v0.31.4) (2026-07-29)
+
+
+### Bug Fixes
+
+* harden fleet pins and github doctor ([c6efa7a](https://github.com/AndrewM-F/code-foundry/commit/c6efa7a436308959950d958c5897574193cd763b))
+
+## [0.31.3](https://github.com/AndrewM-F/code-foundry/compare/v0.31.2...v0.31.3) (2026-07-29)
+
+
+### Bug Fixes
+
+* **ci:** isolate runtime from consumer tooling ([9bb07da](https://github.com/AndrewM-F/code-foundry/commit/9bb07daa383a3ec89a57c6279546f1d8d4483457))
+* **ci:** keep runtime out of project tooling ([0aec04a](https://github.com/AndrewM-F/code-foundry/commit/0aec04a01f6378f165b83dbedde670ddee61657e))
+
+## [0.31.2](https://github.com/AndrewM-F/code-foundry/compare/v0.31.1...v0.31.2) (2026-07-29)
+
+
+### Bug Fixes
+
+* **release:** treat identical branch trees as aligned ([32b739e](https://github.com/AndrewM-F/code-foundry/commit/32b739e8e663dca05fd89005b26c6457ec265c1c))
+
+## [0.31.1](https://github.com/AndrewM-F/code-foundry/compare/v0.31.0...v0.31.1) (2026-07-29)
+
+
+### Bug Fixes
+
+* **release:** build clean staging sync branches ([03a7c19](https://github.com/AndrewM-F/code-foundry/commit/03a7c191d7a5a6b95cce639e6ed9201b374f1010))
+
+## [0.31.0](https://github.com/AndrewM-F/code-foundry/compare/v0.30.4...v0.31.0) (2026-07-29)
 
 
 ### Features
 
-* **release:** reconcile staging after release metadata ([4de1ad6](https://github.com/0xPlayerOne/code-foundry/commit/4de1ad64bd9276344368934ab555e6cb31a90784))
-
-## [0.27.18](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.17...v0.27.18) (2026-07-29)
+* **release:** open safe staging sync PRs ([6adb1dc](https://github.com/AndrewM-F/code-foundry/commit/6adb1dc63966e5bfe70deb3ccd3c3aa5e93ccfad))
 
 
 ### Bug Fixes
 
-* **release:** degrade gracefully without release token ([69ac43a](https://github.com/0xPlayerOne/code-foundry/commit/69ac43acfa2813495b8da0535942afbbedae3017))
+* **release:** compare promoted branch tips ([081666b](https://github.com/AndrewM-F/code-foundry/commit/081666b774418ab333d34eb9a3ca2a8c3bd60c78))
 
-## [0.27.17](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.16...v0.27.17) (2026-07-29)
+## [0.30.4](https://github.com/AndrewM-F/code-foundry/compare/v0.30.3...v0.30.4) (2026-07-29)
+
+
+### Bug Fixes
+
+* **ci:** isolate runtime from consumer tooling ([32fe3ee](https://github.com/AndrewM-F/code-foundry/commit/32fe3eea20ddad6086c1cfcacff6e7cb90606da0))
+* **self-ci:** test the checked-out runtime revision ([93973ba](https://github.com/AndrewM-F/code-foundry/commit/93973bac19da7d250e3ccda4d4c79b1b0033008b))
+
+## [0.30.3](https://github.com/AndrewM-F/code-foundry/compare/v0.30.2...v0.30.3) (2026-07-29)
 
 
 ### Bug Fixes
 
-* **release:** auto-merge generated version PRs ([3032cfc](https://github.com/0xPlayerOne/code-foundry/commit/3032cfc458e4508ad637354ee98447c544a5a1d4))
+* **fleet:** branch upgrades from remote staging ([58d4389](https://github.com/AndrewM-F/code-foundry/commit/58d43890436789ec5289e0aaeea71dea0375a140))
 
-## [0.27.16](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.15...v0.27.16) (2026-07-29)
+## [0.30.2](https://github.com/AndrewM-F/code-foundry/compare/v0.30.1...v0.30.2) (2026-07-29)
 
-### Bug Fixes
-
-- **release:** honor manifest configuration ([2beb320](https://github.com/0xPlayerOne/code-foundry/commit/2beb32053e5b86319a3c44377e4cbe2f20592507))
-- **release:** pass committed manifest config ([39ef227](https://github.com/0xPlayerOne/code-foundry/commit/39ef227828d9c7903e9d08cfcd0dd755f41a7c78))
-
-## [0.27.15](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.14...v0.27.15) (2026-07-29)
 
 ### Bug Fixes
 
-- **ci:** remove stale CodeQL change detection ([897d749](https://github.com/0xPlayerOne/code-foundry/commit/897d749d296c02751fda764b9fa069e32208182b))
+* **fleet:** support explicit repository exclusions ([2c3a641](https://github.com/AndrewM-F/code-foundry/commit/2c3a641814de392457f94f3581f01e5b625056ee))
 
-## [0.27.14](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.13...v0.27.14) (2026-07-29)
+## [0.30.1](https://github.com/AndrewM-F/code-foundry/compare/v0.30.0...v0.30.1) (2026-07-29)
 
-### Bug Fixes
-
-- **codeql:** skip unavailable analyzers ([9ddf8e3](https://github.com/0xPlayerOne/code-foundry/commit/9ddf8e30dab4da2ba1f6bb20dd3503e56ab1b880))
-- **draft-pr:** pass repository explicitly ([6fbf289](https://github.com/0xPlayerOne/code-foundry/commit/6fbf289649ce2097e42b156cf2db0c39fb8ceee1))
-- **draft-pr:** use explicit repository for lookups ([e498d6e](https://github.com/0xPlayerOne/code-foundry/commit/e498d6e125099e2437041112e1b3442a7ebea389))
-
-## [0.27.13](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.12...v0.27.13) (2026-07-29)
 
 ### Bug Fixes
 
-- **sync:** package the gitignore template ([e65c63d](https://github.com/0xPlayerOne/code-foundry/commit/e65c63dcb09a623d5ce0b55f734bbe73719c72f2))
+* **release:** retry generated PR discovery ([dba7233](https://github.com/AndrewM-F/code-foundry/commit/dba72337a04e73a2436d417b9e6f68d67bf54f83))
+* **sync:** include Python formatter baseline ([c7ce208](https://github.com/AndrewM-F/code-foundry/commit/c7ce2084dcc7a7a3372056b879f435276e31aaa0))
 
-## [0.27.12](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.11...v0.27.12) (2026-07-29)
+## [0.30.0](https://github.com/AndrewM-F/code-foundry/compare/v0.29.0...v0.30.0) (2026-07-29)
 
-### Bug Fixes
-
-- **security:** skip irrelevant dependency audits ([cc206d4](https://github.com/0xPlayerOne/code-foundry/commit/cc206d4dea5311684b79ef3a04669aa7ce74421a))
-
-## [0.27.11](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.10...v0.27.11) (2026-07-29)
-
-### Bug Fixes
-
-- **ci:** isolate reusable workflow concurrency ([ddfc3a6](https://github.com/0xPlayerOne/code-foundry/commit/ddfc3a6b8860629a12494ffd8ef273dfb2c354b4))
-- **workflows:** clarify Code Foundry job hierarchy ([124327e](https://github.com/0xPlayerOne/code-foundry/commit/124327ec3f8f5907eca478580a62b7485e0cfd98))
-
-## [0.27.10](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.9...v0.27.10) (2026-07-28)
-
-### Bug Fixes
-
-- **codeql:** make analyzer checks protection-safe ([5ab240e](https://github.com/0xPlayerOne/code-foundry/commit/5ab240e6ce62c2d87acf92f8776a107cffefd860))
-
-## [0.27.9](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.8...v0.27.9) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** hoist Bun workspace dependencies ([f480ad6](https://github.com/0xPlayerOne/code-foundry/commit/f480ad671cf12435f632d9397dbc8f72d7a2e8fe))
-
-## [0.27.8](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.7...v0.27.8) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** run required Bun postinstall setup safely ([0302604](https://github.com/0xPlayerOne/code-foundry/commit/0302604f877bedbef8d3ab06794ffd9599fb774c))
-
-## [0.27.7](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.6...v0.27.7) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** avoid recursive Bun install lifecycle scripts ([780e90d](https://github.com/0xPlayerOne/code-foundry/commit/780e90dcbc4a93005091465594cb57d9d2154003))
-
-## [0.27.6](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.5...v0.27.6) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** force complete Bun workspace installs ([1d391b8](https://github.com/0xPlayerOne/code-foundry/commit/1d391b8e481acd91d7ae293cdbbfc090a891dc47))
-
-## [0.27.5](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.4...v0.27.5) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** install Rust formatting and lint components ([16da3fc](https://github.com/0xPlayerOne/code-foundry/commit/16da3fc416e64b2c5c62d2f3a7feaa270134c1a2))
-- **test:** skip absent Python integration suites ([ee932ce](https://github.com/0xPlayerOne/code-foundry/commit/ee932cea048dc94175f395ac49ca65ed9dbb466f))
-
-## [0.27.4](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.3...v0.27.4) (2026-07-28)
-
-### Bug Fixes
-
-- **runtime:** resolve Python tools from virtualenv ([788b1ae](https://github.com/0xPlayerOne/code-foundry/commit/788b1ae438451ee57ce55a8669d2710cb8755fcf))
-
-## [0.27.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.2...v0.27.3) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** auto-detect format tooling ([2be5228](https://github.com/0xPlayerOne/code-foundry/commit/2be522821b5d3f93b92ca5e2c4b20df345396fc3))
-
-## [0.27.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.1...v0.27.2) (2026-07-28)
-
-### Bug Fixes
-
-- **runtime:** harden dependency setup and audits ([f3c4f85](https://github.com/0xPlayerOne/code-foundry/commit/f3c4f85263232e5023e7e6b3ae50ad2c27f3a47a))
-
-## [0.27.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.27.0...v0.27.1) (2026-07-28)
-
-### Bug Fixes
-
-- **ci:** cover framework and native test prerequisites ([53b8209](https://github.com/0xPlayerOne/code-foundry/commit/53b8209104cf52972e867eba65fed46d0b8f57bb))
-- **ci:** install project format and Python tooling ([13fb972](https://github.com/0xPlayerOne/code-foundry/commit/13fb972e774e26c2d5794421a17c4ac685a28b0c))
-
-## [0.27.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.26.0...v0.27.0) (2026-07-28)
 
 ### Features
 
-- add typed javascript cli checks ([2d9464b](https://github.com/0xPlayerOne/code-foundry/commit/2d9464bcbef8aa51607cdf52a6a60e3fc1bdb054))
-- make mise an optional toolchain ([e62f023](https://github.com/0xPlayerOne/code-foundry/commit/e62f0238f4ddc2d1b0f89e0f2b23bca3679b934e))
-- make paid github security checks opt-in ([bbfe899](https://github.com/0xPlayerOne/code-foundry/commit/bbfe8993d88a8415129ce29bfa5d2181807232ba))
-- skip irrelevant language configuration ([39a0003](https://github.com/0xPlayerOne/code-foundry/commit/39a00037ba92152926e7a89759f3255d86a4f26e))
-- standardize optional github security policies ([2cf6bc3](https://github.com/0xPlayerOne/code-foundry/commit/2cf6bc3af161ed8757a03447aab16f3e7ea310d7))
+* **ci:** recommend stack-aware runners ([83df327](https://github.com/AndrewM-F/code-foundry/commit/83df32777344898651d71af28496202337ae6788))
+* **doctor:** validate GitHub release configuration ([877525c](https://github.com/AndrewM-F/code-foundry/commit/877525c11f6713b235aa3945dd98d017bef5732e))
+* **fleet:** add isolated repository upgrades ([76d1765](https://github.com/AndrewM-F/code-foundry/commit/76d176593ea025a2090bd62f21b275d261d3a9d5))
+* **release:** add exactly-once post-release hooks ([f4ffa13](https://github.com/AndrewM-F/code-foundry/commit/f4ffa136ef972665fe269b6685f9c4b840fc95a9))
+* **release:** add non-destructive recovery planning ([6c45592](https://github.com/AndrewM-F/code-foundry/commit/6c45592358d9ceb0335acc6584ac565971433737))
+* **security:** add opt-in OpenCode release scan ([34512c1](https://github.com/AndrewM-F/code-foundry/commit/34512c1507519d2b37a9bd665243490fa888beb9))
+* **sync:** formalize custom workflow overlays ([ee540f9](https://github.com/AndrewM-F/code-foundry/commit/ee540f9a80c0b128100e795471042fc12aefc226))
+
 
 ### Bug Fixes
 
-- include runtime libraries in every workflow job ([ce94cd9](https://github.com/0xPlayerOne/code-foundry/commit/ce94cd96a32eff54048712e1bf4b2d34a868ba2e))
-- include runtime libraries in workflow checkout ([4b2c252](https://github.com/0xPlayerOne/code-foundry/commit/4b2c2527c37c82b498c2b3457df5dd52ef7c694f))
-- migrate stale managed docs during sync ([380bab1](https://github.com/0xPlayerOne/code-foundry/commit/380bab1334c9125f97bf333cc29c796e1a16d57d))
-- preserve authored notice files ([342e666](https://github.com/0xPlayerOne/code-foundry/commit/342e666f4e218e094180f10ecdc5a24b85a27b28))
-- preserve repository notice attribution ([7d43911](https://github.com/0xPlayerOne/code-foundry/commit/7d439117ec89882d8d06895528d94ed717ade471))
-- use pinned bun lockfile format ([0f75faf](https://github.com/0xPlayerOne/code-foundry/commit/0f75faf2c7614cc7055cbb4f26a01b3cf1639f85))
+* **release:** grant post-release dispatch permission ([c18a52d](https://github.com/AndrewM-F/code-foundry/commit/c18a52dff2ac76e648eeb9fa1f92fab8a01dafec))
 
-## [0.26.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.25.0...v0.26.0) (2026-07-28)
+## [0.29.0](https://github.com/AndrewM-F/code-foundry/compare/v0.28.0...v0.29.0) (2026-07-29)
+
 
 ### Features
 
-- default new repositories to gplv3 ([e200135](https://github.com/0xPlayerOne/code-foundry/commit/e200135939779693eb73a64aaf3587eccdc36ffc))
+* **release:** detect mixed-language release manifests ([f2daa61](https://github.com/AndrewM-F/code-foundry/commit/f2daa616f2d8cfd2883f960823e862768454fbd6))
 
-## [0.25.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.24.1...v0.25.0) (2026-07-28)
+## [0.28.0](https://github.com/AndrewM-F/code-foundry/compare/v0.27.18...v0.28.0) (2026-07-29)
+
 
 ### Features
 
-- simplify reusable workflow layout ([293b2a8](https://github.com/0xPlayerOne/code-foundry/commit/293b2a877500853778f311763cd4176e86f0b4f8))
+* **release:** reconcile staging after release metadata ([4de1ad6](https://github.com/AndrewM-F/code-foundry/commit/4de1ad64bd9276344368934ab555e6cb31a90784))
+
+## [0.27.18](https://github.com/AndrewM-F/code-foundry/compare/v0.27.17...v0.27.18) (2026-07-29)
+
 
 ### Bug Fixes
 
-- use local self workflow references ([31ea5a5](https://github.com/0xPlayerOne/code-foundry/commit/31ea5a5a621039afd8e19febe9d2a9f814c9d6fa))
+* **release:** degrade gracefully without release token ([69ac43a](https://github.com/AndrewM-F/code-foundry/commit/69ac43acfa2813495b8da0535942afbbedae3017))
 
-## [0.24.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.24.0...v0.24.1) (2026-07-28)
+## [0.27.17](https://github.com/AndrewM-F/code-foundry/compare/v0.27.16...v0.27.17) (2026-07-29)
 
-### Bug Fixes
-
-- remove obsolete consumer helper ([4fcf85b](https://github.com/0xPlayerOne/code-foundry/commit/4fcf85b2c452e08aab47ec1fb6e00cdce5523cff))
-
-## [0.24.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.23.1...v0.24.0) (2026-07-28)
-
-### Features
-
-- minimize consumer footprint ([2b29d2e](https://github.com/0xPlayerOne/code-foundry/commit/2b29d2e09072492c8ee8fc642d0477f416805cf2))
-
-## [0.23.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.23.0...v0.23.1) (2026-07-28)
 
 ### Bug Fixes
 
-- support repositories without package managers ([a126945](https://github.com/0xPlayerOne/code-foundry/commit/a126945d259875763ce89ddb3c0dbc182b74bb76))
+* **release:** auto-merge generated version PRs ([3032cfc](https://github.com/AndrewM-F/code-foundry/commit/3032cfc458e4508ad637354ee98447c544a5a1d4))
 
-## [0.23.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.22.2...v0.23.0) (2026-07-28)
-
-### Features
-
-- simplify initialization and synchronization ([9f4643e](https://github.com/0xPlayerOne/code-foundry/commit/9f4643e854a262eb923a4fe84ddb986c3f1bdf77))
-
-## [0.22.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.22.1...v0.22.2) (2026-07-28)
+## [0.27.16](https://github.com/AndrewM-F/code-foundry/compare/v0.27.15...v0.27.16) (2026-07-29)
 
 ### Bug Fixes
 
-- remove legacy config after migration ([839a4bd](https://github.com/0xPlayerOne/code-foundry/commit/839a4bd7d818633f1aef201b4a2b3292218563f4))
+- **release:** honor manifest configuration ([2beb320](https://github.com/AndrewM-F/code-foundry/commit/2beb32053e5b86319a3c44377e4cbe2f20592507))
+- **release:** pass committed manifest config ([39ef227](https://github.com/AndrewM-F/code-foundry/commit/39ef227828d9c7903e9d08cfcd0dd755f41a7c78))
 
-## [0.22.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.22.0...v0.22.1) (2026-07-28)
-
-### Bug Fixes
-
-- pin callers to the canonical runtime ([321b93f](https://github.com/0xPlayerOne/code-foundry/commit/321b93fff2089ee61fa41f968ee584af864692b2))
-
-## [0.22.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.21.2...v0.22.0) (2026-07-28)
-
-### Features
-
-- centralize repository configuration ([e1b4ef1](https://github.com/0xPlayerOne/code-foundry/commit/e1b4ef19ab1ecc899c06331cbfd3477062a73549))
+## [0.27.15](https://github.com/AndrewM-F/code-foundry/compare/v0.27.14...v0.27.15) (2026-07-29)
 
 ### Bug Fixes
 
-- bridge legacy runtime configuration ([d906b0d](https://github.com/0xPlayerOne/code-foundry/commit/d906b0d8f0bc65d2697ababbd5ab658ca2193684))
-- keep legacy runtime callers valid ([c23f9e2](https://github.com/0xPlayerOne/code-foundry/commit/c23f9e2980bfcb8a0b7c685f1a9ba6d26f215eba))
+- **ci:** remove stale CodeQL change detection ([897d749](https://github.com/AndrewM-F/code-foundry/commit/897d749d296c02751fda764b9fa069e32208182b))
 
-## [0.21.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.21.1...v0.21.2) (2026-07-28)
-
-### Bug Fixes
-
-- **docs:** clarify package verification ([b2bb12d](https://github.com/0xPlayerOne/code-foundry/commit/b2bb12d1674acefe5e874df280dfd083f9966e19))
-
-## [0.21.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.21.0...v0.21.1) (2026-07-28)
+## [0.27.14](https://github.com/AndrewM-F/code-foundry/compare/v0.27.13...v0.27.14) (2026-07-29)
 
 ### Bug Fixes
 
-- **template:** align reusable runtime pins ([c3195e8](https://github.com/0xPlayerOne/code-foundry/commit/c3195e8a3320821c5f891ef942cf5df59ecd09bb))
+- **codeql:** skip unavailable analyzers ([9ddf8e3](https://github.com/AndrewM-F/code-foundry/commit/9ddf8e30dab4da2ba1f6bb20dd3503e56ab1b880))
+- **draft-pr:** pass repository explicitly ([6fbf289](https://github.com/AndrewM-F/code-foundry/commit/6fbf289649ce2097e42b156cf2db0c39fb8ceee1))
+- **draft-pr:** use explicit repository for lookups ([e498d6e](https://github.com/AndrewM-F/code-foundry/commit/e498d6e125099e2437041112e1b3442a7ebea389))
 
-## [0.21.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.20.3...v0.21.0) (2026-07-28)
-
-### Features
-
-- **runtime:** configure reusable workflow refs ([55f20d2](https://github.com/0xPlayerOne/code-foundry/commit/55f20d278f23ece1fed1166f1cad1b15c985ee90))
-
-## [0.20.3](https://github.com/0xPlayerOne/code-foundry/compare/v0.20.2...v0.20.3) (2026-07-28)
+## [0.27.13](https://github.com/AndrewM-F/code-foundry/compare/v0.27.12...v0.27.13) (2026-07-29)
 
 ### Bug Fixes
 
-- **release-pr:** pin no-op runtime ([af662ef](https://github.com/0xPlayerOne/code-foundry/commit/af662ef7206269f03438bc3983878024629f6056))
+- **sync:** package the gitignore template ([e65c63d](https://github.com/AndrewM-F/code-foundry/commit/e65c63dcb09a623d5ce0b55f734bbe73719c72f2))
 
-## [0.20.2](https://github.com/0xPlayerOne/code-foundry/compare/v0.20.1...v0.20.2) (2026-07-28)
-
-### Bug Fixes
-
-- **release-pr:** skip empty promotions ([7c3b21b](https://github.com/0xPlayerOne/code-foundry/commit/7c3b21b19e03ac8319b1217d4e3d0d8a6f0e2317))
-
-## [0.20.1](https://github.com/0xPlayerOne/code-foundry/compare/v0.20.0...v0.20.1) (2026-07-28)
+## [0.27.12](https://github.com/AndrewM-F/code-foundry/compare/v0.27.11...v0.27.12) (2026-07-29)
 
 ### Bug Fixes
 
-- **workflows:** align callers with current runtime ([11629d3](https://github.com/0xPlayerOne/code-foundry/commit/11629d32b4c41a8bfd1ff8fdaa5638c43236e889))
-- **workflows:** correct release caller indentation ([2688ca9](https://github.com/0xPlayerOne/code-foundry/commit/2688ca924552c9537151e76f486f6485bd4fb0d9))
+- **security:** skip irrelevant dependency audits ([cc206d4](https://github.com/AndrewM-F/code-foundry/commit/cc206d4dea5311684b79ef3a04669aa7ce74421a))
 
-## [0.20.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.19.0...v0.20.0) (2026-07-28)
-
-### Features
-
-- **workflows:** use reusable promotion callers ([8429b8f](https://github.com/0xPlayerOne/code-foundry/commit/8429b8f9dee4fa0eedce2d8342332603e88e3f38))
-
-## [0.19.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.18.0...v0.19.0) (2026-07-28)
-
-### Features
-
-- **workflows:** add reusable promotion runtimes ([ac113a9](https://github.com/0xPlayerOne/code-foundry/commit/ac113a902700957cbf26d4a47b4e7828b157dd13))
-
-## [0.18.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.17.0...v0.18.0) (2026-07-28)
-
-### Features
-
-- **init:** infer runtime from source template ([81a545b](https://github.com/0xPlayerOne/code-foundry/commit/81a545bc6a2d89c31be51a711e477c4e4ceca7dd))
-
-## [0.17.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.16.0...v0.17.0) (2026-07-28)
-
-### Features
-
-- **release:** document centralized release runtime ([3e2a3f9](https://github.com/0xPlayerOne/code-foundry/commit/3e2a3f9b5e71bf5003819aa177afd265d989bb34))
+## [0.27.11](https://github.com/AndrewM-F/code-foundry/compare/v0.27.10...v0.27.11) (2026-07-29)
 
 ### Bug Fixes
 
-- **release:** grant trusted publishing permission ([025f78e](https://github.com/0xPlayerOne/code-foundry/commit/025f78e851d44a60e2e4e17d3718b0b2fbe147ae))
+- **ci:** isolate reusable workflow concurrency ([ddfc3a6](https://github.com/AndrewM-F/code-foundry/commit/ddfc3a6b8860629a12494ffd8ef273dfb2c354b4))
+- **workflows:** clarify Code Foundry job hierarchy ([124327e](https://github.com/AndrewM-F/code-foundry/commit/124327ec3f8f5907eca478580a62b7485e0cfd98))
 
-## [0.16.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.15.0...v0.16.0) (2026-07-28)
-
-### Features
-
-- **release:** add reusable release workflow runtime ([19c3433](https://github.com/0xPlayerOne/code-foundry/commit/19c3433af4ae1ed796030da77f07309e2bf3e98c))
-
-## [0.15.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.14.0...v0.15.0) (2026-07-28)
-
-### Features
-
-- **runtime:** unify reusable workflow pins ([bd7aece](https://github.com/0xPlayerOne/code-foundry/commit/bd7aecefac9d02be698907cba686c536c6c242d6))
-
-## [0.14.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.13.0...v0.14.0) (2026-07-28)
-
-### Features
-
-- **init:** minimize consumer workflow footprint ([4427c1f](https://github.com/0xPlayerOne/code-foundry/commit/4427c1f964c3a0dc6ffe080ea3779ad2b8a1d170))
-
-## [0.13.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.12.0...v0.13.0) (2026-07-28)
-
-### Features
-
-- **codeql:** document centralized CodeQL runtime ([2aa20a9](https://github.com/0xPlayerOne/code-foundry/commit/2aa20a946d0979cb12af87cb2ea2d0b50f279965))
-
-## [0.12.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.11.0...v0.12.0) (2026-07-28)
-
-### Features
-
-- **codeql:** add reusable CodeQL workflow runtime ([65896bb](https://github.com/0xPlayerOne/code-foundry/commit/65896bb407ad9d792c962e86d63384849f711a16))
-
-## [0.11.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.10.0...v0.11.0) (2026-07-28)
-
-### Features
-
-- **security:** document centralized security runtime ([f8427fe](https://github.com/0xPlayerOne/code-foundry/commit/f8427fe740b2753c83a400766d7dd7ac453f3c5b))
-
-## [0.10.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.9.0...v0.10.0) (2026-07-28)
-
-### Features
-
-- **security:** add reusable security workflow runtime ([b21d014](https://github.com/0xPlayerOne/code-foundry/commit/b21d014e85cfcdef4181d488b1df91e3c950503b))
-
-## [0.9.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.8.0...v0.9.0) (2026-07-28)
-
-### Features
-
-- **init:** configure reusable workflow repository ([95d17e9](https://github.com/0xPlayerOne/code-foundry/commit/95d17e9a4af2e2075fcdc2c357af414876655fb3))
-
-## [0.8.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.7.0...v0.8.0) (2026-07-28)
-
-### Features
-
-- **test:** add reusable test workflow runtime ([5a1f4cf](https://github.com/0xPlayerOne/code-foundry/commit/5a1f4cfadb6b11f27b001ba8f6424b11de32fd64))
+## [0.27.10](https://github.com/AndrewM-F/code-foundry/compare/v0.27.9...v0.27.10) (2026-07-28)
 
 ### Bug Fixes
 
-- **test:** keep local workflow during runtime release ([8827659](https://github.com/0xPlayerOne/code-foundry/commit/88276590451ee6b3230ad3b1349ccd4785a686bf))
+- **codeql:** make analyzer checks protection-safe ([5ab240e](https://github.com/AndrewM-F/code-foundry/commit/5ab240e6ce62c2d87acf92f8776a107cffefd860))
 
-## [0.7.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.6.0...v0.7.0) (2026-07-28)
-
-### Features
-
-- **ci:** use reusable workflow wrapper ([77c7075](https://github.com/0xPlayerOne/code-foundry/commit/77c7075d23f48b44da276406c0000fe23c7f1dcf))
+## [0.27.9](https://github.com/AndrewM-F/code-foundry/compare/v0.27.8...v0.27.9) (2026-07-28)
 
 ### Bug Fixes
 
-- **ci:** declare read-only workflow permissions ([e7b7397](https://github.com/0xPlayerOne/code-foundry/commit/e7b739739979b1572760c1f81d9c7229d156c7e3))
-- **ci:** name reusable checks consistently ([4a194f4](https://github.com/0xPlayerOne/code-foundry/commit/4a194f40b4f2a2660526eefac0e366402de0782d))
+- **ci:** hoist Bun workspace dependencies ([f480ad6](https://github.com/AndrewM-F/code-foundry/commit/f480ad671cf12435f632d9397dbc8f72d7a2e8fe))
 
-## [0.6.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.5.0...v0.6.0) (2026-07-28)
+## [0.27.8](https://github.com/AndrewM-F/code-foundry/compare/v0.27.7...v0.27.8) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** run required Bun postinstall setup safely ([0302604](https://github.com/AndrewM-F/code-foundry/commit/0302604f877bedbef8d3ab06794ffd9599fb774c))
+
+## [0.27.7](https://github.com/AndrewM-F/code-foundry/compare/v0.27.6...v0.27.7) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** avoid recursive Bun install lifecycle scripts ([780e90d](https://github.com/AndrewM-F/code-foundry/commit/780e90dcbc4a93005091465594cb57d9d2154003))
+
+## [0.27.6](https://github.com/AndrewM-F/code-foundry/compare/v0.27.5...v0.27.6) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** force complete Bun workspace installs ([1d391b8](https://github.com/AndrewM-F/code-foundry/commit/1d391b8e481acd91d7ae293cdbbfc090a891dc47))
+
+## [0.27.5](https://github.com/AndrewM-F/code-foundry/compare/v0.27.4...v0.27.5) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** install Rust formatting and lint components ([16da3fc](https://github.com/AndrewM-F/code-foundry/commit/16da3fc416e64b2c5c62d2f3a7feaa270134c1a2))
+- **test:** skip absent Python integration suites ([ee932ce](https://github.com/AndrewM-F/code-foundry/commit/ee932cea048dc94175f395ac49ca65ed9dbb466f))
+
+## [0.27.4](https://github.com/AndrewM-F/code-foundry/compare/v0.27.3...v0.27.4) (2026-07-28)
+
+### Bug Fixes
+
+- **runtime:** resolve Python tools from virtualenv ([788b1ae](https://github.com/AndrewM-F/code-foundry/commit/788b1ae438451ee57ce55a8669d2710cb8755fcf))
+
+## [0.27.3](https://github.com/AndrewM-F/code-foundry/compare/v0.27.2...v0.27.3) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** auto-detect format tooling ([2be5228](https://github.com/AndrewM-F/code-foundry/commit/2be522821b5d3f93b92ca5e2c4b20df345396fc3))
+
+## [0.27.2](https://github.com/AndrewM-F/code-foundry/compare/v0.27.1...v0.27.2) (2026-07-28)
+
+### Bug Fixes
+
+- **runtime:** harden dependency setup and audits ([f3c4f85](https://github.com/AndrewM-F/code-foundry/commit/f3c4f85263232e5023e7e6b3ae50ad2c27f3a47a))
+
+## [0.27.1](https://github.com/AndrewM-F/code-foundry/compare/v0.27.0...v0.27.1) (2026-07-28)
+
+### Bug Fixes
+
+- **ci:** cover framework and native test prerequisites ([53b8209](https://github.com/AndrewM-F/code-foundry/commit/53b8209104cf52972e867eba65fed46d0b8f57bb))
+- **ci:** install project format and Python tooling ([13fb972](https://github.com/AndrewM-F/code-foundry/commit/13fb972e774e26c2d5794421a17c4ac685a28b0c))
+
+## [0.27.0](https://github.com/AndrewM-F/code-foundry/compare/v0.26.0...v0.27.0) (2026-07-28)
 
 ### Features
 
-- **ci:** add reusable workflow runtime ([4900da5](https://github.com/0xPlayerOne/code-foundry/commit/4900da5e6141015146c4be2059bbce7da0c25f5d))
+- add typed javascript cli checks ([2d9464b](https://github.com/AndrewM-F/code-foundry/commit/2d9464bcbef8aa51607cdf52a6a60e3fc1bdb054))
+- make mise an optional toolchain ([e62f023](https://github.com/AndrewM-F/code-foundry/commit/e62f0238f4ddc2d1b0f89e0f2b23bca3679b934e))
+- make paid github security checks opt-in ([bbfe899](https://github.com/AndrewM-F/code-foundry/commit/bbfe8993d88a8415129ce29bfa5d2181807232ba))
+- skip irrelevant language configuration ([39a0003](https://github.com/AndrewM-F/code-foundry/commit/39a00037ba92152926e7a89759f3255d86a4f26e))
+- standardize optional github security policies ([2cf6bc3](https://github.com/AndrewM-F/code-foundry/commit/2cf6bc3af161ed8757a03447aab16f3e7ea310d7))
 
-## [0.5.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.4.0...v0.5.0) (2026-07-28)
+### Bug Fixes
 
-### Features
+- include runtime libraries in every workflow job ([ce94cd9](https://github.com/AndrewM-F/code-foundry/commit/ce94cd96a32eff54048712e1bf4b2d34a868ba2e))
+- include runtime libraries in workflow checkout ([4b2c252](https://github.com/AndrewM-F/code-foundry/commit/4b2c2527c37c82b498c2b3457df5dd52ef7c694f))
+- migrate stale managed docs during sync ([380bab1](https://github.com/AndrewM-F/code-foundry/commit/380bab1334c9125f97bf333cc29c796e1a16d57d))
+- preserve authored notice files ([342e666](https://github.com/AndrewM-F/code-foundry/commit/342e666f4e218e094180f10ecdc5a24b85a27b28))
+- preserve repository notice attribution ([7d43911](https://github.com/AndrewM-F/code-foundry/commit/7d439117ec89882d8d06895528d94ed717ade471))
+- use pinned bun lockfile format ([0f75faf](https://github.com/AndrewM-F/code-foundry/commit/0f75faf2c7614cc7055cbb4f26a01b3cf1639f85))
 
-- **init:** preserve authored repository docs ([9fab688](https://github.com/0xPlayerOne/code-foundry/commit/9fab6880ad82762cf4e2eb7d813355ab22cdb905))
-
-## [0.4.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.3.0...v0.4.0) (2026-07-28)
-
-### Features
-
-- **hooks:** centralize generated pre-commit runtime ([8e8111c](https://github.com/0xPlayerOne/code-foundry/commit/8e8111c1b1b95fcb356fe1b1366e369393cbf946))
-
-## [0.3.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.2.0...v0.3.0) (2026-07-28)
-
-### Features
-
-- **init:** add configurable license generation ([6ea7d93](https://github.com/0xPlayerOne/code-foundry/commit/6ea7d93637620bbb2f46475eeba4789d8a3b580c))
-
-## [0.2.0](https://github.com/0xPlayerOne/code-foundry/compare/v0.1.4...v0.2.0) (2026-07-28)
+## [0.26.0](https://github.com/AndrewM-F/code-foundry/compare/v0.25.0...v0.26.0) (2026-07-28)
 
 ### Features
 
-- document repository profile diagnostics ([29f132a](https://github.com/0xPlayerOne/code-foundry/commit/29f132a2b15053b06c7fe22c27324dc59151adee))
+- default new repositories to gplv3 ([e200135](https://github.com/AndrewM-F/code-foundry/commit/e200135939779693eb73a64aaf3587eccdc36ffc))
+
+## [0.25.0](https://github.com/AndrewM-F/code-foundry/compare/v0.24.1...v0.25.0) (2026-07-28)
+
+### Features
+
+- simplify reusable workflow layout ([293b2a8](https://github.com/AndrewM-F/code-foundry/commit/293b2a877500853778f311763cd4176e86f0b4f8))
+
+### Bug Fixes
+
+- use local self workflow references ([31ea5a5](https://github.com/AndrewM-F/code-foundry/commit/31ea5a5a621039afd8e19febe9d2a9f814c9d6fa))
+
+## [0.24.1](https://github.com/AndrewM-F/code-foundry/compare/v0.24.0...v0.24.1) (2026-07-28)
+
+### Bug Fixes
+
+- remove obsolete consumer helper ([4fcf85b](https://github.com/AndrewM-F/code-foundry/commit/4fcf85b2c452e08aab47ec1fb6e00cdce5523cff))
+
+## [0.24.0](https://github.com/AndrewM-F/code-foundry/compare/v0.23.1...v0.24.0) (2026-07-28)
+
+### Features
+
+- minimize consumer footprint ([2b29d2e](https://github.com/AndrewM-F/code-foundry/commit/2b29d2e09072492c8ee8fc642d0477f416805cf2))
+
+## [0.23.1](https://github.com/AndrewM-F/code-foundry/compare/v0.23.0...v0.23.1) (2026-07-28)
+
+### Bug Fixes
+
+- support repositories without package managers ([a126945](https://github.com/AndrewM-F/code-foundry/commit/a126945d259875763ce89ddb3c0dbc182b74bb76))
+
+## [0.23.0](https://github.com/AndrewM-F/code-foundry/compare/v0.22.2...v0.23.0) (2026-07-28)
+
+### Features
+
+- simplify initialization and synchronization ([9f4643e](https://github.com/AndrewM-F/code-foundry/commit/9f4643e854a262eb923a4fe84ddb986c3f1bdf77))
+
+## [0.22.2](https://github.com/AndrewM-F/code-foundry/compare/v0.22.1...v0.22.2) (2026-07-28)
+
+### Bug Fixes
+
+- remove legacy config after migration ([839a4bd](https://github.com/AndrewM-F/code-foundry/commit/839a4bd7d818633f1aef201b4a2b3292218563f4))
+
+## [0.22.1](https://github.com/AndrewM-F/code-foundry/compare/v0.22.0...v0.22.1) (2026-07-28)
+
+### Bug Fixes
+
+- pin callers to the canonical runtime ([321b93f](https://github.com/AndrewM-F/code-foundry/commit/321b93fff2089ee61fa41f968ee584af864692b2))
+
+## [0.22.0](https://github.com/AndrewM-F/code-foundry/compare/v0.21.2...v0.22.0) (2026-07-28)
+
+### Features
+
+- centralize repository configuration ([e1b4ef1](https://github.com/AndrewM-F/code-foundry/commit/e1b4ef19ab1ecc899c06331cbfd3477062a73549))
+
+### Bug Fixes
+
+- bridge legacy runtime configuration ([d906b0d](https://github.com/AndrewM-F/code-foundry/commit/d906b0d8f0bc65d2697ababbd5ab658ca2193684))
+- keep legacy runtime callers valid ([c23f9e2](https://github.com/AndrewM-F/code-foundry/commit/c23f9e2980bfcb8a0b7c685f1a9ba6d26f215eba))
+
+## [0.21.2](https://github.com/AndrewM-F/code-foundry/compare/v0.21.1...v0.21.2) (2026-07-28)
+
+### Bug Fixes
+
+- **docs:** clarify package verification ([b2bb12d](https://github.com/AndrewM-F/code-foundry/commit/b2bb12d1674acefe5e874df280dfd083f9966e19))
+
+## [0.21.1](https://github.com/AndrewM-F/code-foundry/compare/v0.21.0...v0.21.1) (2026-07-28)
+
+### Bug Fixes
+
+- **template:** align reusable runtime pins ([c3195e8](https://github.com/AndrewM-F/code-foundry/commit/c3195e8a3320821c5f891ef942cf5df59ecd09bb))
+
+## [0.21.0](https://github.com/AndrewM-F/code-foundry/compare/v0.20.3...v0.21.0) (2026-07-28)
+
+### Features
+
+- **runtime:** configure reusable workflow refs ([55f20d2](https://github.com/AndrewM-F/code-foundry/commit/55f20d278f23ece1fed1166f1cad1b15c985ee90))
+
+## [0.20.3](https://github.com/AndrewM-F/code-foundry/compare/v0.20.2...v0.20.3) (2026-07-28)
+
+### Bug Fixes
+
+- **release-pr:** pin no-op runtime ([af662ef](https://github.com/AndrewM-F/code-foundry/commit/af662ef7206269f03438bc3983878024629f6056))
+
+## [0.20.2](https://github.com/AndrewM-F/code-foundry/compare/v0.20.1...v0.20.2) (2026-07-28)
+
+### Bug Fixes
+
+- **release-pr:** skip empty promotions ([7c3b21b](https://github.com/AndrewM-F/code-foundry/commit/7c3b21b19e03ac8319b1217d4e3d0d8a6f0e2317))
+
+## [0.20.1](https://github.com/AndrewM-F/code-foundry/compare/v0.20.0...v0.20.1) (2026-07-28)
+
+### Bug Fixes
+
+- **workflows:** align callers with current runtime ([11629d3](https://github.com/AndrewM-F/code-foundry/commit/11629d32b4c41a8bfd1ff8fdaa5638c43236e889))
+- **workflows:** correct release caller indentation ([2688ca9](https://github.com/AndrewM-F/code-foundry/commit/2688ca924552c9537151e76f486f6485bd4fb0d9))
+
+## [0.20.0](https://github.com/AndrewM-F/code-foundry/compare/v0.19.0...v0.20.0) (2026-07-28)
+
+### Features
+
+- **workflows:** use reusable promotion callers ([8429b8f](https://github.com/AndrewM-F/code-foundry/commit/8429b8f9dee4fa0eedce2d8342332603e88e3f38))
+
+## [0.19.0](https://github.com/AndrewM-F/code-foundry/compare/v0.18.0...v0.19.0) (2026-07-28)
+
+### Features
+
+- **workflows:** add reusable promotion runtimes ([ac113a9](https://github.com/AndrewM-F/code-foundry/commit/ac113a902700957cbf26d4a47b4e7828b157dd13))
+
+## [0.18.0](https://github.com/AndrewM-F/code-foundry/compare/v0.17.0...v0.18.0) (2026-07-28)
+
+### Features
+
+- **init:** infer runtime from source template ([81a545b](https://github.com/AndrewM-F/code-foundry/commit/81a545bc6a2d89c31be51a711e477c4e4ceca7dd))
+
+## [0.17.0](https://github.com/AndrewM-F/code-foundry/compare/v0.16.0...v0.17.0) (2026-07-28)
+
+### Features
+
+- **release:** document centralized release runtime ([3e2a3f9](https://github.com/AndrewM-F/code-foundry/commit/3e2a3f9b5e71bf5003819aa177afd265d989bb34))
+
+### Bug Fixes
+
+- **release:** grant trusted publishing permission ([025f78e](https://github.com/AndrewM-F/code-foundry/commit/025f78e851d44a60e2e4e17d3718b0b2fbe147ae))
+
+## [0.16.0](https://github.com/AndrewM-F/code-foundry/compare/v0.15.0...v0.16.0) (2026-07-28)
+
+### Features
+
+- **release:** add reusable release workflow runtime ([19c3433](https://github.com/AndrewM-F/code-foundry/commit/19c3433af4ae1ed796030da77f07309e2bf3e98c))
+
+## [0.15.0](https://github.com/AndrewM-F/code-foundry/compare/v0.14.0...v0.15.0) (2026-07-28)
+
+### Features
+
+- **runtime:** unify reusable workflow pins ([bd7aece](https://github.com/AndrewM-F/code-foundry/commit/bd7aecefac9d02be698907cba686c536c6c242d6))
+
+## [0.14.0](https://github.com/AndrewM-F/code-foundry/compare/v0.13.0...v0.14.0) (2026-07-28)
+
+### Features
+
+- **init:** minimize consumer workflow footprint ([4427c1f](https://github.com/AndrewM-F/code-foundry/commit/4427c1f964c3a0dc6ffe080ea3779ad2b8a1d170))
+
+## [0.13.0](https://github.com/AndrewM-F/code-foundry/compare/v0.12.0...v0.13.0) (2026-07-28)
+
+### Features
+
+- **codeql:** document centralized CodeQL runtime ([2aa20a9](https://github.com/AndrewM-F/code-foundry/commit/2aa20a946d0979cb12af87cb2ea2d0b50f279965))
+
+## [0.12.0](https://github.com/AndrewM-F/code-foundry/compare/v0.11.0...v0.12.0) (2026-07-28)
+
+### Features
+
+- **codeql:** add reusable CodeQL workflow runtime ([65896bb](https://github.com/AndrewM-F/code-foundry/commit/65896bb407ad9d792c962e86d63384849f711a16))
+
+## [0.11.0](https://github.com/AndrewM-F/code-foundry/compare/v0.10.0...v0.11.0) (2026-07-28)
+
+### Features
+
+- **security:** document centralized security runtime ([f8427fe](https://github.com/AndrewM-F/code-foundry/commit/f8427fe740b2753c83a400766d7dd7ac453f3c5b))
+
+## [0.10.0](https://github.com/AndrewM-F/code-foundry/compare/v0.9.0...v0.10.0) (2026-07-28)
+
+### Features
+
+- **security:** add reusable security workflow runtime ([b21d014](https://github.com/AndrewM-F/code-foundry/commit/b21d014e85cfcdef4181d488b1df91e3c950503b))
+
+## [0.9.0](https://github.com/AndrewM-F/code-foundry/compare/v0.8.0...v0.9.0) (2026-07-28)
+
+### Features
+
+- **init:** configure reusable workflow repository ([95d17e9](https://github.com/AndrewM-F/code-foundry/commit/95d17e9a4af2e2075fcdc2c357af414876655fb3))
+
+## [0.8.0](https://github.com/AndrewM-F/code-foundry/compare/v0.7.0...v0.8.0) (2026-07-28)
+
+### Features
+
+- **test:** add reusable test workflow runtime ([5a1f4cf](https://github.com/AndrewM-F/code-foundry/commit/5a1f4cfadb6b11f27b001ba8f6424b11de32fd64))
+
+### Bug Fixes
+
+- **test:** keep local workflow during runtime release ([8827659](https://github.com/AndrewM-F/code-foundry/commit/88276590451ee6b3230ad3b1349ccd4785a686bf))
+
+## [0.7.0](https://github.com/AndrewM-F/code-foundry/compare/v0.6.0...v0.7.0) (2026-07-28)
+
+### Features
+
+- **ci:** use reusable workflow wrapper ([77c7075](https://github.com/AndrewM-F/code-foundry/commit/77c7075d23f48b44da276406c0000fe23c7f1dcf))
+
+### Bug Fixes
+
+- **ci:** declare read-only workflow permissions ([e7b7397](https://github.com/AndrewM-F/code-foundry/commit/e7b739739979b1572760c1f81d9c7229d156c7e3))
+- **ci:** name reusable checks consistently ([4a194f4](https://github.com/AndrewM-F/code-foundry/commit/4a194f40b4f2a2660526eefac0e366402de0782d))
+
+## [0.6.0](https://github.com/AndrewM-F/code-foundry/compare/v0.5.0...v0.6.0) (2026-07-28)
+
+### Features
+
+- **ci:** add reusable workflow runtime ([4900da5](https://github.com/AndrewM-F/code-foundry/commit/4900da5e6141015146c4be2059bbce7da0c25f5d))
+
+## [0.5.0](https://github.com/AndrewM-F/code-foundry/compare/v0.4.0...v0.5.0) (2026-07-28)
+
+### Features
+
+- **init:** preserve authored repository docs ([9fab688](https://github.com/AndrewM-F/code-foundry/commit/9fab6880ad82762cf4e2eb7d813355ab22cdb905))
+
+## [0.4.0](https://github.com/AndrewM-F/code-foundry/compare/v0.3.0...v0.4.0) (2026-07-28)
+
+### Features
+
+- **hooks:** centralize generated pre-commit runtime ([8e8111c](https://github.com/AndrewM-F/code-foundry/commit/8e8111c1b1b95fcb356fe1b1366e369393cbf946))
+
+## [0.3.0](https://github.com/AndrewM-F/code-foundry/compare/v0.2.0...v0.3.0) (2026-07-28)
+
+### Features
+
+- **init:** add configurable license generation ([6ea7d93](https://github.com/AndrewM-F/code-foundry/commit/6ea7d93637620bbb2f46475eeba4789d8a3b580c))
+
+## [0.2.0](https://github.com/AndrewM-F/code-foundry/compare/v0.1.4...v0.2.0) (2026-07-28)
+
+### Features
+
+- document repository profile diagnostics ([29f132a](https://github.com/AndrewM-F/code-foundry/commit/29f132a2b15053b06c7fe22c27324dc59151adee))
 
 ## Changelog
 

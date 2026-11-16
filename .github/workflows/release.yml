@@ -12,7 +12,7 @@ on:
         description: Repository containing the Code Foundry runtime.
         required: false
         type: string
-        default: 0xPlayerOne/code-foundry
+        default: AndrewM-F/code-foundry
       runtime-ref:
         description: Code Foundry runtime tag or ref.
         required: false

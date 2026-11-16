@@ -68,7 +68,7 @@ permissions:
   attestations: read
 jobs:
   verify-release:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/release-integrity.yml@REVIEWED_REF
+    uses: AndrewM-F/code-foundry/.github/workflows/release-integrity.yml@REVIEWED_REF
     with:
       runtime-ref: REVIEWED_REF
       tag: v1.2.3
@@ -92,7 +92,7 @@ In the same trusted job that builds the artifacts, grant `contents: read`,
 ```yaml
 - name: Attest built package
   # Replace REVIEWED_SHA with the reviewed Code Foundry commit.
-  uses: 0xPlayerOne/code-foundry/.github/actions/attest-artifact@REVIEWED_SHA
+  uses: AndrewM-F/code-foundry/.github/actions/attest-artifact@REVIEWED_SHA
   id: provenance
   with:
     artifacts: '["dist/package.tgz"]'

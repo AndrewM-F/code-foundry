@@ -17,7 +17,7 @@ Foundry commit SHA and pass the same `runtime-ref`. Required inputs are
 jobs:
   delivery:
     # Replace REVIEWED_SHA with the same reviewed 40-character SHA in both places.
-    uses: 0xPlayerOne/code-foundry/.github/workflows/cloudflare-delivery.yml@REVIEWED_SHA
+    uses: AndrewM-F/code-foundry/.github/workflows/cloudflare-delivery.yml@REVIEWED_SHA
     permissions:
       contents: read
       deployments: write

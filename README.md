@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/code-foundry?logo=npm&logoColor=white)](https://www.npmjs.com/package/code-foundry)
 [![npm downloads](https://img.shields.io/npm/dm/code-foundry?logo=npm&logoColor=white)](https://www.npmjs.com/package/code-foundry)
 [![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)](../../actions/workflows/ci.yml)
-[![Latest release](https://img.shields.io/github/v/release/0xPlayerOne/code-foundry?logo=github)](../../releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/AndrewM-F/code-foundry?logo=github)](../../releases/latest)
 
 `code-foundry` is a versioned repository baseline for TypeScript, Rust, Python,
 Solidity, and mixed-language projects. It provides language-aware workflows,

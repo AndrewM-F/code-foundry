@@ -98,7 +98,7 @@ Rules the validator enforces:
   `count`, `mean`, `p50`, `p95`, `max` (or bare `{ "count": 0 }`).
 
 A reference implementation ships in
-[`pi-browser-use`](https://github.com/0xPlayerOne/pi-browser-use)
+[`pi-browser-use`](https://github.com/AndrewM-F/pi-browser-use)
 (`scripts/eval.mjs` + `docs/eval-results.md`): deterministic browser-tool tasks
 that emit this exact envelope.
 

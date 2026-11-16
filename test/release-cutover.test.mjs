@@ -527,5 +527,5 @@ test('consumer release callers keep a standalone release job', (t) => {
   const job = consumer.split('\n  release:\n')[1].split(/\n  [a-z-]+:\n/)[0]
   assert.doesNotMatch(job, /needs: \[qualification/)
   assert.doesNotMatch(job, /needs: \[preflight\]/)
-  assert.match(job, /uses: 0xPlayerOne\/code-foundry\/\.github\/workflows\/release\.yml@v/)
+  assert.match(job, /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/release\.yml@v/)
 })

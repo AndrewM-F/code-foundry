@@ -86,7 +86,7 @@ jobs:
     with:
       billing-pause-bypass: ${{ github.event_name == 'workflow_dispatch' && inputs['release-while-paused'] == true }}
       runner: ubuntu-slim
-      runtime-repository: 0xPlayerOne/code-foundry
+      runtime-repository: AndrewM-F/code-foundry
       runtime-ref: ${{ github.sha }}
       config-file: .github/release-please-foundry.json
       defer-publication: true

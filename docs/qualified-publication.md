@@ -31,7 +31,7 @@ installation/build step. Qualification has no npm credential. This self-only
 publisher has no environment approval gate; publication is automatic after its
 completed gates and uses OIDC only. Configure npm trusted publishing for the
 actual caller workflow filename, `release_self-ci.yml`, in repository
-`0xPlayerOne/code-foundry`, with direct publish permission and no GitHub
+`AndrewM-F/code-foundry`, with direct publish permission and no GitHub
 environment. Both the caller and reusable publisher grant `id-token: write`.
 For generated consumer workflows, the caller filename is `release.yml` and the
 auth mode remains configurable with `npm_publish_auth`.

@@ -1,15 +1,15 @@
 {
   "name": "code-foundry",
-  "version": "1.54.1",
+  "version": "1.54.2",
   "description": "A fast, language-aware repository factory for agent-ready workflows, testing, security, and release automation.",
-  "homepage": "https://github.com/0xPlayerOne/code-foundry#readme",
+  "homepage": "https://github.com/AndrewM-F/code-foundry#readme",
   "bugs": {
-    "url": "https://github.com/0xPlayerOne/code-foundry/issues"
+    "url": "https://github.com/AndrewM-F/code-foundry/issues"
   },
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0xPlayerOne/code-foundry.git"
+    "url": "https://github.com/AndrewM-F/code-foundry.git"
   },
   "bin": {
     "code-foundry": "src/cli.mjs"

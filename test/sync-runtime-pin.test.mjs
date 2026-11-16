@@ -27,7 +27,7 @@ on:
 jobs:
   preview:
     if: vars.CI_BILLING_PAUSED != 'true' && github.event.pull_request.draft == false
-    uses: 0xPlayerOne/code-foundry/.github/workflows/cloudflare-deploy.yml@v1.9.12
+    uses: AndrewM-F/code-foundry/.github/workflows/cloudflare-deploy.yml@v1.9.12
 `
 
 describe('Sync runtime pin refresh in preserved workflows', () => {
@@ -59,7 +59,7 @@ on:
 
 jobs:
   deploy:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/cloudflare-deploy.yml@main
+    uses: AndrewM-F/code-foundry/.github/workflows/cloudflare-deploy.yml@main
   checkout:
     runs-on: ubuntu-slim
     steps:
@@ -85,16 +85,16 @@ on:
 
 jobs:
   warm:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/test.yml@v1.9.12
+    uses: AndrewM-F/code-foundry/.github/workflows/test.yml@v1.9.12
     with:
-      runtime-repository: 0xPlayerOne/code-foundry
+      runtime-repository: AndrewM-F/code-foundry
       runtime-ref: v1.9.12
   pinned:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/test.yml@v1.9.12
+    uses: AndrewM-F/code-foundry/.github/workflows/test.yml@v1.9.12
     with:
       runtime-ref: 0123456789abcdef0123456789abcdef01234567
   evented:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/test.yml@main
+    uses: AndrewM-F/code-foundry/.github/workflows/test.yml@main
     with:
       runtime-ref: v1.9.12
 `
@@ -118,7 +118,7 @@ jobs:
   it('repairs a runtime-ref left behind an already current pin', () => {
     const drifted = `jobs:
   warm:
-    uses: 0xPlayerOne/code-foundry/.github/workflows/test.yml@v1.53.6
+    uses: AndrewM-F/code-foundry/.github/workflows/test.yml@v1.53.6
     with:
       runtime-ref: 'v1.53.5'
   other:
@@ -126,9 +126,9 @@ jobs:
     with:
       runtime-ref: v1.53.5
 `
-    const aligned = alignRuntimeRefInputs(drifted, '0xPlayerOne/code-foundry')
+    const aligned = alignRuntimeRefInputs(drifted, 'AndrewM-F/code-foundry')
     assert.match(aligned, /^ {6}runtime-ref: 'v1\.53\.6'$/m)
     assert.match(aligned, /^ {2}other:[\s\S]*runtime-ref: v1\.53\.5$/m)
-    assert.equal(alignRuntimeRefInputs(aligned, '0xPlayerOne/code-foundry'), aligned)
+    assert.equal(alignRuntimeRefInputs(aligned, 'AndrewM-F/code-foundry'), aligned)
   })
 })

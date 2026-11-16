@@ -153,7 +153,7 @@ function lintContracts(consumer, candidate, destination, actionlint, version) {
     if (!/\.ya?ml$/.test(name)) continue
     const target = join(destination, '.github/workflows', `consumer-${name}`)
     const text = readFileSync(join(consumer, '.github/workflows', name), 'utf8')
-    writeFileSync(target, localizeCalls(text, '0xPlayerOne/code-foundry', `v${version}`))
+    writeFileSync(target, localizeCalls(text, 'AndrewM-F/code-foundry', `v${version}`))
     paths.push(target)
   }
   // Check all candidate callees as well as rendered callers, without executing them.
