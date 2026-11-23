@@ -5121,10 +5121,7 @@ jobs:
     assert.doesNotMatch(audit, /pull_request:/)
     assert.match(audit, /schedule:/)
     assert.match(audit, /workflow_dispatch:/)
-    assert.match(
-      audit,
-      /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/validation\.yml@main/
-    )
+    assert.match(audit, /uses: AndrewM-F\/code-foundry\/\.github\/workflows\/validation\.yml@main/)
     assert.match(audit, /^\s+runtime-ref: main$/m)
     assert.doesNotMatch(audit, /inputs\.runtime-ref|github\.sha|github\.event\.inputs/)
     // Bot-authored pull requests only validate on an explicit ready

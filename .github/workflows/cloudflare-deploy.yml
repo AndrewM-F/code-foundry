@@ -377,7 +377,11 @@ jobs:
               # Same stdout-swallowing hazard as the production branch: a failed
               # preview deploy writes its reason into the JSON file, which is
               # discarded unread. Surface it before exiting.
-              if ! cf previews deploy --prebuilt "$PREVIEW_NAME" > "$RUNNER_TEMP/cf-preview.json"; then
+              # rc.4 moved the preview name to a flag; the positional is the
+              # static-assets directory, and passing the name there makes cf
+              # reject the deploy ("static assets directory cannot be combined
+              # with --prebuilt").
+              if ! cf previews deploy --prebuilt --preview-name "$PREVIEW_NAME" > "$RUNNER_TEMP/cf-preview.json"; then
                 cat "$RUNNER_TEMP/cf-preview.json" >&2 || true
                 exit 1
               fi

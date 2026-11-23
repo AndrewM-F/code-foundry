@@ -14,8 +14,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 export const DEFAULT_RELEASES = 20
-export const FULL_CHANGELOG_URL =
-  'https://github.com/AndrewM-F/code-foundry/blob/main/CHANGELOG.md'
+export const FULL_CHANGELOG_URL = 'https://github.com/AndrewM-F/code-foundry/blob/main/CHANGELOG.md'
 const MARKER = '<!-- code-foundry: packaged changelog -->'
 
 // Release Please writes `## [x.y.z](compare-url) (date)` (or `### ` for some
