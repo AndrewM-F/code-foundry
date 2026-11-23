@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.5](https://github.com/AndrewM-F/code-foundry/compare/v1.54.4...v1.54.5) (2026-11-23)
+
+
+### Bug Fixes
+
+* **cloudflare:** allow forcing cf deploys with remote Worker changes ([#849](https://github.com/AndrewM-F/code-foundry/issues/849)) ([df19792](https://github.com/AndrewM-F/code-foundry/commit/df1979274e10e5ba7ce4e083db16bc69c0250c3e))
+
 ## [1.54.4](https://github.com/AndrewM-F/code-foundry/compare/v1.54.3...v1.54.4) (2026-11-23)
 
 
