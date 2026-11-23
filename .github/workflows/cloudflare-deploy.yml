@@ -13,6 +13,11 @@ on:
         required: false
         type: string
         default: wrangler
+      force:
+        description: 'Pass --force to cf deploy when CI conflicts with existing remote Worker changes.'
+        required: false
+        type: boolean
+        default: false
       draft-protection:
         description: 'Skip draft pull requests by default; set false to run deployments for drafts.'
         required: false
@@ -348,7 +353,11 @@ jobs:
               # and the job dies with a bare "exit code 1" and no cause. Keep
               # the capture for parsing, but re-emit it and preserve the status
               # when the deploy fails.
-              if out="$(cf deploy --prebuilt)"; then
+              # cf refuses conflicts with an existing remote Worker in CI unless
+              # forced; production updates the same Worker on every deploy.
+              FORCE_ARG=""
+              if [ "${{ inputs.force }}" = "true" ]; then FORCE_ARG="--force"; fi
+              if out="$(cf deploy --prebuilt $FORCE_ARG)"; then
                 printf '%s\n' "$out"
               else
                 status=$?

@@ -98,8 +98,12 @@ describe('cf deploy path packages a Build Output before every prebuilt deploy', 
     const previewBody = preview.join('\n')
 
     assert.ok(
-      productionBody.includes('if out="$(cf deploy --prebuilt)"; then'),
+      productionBody.includes('if out="$(cf deploy --prebuilt $FORCE_ARG)"; then'),
       'production must guard the capture so a failure can be reported'
+    )
+    assert.ok(
+      productionBody.includes('FORCE_ARG="--force"'),
+      'production must pass --force when the caller requests it'
     )
     assert.ok(
       productionBody.includes(`printf '%s\\n' "$out" >&2`),
