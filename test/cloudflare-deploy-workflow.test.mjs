@@ -98,8 +98,16 @@ describe('cf deploy path packages a Build Output before every prebuilt deploy', 
     const previewBody = preview.join('\n')
 
     assert.ok(
-      productionBody.includes('if out="$(cf deploy --prebuilt $FORCE_ARG)"; then'),
+      productionBody.includes('if out="$(cf deploy --prebuilt $FORCE_ARG 2>&1)"; then'),
       'production must guard the capture so a failure can be reported'
+    )
+    assert.ok(
+      productionBody.includes("grep -q 'Deploy complete'"),
+      'production must require a completed deployment before accepting a cf exit 1'
+    )
+    assert.ok(
+      productionBody.includes("grep -q 'Current Version ID:'"),
+      'production must require a reported version before accepting a cf exit 1'
     )
     assert.ok(
       productionBody.includes('FORCE_ARG="--force"'),
