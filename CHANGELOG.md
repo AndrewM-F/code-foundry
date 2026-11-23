@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.4](https://github.com/AndrewM-F/code-foundry/compare/v1.54.3...v1.54.4) (2026-11-23)
+
+
+### Bug Fixes
+
+* **cloudflare:** pass preview name via --preview-name ([#847](https://github.com/AndrewM-F/code-foundry/issues/847)) ([6f8cfd5](https://github.com/AndrewM-F/code-foundry/commit/6f8cfd59da75ecc97cccbd90f6fec6de7e94d35f))
+
 ## [1.54.3](https://github.com/AndrewM-F/code-foundry/compare/v1.54.2...v1.54.3) (2026-11-16)
 
 
