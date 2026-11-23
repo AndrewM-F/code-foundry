@@ -357,12 +357,22 @@ jobs:
               # forced; production updates the same Worker on every deploy.
               FORCE_ARG=""
               if [ "${{ inputs.force }}" = "true" ]; then FORCE_ARG="--force"; fi
-              if out="$(cf deploy --prebuilt $FORCE_ARG)"; then
+              if out="$(cf deploy --prebuilt $FORCE_ARG 2>&1)"; then
                 printf '%s\n' "$out"
               else
                 status=$?
                 printf '%s\n' "$out" >&2
-                exit "$status"
+                # cf 1.0.0-rc.4 can exit 1 after a completed deployment,
+                # typically when it warns about remote Worker changes. Keep
+                # the failure unless the output proves the deployment
+                # completed.
+                if printf '%s\n' "$out" | grep -q 'Deploy complete' &&
+                   printf '%s\n' "$out" | grep -q 'Current Version ID:' &&
+                   printf '%s\n' "$out" | grep -q 'https://'; then
+                  echo "::warning::cf deploy exited $status after reporting a completed deployment; continuing."
+                else
+                  exit "$status"
+                fi
               fi
               version_id="$(printf '%s\n' "$out" | sed -n 's/.*Current Version ID: *//p' | head -1 | tr -d '[:space:]')"
               value="${DEPLOYMENT_URL:-$(printf '%s\n' "$out" | grep -o 'https://[^[:space:]]*' | head -1)}"
