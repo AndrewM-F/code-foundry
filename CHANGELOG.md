@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.6](https://github.com/AndrewM-F/code-foundry/compare/v1.54.5...v1.54.6) (2026-11-23)
+
+
+### Bug Fixes
+
+* **cloudflare:** accept cf exit 1 after a completed deploy ([#851](https://github.com/AndrewM-F/code-foundry/issues/851)) ([c12dcd9](https://github.com/AndrewM-F/code-foundry/commit/c12dcd94e216cb22754f73717c99c1a7141a1759))
+
 ## [1.54.5](https://github.com/AndrewM-F/code-foundry/compare/v1.54.4...v1.54.5) (2026-11-23)
 
 
