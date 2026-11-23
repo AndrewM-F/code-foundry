@@ -456,7 +456,7 @@ The legacy `cloudflare-deploy.yml` workflow remains available for direct
 respects `CI_BILLING_PAUSED`. With `deploy-tool: cf` it instead deploys through
 the Cloudflare cf CLI: production runs `cf-wrangler build` plus
 `cf deploy --prebuilt` (consuming the project's cf Build Output), previews run
-`cf previews deploy` named after the pull request or branch, and the cf/wrangler
+`cf previews deploy --prebuilt --preview-name <name>`, and the cf/wrangler
 CLIs must be devDependencies of the deployed package (the build step installs
 them), so `build-script` is required. Deployment URLs and version IDs are
 extracted from the same job outputs either way. Preview deployment records use the pull request

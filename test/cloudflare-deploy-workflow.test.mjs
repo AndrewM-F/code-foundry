@@ -82,7 +82,7 @@ describe('cf deploy path packages a Build Output before every prebuilt deploy', 
     const { preview } = cfModeBranches()
 
     const build = lineIndexOf(preview, 'cf-wrangler build --mode preview')
-    const deploy = lineIndexOf(preview, 'cf previews deploy --prebuilt')
+    const deploy = lineIndexOf(preview, 'cf previews deploy --prebuilt --preview-name')
     assert.notEqual(build, -1, 'previews must package a preview Build Output before deploying')
     assert.notEqual(deploy, -1, 'previews must deploy the prebuilt Build Output')
     assert.ok(build < deploy, 'the preview Build Output must exist before the deploy consumes it')
@@ -111,8 +111,13 @@ describe('cf deploy path packages a Build Output before every prebuilt deploy', 
     )
 
     assert.ok(
-      previewBody.includes('if ! cf previews deploy --prebuilt "$PREVIEW_NAME"'),
+      previewBody.includes('if ! cf previews deploy --prebuilt --preview-name "$PREVIEW_NAME"'),
       'previews must guard the capture so a failure can be reported'
+    )
+    assert.match(
+      previewBody,
+      /cf previews deploy --prebuilt --preview-name "\$PREVIEW_NAME"/,
+      'previews must pass the name via --preview-name, not the assets directory positional'
     )
     assert.ok(
       previewBody.includes('cat "$RUNNER_TEMP/cf-preview.json" >&2'),
