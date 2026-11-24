@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.8](https://github.com/AndrewM-F/code-foundry/compare/v1.54.7...v1.54.8) (2026-11-24)
+
+
+### Maintenance
+
+* use Apache-2.0 ([6c7cff6](https://github.com/AndrewM-F/code-foundry/commit/6c7cff6b74e4521b7ceada3e7332c307ae1f36df))
+
 ## [1.54.7](https://github.com/AndrewM-F/code-foundry/compare/v1.54.6...v1.54.7) (2026-11-24)
 
 
