@@ -243,3 +243,13 @@ describe('Cloudflare build environment forwarding', () => {
     assert.equal(captured, null, 'the allowlist must reject the valid JSON name before bun runs')
   })
 })
+
+describe('setup-bun inputs', () => {
+  it('uses only inputs supported by setup-bun v2', () => {
+    // setup-bun v2 has no `cache`/`cache-dependency-path` inputs; passing them
+    // prints "Unexpected input(s)" warnings on every deploy though caching
+    // still works automatically.
+    assert.doesNotMatch(workflow, /cache-dependency-path/)
+    assert.doesNotMatch(workflow, /^\s+cache: true$/m)
+  })
+})
