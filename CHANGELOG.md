@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.7](https://github.com/AndrewM-F/code-foundry/compare/v1.54.6...v1.54.7) (2026-11-24)
+
+
+### Bug Fixes
+
+* **ci:** drop unsupported setup-bun cache inputs ([#853](https://github.com/AndrewM-F/code-foundry/issues/853)) ([2e2917c](https://github.com/AndrewM-F/code-foundry/commit/2e2917c2882663ce4109ad1193f1ad1be1e5a8b7))
+
 ## [1.54.6](https://github.com/AndrewM-F/code-foundry/compare/v1.54.5...v1.54.6) (2026-11-23)
 
 
